@@ -184,6 +184,22 @@ console.log('\nSkytz trust and friction checks\n');
   } else {
     fail('hero text precedes the portrait on small screens', 'order utilities missing');
   }
+
+  // Above-the-fold space on a 360px-wide phone is tight; a long hero subhead
+  // or generous vertical padding pushes the employer CTA back below the fold.
+  // 40 words is roughly three lines at that width.
+  const longSubheads = locales
+    .filter(({ data }) => (data.hero?.subhead || '').split(/\s+/).length > 40)
+    .map(({ lang, data }) => `${lang}: ${data.hero.subhead.split(/\s+/).length} words`);
+  if (longSubheads.length === 0) pass('hero subhead stays short enough to keep the CTA above the fold');
+  else fail('hero subhead stays short enough to keep the CTA above the fold', longSubheads.join(' | '));
+
+  // Mobile top padding must stay smaller than the desktop rhythm.
+  if (/pt-8 .*lg:py-28/.test(home)) {
+    pass('home hero uses reduced top padding on mobile');
+  } else {
+    fail('home hero uses reduced top padding on mobile', 'expected pt-8 with lg:py-28');
+  }
 }
 
 // 8. Built output must be free of the removed trackers, if a build exists.

@@ -101,7 +101,7 @@ export default function Home() {
   return (
     <>
       <SEO title={seoConfig.title} description={seoConfig.description} />
-      <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 min-h-screen">
+      <div className="max-w-7xl mx-auto px-6 pt-8 pb-20 lg:py-28 min-h-screen">
 
       {/* 12-Column Bento Grid with Swiss Air */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
@@ -112,7 +112,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="md:col-span-8 bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-200/80 shadow-sm flex flex-col lg:flex-row items-center gap-8 relative overflow-hidden"
+          className="md:col-span-8 bg-white rounded-[2rem] p-6 sm:p-8 lg:p-10 border border-slate-200/80 shadow-sm flex flex-col lg:flex-row items-center gap-6 lg:gap-8 relative overflow-hidden"
         >
           {/* Premium Headshot with "Clarity Transition".
               Ordered second on small screens so the headline and the employer
