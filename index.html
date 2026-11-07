@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PL3F42RM');</script>
-    <!-- End Google Tag Manager -->
+    <!--
+      No tag manager and no analytics are loaded here on purpose. GTM/GA4 used
+      to initialise before any visitor interaction, which set _ga cookies and
+      sent a hit to Google on first paint, before consent. Without a consent
+      management platform the only defensible state is none, so the loader is
+      gone rather than gated. If measurement is required later, reinstate it
+      behind a real consent decision and update the privacy policy in the same
+      change.
+    -->
     <meta charset="UTF-8" />
     <!-- Favicon – SVG (all modern browsers) with PNG fallbacks -->
     <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
@@ -177,19 +179,14 @@
     }
     </script>
     
-    <!-- Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts are self-hosted (see src/index.css) so no connection to Google
+         is made while rendering the page. -->
     
     <!-- Theme Color -->
     <meta name="theme-color" content="#1e40af" />
     <meta name="msapplication-TileColor" content="#1e40af" />
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL3F42RM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

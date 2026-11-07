@@ -5,6 +5,7 @@ import { Mail, Phone, Linkedin, MapPin, Clock, ArrowRight, FileText, Calendar, H
 import BentoCard from '../components/ui/BentoCard';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
+import { BOOKING_URL } from '../content/booking';
 import { assetUrl } from '../utils/assetUrl';
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/philipp-hoffschroer/';
@@ -75,7 +76,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <a
-                  href="https://calendly.com/philipp-ho/meet"
+                  href={BOOKING_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-8 py-4 text-lg font-bold text-blueprint-700 shadow-lg transition hover:bg-blueprint-50 md:w-auto"

@@ -11,7 +11,9 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "industries": "Branchen",
-    "home": "Startseite"
+    "home": "Startseite",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "vacancies": {
     "title": "Offene Positionen",
@@ -52,14 +54,19 @@
         "location": "Nordostbayern",
         "summary": "Rollenprofil als PDF zum Download."
       }
+    },
+    "employer": {
+      "title": "Sie besetzen eine ähnliche Position?",
+      "text": "Diese Positionen besetze ich derzeit im Auftrag von Kunden. Wenn Sie eine vergleichbare Rolle besetzen wollen, ist der Weg für Auftraggeber der folgende."
     }
   },
   "hero": {
     "tagline": "Personalberatung · Deutschland · Schweiz",
     "headline": "Positionen im technischen Vertrieb und im Engineering.",
-    "subhead": "Mein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Ich arbeite allein: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir persönlich. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.",
+    "subhead": "Mein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Die Suche führe ich persönlich: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.",
     "cta": {
-      "primary": "Vakanz vertraulich besprechen"
+      "primary": "Vakanz vertraulich besprechen",
+      "secondary": "Sie suchen eine Stelle?"
     },
     "signature": "Philipp Hoffschröer, Gründer",
     "reach": {
@@ -90,21 +97,15 @@
   },
   "searches": {
     "title": "Aktuelle Mandate",
-    "items": [
-      "Projektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg",
-      "Bauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Technischer Zeichner (CAD) — Baubranche — Deutschland",
-      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Parallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik"
-    ],
-    "note": "Das sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe."
+    "note": "Das sind die Mandate, die ich derzeit besetze, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn Ihr Markt dabei ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe.",
+    "allRoles": "Alle offenen Positionen"
   },
   "process": {
     "title": "So läuft eine Suche ab",
     "note": "Die Shortlist steht in der Regel nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommen danach die Kündigungsfristen dazu, meist drei Monate zum Quartalsende.",
     "steps": [
       {
-        "title": "Erstgespräch, 45 Minuten",
+        "title": "Erstgespräch",
         "text": "Die Position, das Vertriebsgebiet, der Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Wenn ich die Position so nicht für besetzbar halte, sage ich Ihnen das im ersten Gespräch und nicht im dritten Monat."
       },
       {
@@ -295,11 +296,11 @@
       },
       {
         "q": "Wer macht die Arbeit tatsächlich?",
-        "a": "Ich. Es gibt kein Research-Team, keinen Account Manager und niemanden, der Sie nach Vertragsabschluss weiterreicht. Das ist der Handel: eine erfahrene Person statt einer Mannschaft."
+        "a": "Die Suche führe ich persönlich. Es gibt kein Research-Team und keinen Account Manager, der Sie nach Vertragsabschluss weiterreicht. Bei der Terminorganisation und der ersten Beantwortung von Anfragen unterstützt mich ein KI-Assistent; die inhaltliche Arbeit am Mandat bleibt bei mir."
       },
       {
         "q": "Wie fangen wir an?",
-        "a": "Ein Gespräch, 45 Minuten, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben."
+        "a": "Ein Gespräch, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben."
       }
     ]
   },
@@ -532,7 +533,7 @@
       "label": "Termin vereinbaren",
       "action": "Einen Termin direkt im Kalender wählen"
     },
-    "noCommitment": "Unverbindlich. Das erste Gespräch ist kostenfrei.",
+    "noCommitment": "Unverbindlich. Wählen Sie einen Termin, der Ihnen passt.",
     "fasterAlignment": {
       "title": "Damit wir eine Runde sparen",
       "description": "Wenn Sie wegen einer konkreten Position schreiben, nennen Sie:",
@@ -556,7 +557,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+    "lastUpdated": "Zuletzt aktualisiert: November 2026",
     "intro": "Skytz Consulting ist eine Marke der Laurasia LLC (\"wir\", \"uns\", \"unser\"). Diese Erklärung beschreibt, welche personenbezogenen Daten wir erheben, warum, und welche Rechte Sie haben. Sie berücksichtigt die EU-Datenschutz-Grundverordnung (DSGVO) sowie US-Datenschutzgesetze einschließlich des California Consumer Privacy Act (CCPA/CPRA).",
     "controller": {
       "title": "1. Verantwortlicher",
@@ -568,9 +569,9 @@
       "items": {
         "contact": "Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Berufsbezeichnung",
         "email": "Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und Anhängen, die Sie uns senden",
-        "technical": "Technische Daten: IP-Adresse, Browsertyp und -version, Zeitzone, Betriebssystem, Zugriffszeiten",
+        "technical": "Technische Daten: IP-Adresse und Zugriffszeitpunkt, soweit sie beim Aufruf der Website oder beim Versand einer E-Mail technisch anfallen. Diese Website setzt keine Analyse-Cookies und bindet keine Analyse- oder Werbedienste ein.",
         "candidate": "Berufsbezogene Daten (für Kandidaten): Lebenslauf, Berufserfahrung, Qualifikationen, Gehaltsvorstellungen",
-        "usage": "Nutzungsdaten: besuchte Seiten, Verweildauer, Referrer-Quelle"
+        "usage": "Terminbuchung: Wenn Sie freiwillig einen Termin über den verlinkten Kalender buchen, verarbeitet der jeweilige Anbieter die von Ihnen dort eingegebenen Daten."
       }
     },
     "purpose": {
@@ -601,11 +602,11 @@
     },
     "sharing": {
       "title": "6. Datenweitergabe und internationale Übermittlung",
-      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unter Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln."
+      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unterstützen, insbesondere den Hoster dieser Website und den Anbieter des E-Mail-Postfachs; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln."
     },
     "retention": {
       "title": "7. Speicherdauer",
-      "description": "Wir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
+      "description": "Wir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung zuzüglich der gesetzlichen Aufbewahrungsfristen; (b) Kommunikationsaufzeichnungen bis zum Wegfall des Zwecks. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
     },
     "security": {
       "title": "8. Datensicherheit",
@@ -613,7 +614,7 @@
     },
     "cookies": {
       "title": "9. Cookies und Analyse",
-      "description": "Diese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen."
+      "description": "Diese Website setzt keine Analyse- oder Werbe-Cookies und lädt keine Analyse- oder Werbedienste. Deshalb ist kein Einwilligungsbanner erforderlich. Schriftarten werden mit der Website ausgeliefert und nicht von Servern Dritter geladen. Einzelne technisch notwendige Speichervorgänge des Browsers können stattfinden, um die Seite auszuliefern; sie dienen nicht der Reichweitenmessung."
     },
     "changes": {
       "title": "10. Änderungen dieser Erklärung",

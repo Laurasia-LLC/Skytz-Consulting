@@ -11,7 +11,9 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms",
-    "industries": "Industries"
+    "industries": "Industries",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "vacancies": {
     "title": "Open Positions",
@@ -52,14 +54,19 @@
         "location": "Northeast Bavaria, Germany",
         "summary": "Role brief available as PDF."
       }
+    },
+    "employer": {
+      "title": "Hiring for a role like this?",
+      "text": "These are searches I am currently running for clients. If you have a similar role to fill, the employer contact path is the one below."
     }
   },
   "hero": {
     "tagline": "Industrial automation · Instrumentation · Test and measurement",
     "headline": "I recruit sales engineers for German manufacturers' U.S. operations.",
-    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Three searches running right now in industrial automation and sensors, motion control and drives, and process instrumentation. Most of the people I place were not looking for a job when I called them.",
+    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Most of the people I place were not looking for a job when I called them.",
     "cta": {
-      "primary": "Contact Philipp"
+      "primary": "Brief me on a search",
+      "secondary": "Looking for a role?"
     },
     "signature": "Philipp Hoffschröer, Founder",
     "reach": {
@@ -111,19 +118,15 @@
   },
   "searches": {
     "title": "Searches running now",
-    "items": [
-      "Sales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast",
-      "Sales Engineer — motion control and drives — Midwest and Southeast districts",
-      "Sales Engineer — process instrumentation and valve automation — Texas Gulf Coast"
-    ],
-    "note": "These are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it."
+    "note": "These are the roles I am currently retained to fill, not samples. Full briefs go to candidates. If your market is on this list, write to me and I will tell you what I am seeing in it.",
+    "allRoles": "All open roles"
   },
   "process": {
     "title": "How a search runs",
     "note": "US searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.",
     "steps": [
       {
-        "title": "Intake call, 45 minutes",
+        "title": "Intake call",
         "text": "The role, the territory, the compensation band, and what a good first year looks like. If I think the role cannot be filled as written, you hear it here rather than in month three."
       },
       {
@@ -307,7 +310,7 @@
       },
       {
         "q": "Who actually does the work?",
-        "a": "I do. There is no research team, no account manager, and nobody hands you off after the sale. That is the trade: one experienced person rather than a bench."
+        "a": "I run the search myself. There is no research team and no account manager who takes over after the sale. Scheduling and first replies are handled with the help of an AI assistant; the work on your mandate stays with me."
       },
       {
         "q": "How fast will I see candidates?",
@@ -560,7 +563,7 @@
       "label": "Schedule a call",
       "action": "Pick a time in my calendar"
     },
-    "noCommitment": "No commitment. First conversations are free.",
+    "noCommitment": "No commitment. Pick a slot that suits you.",
     "fasterAlignment": {
       "title": "To save a round trip",
       "description": "If you're writing about a specific search, include:",
@@ -584,7 +587,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: August 2026",
+    "lastUpdated": "Last updated: November 2026",
     "intro": "Skytz Consulting is a trade name of Laurasia LLC (\"we\", \"us\", \"our\"). This policy explains what personal information we collect, why, and what you can ask us to do about it. It covers U.S. state privacy laws including the California Consumer Privacy Act (CCPA/CPRA), and the EU General Data Protection Regulation (GDPR) for visitors in Europe.",
     "controller": {
       "title": "1. Who is responsible",
@@ -596,9 +599,9 @@
       "items": {
         "contact": "Contact information: name, email address, telephone number, company name, job title",
         "email": "Communication data: the content of emails, messages, and any attachments you send us",
-        "technical": "Technical data: IP address, browser type and version, time zone, operating system, access times",
+        "technical": "Technical data: IP address and access time, where these arise technically when the site is requested or an email is sent. This site sets no analytics cookies and loads no analytics or advertising services.",
         "candidate": "Professional data (for candidates): resume, work history, qualifications, compensation expectations",
-        "usage": "Usage data: pages visited, time spent on pages, referral source"
+        "usage": "Booking: if you choose to book a slot through the linked calendar, the provider of that calendar processes the details you enter there."
       }
     },
     "purpose": {
@@ -629,11 +632,11 @@
     },
     "sharing": {
       "title": "6. Who we share it with",
-      "description": "We do not sell personal information. We may share it with: (a) clients, solely for recruiting purposes and only with your consent; (b) service providers who support our operations under confidentiality agreements; (c) authorities where required by law. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe are made under Standard Contractual Clauses where applicable."
+      "description": "We do not sell your personal data. We share data with: (a) clients, strictly for recruitment purposes and only with your consent; (b) service providers that support our work, in particular the host of this website and the provider of the email mailbox; (c) authorities where legally required. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe rely on standard contractual clauses where applicable."
     },
     "retention": {
       "title": "7. How long we keep it",
-      "description": "We keep personal information only as long as necessary: (a) client and candidate data for the duration of the business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You can ask us to delete it earlier, subject to legal retention requirements."
+      "description": "We keep personal data only as long as needed: (a) client and candidate data for the duration of the business relationship plus applicable statutory retention periods; (b) communication records until the purpose falls away. You may ask for earlier deletion, subject to statutory retention obligations."
     },
     "security": {
       "title": "8. Security",
@@ -641,7 +644,7 @@
     },
     "cookies": {
       "title": "9. Cookies and analytics",
-      "description": "This site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site."
+      "description": "This site sets no analytics or advertising cookies and loads no analytics or advertising services, so no consent banner is required. Fonts are served together with the site rather than fetched from third-party servers. Individual technically necessary browser storage may occur in order to deliver the page; it is not used for audience measurement."
     },
     "changes": {
       "title": "10. Changes",

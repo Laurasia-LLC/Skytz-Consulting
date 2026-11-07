@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion, useInView } from 'framer-motion';
-import { ShieldCheck, Users, Mail, Phone, Linkedin, ChevronLeft, ChevronRight, Pause, Play, Search, Route, ClipboardCheck, Gauge } from 'lucide-react';
+import { ShieldCheck, Users, Mail, Phone, Linkedin, ChevronLeft, ChevronRight, Pause, Play, Search, Route, ClipboardCheck, Gauge, ArrowRight } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
+import { mandateSummaries } from '../content/vacancies';
 import { assetUrl } from '../utils/assetUrl';
 import useLanguage from '../hooks/useLanguage';
 
@@ -66,6 +67,8 @@ export default function Home() {
 
   const activeLogo = logoByClient[activeKey] || logoByClient.megger;
 
+  const mandates = useMemo(() => mandateSummaries(t), [t]);
+
   const metricItems = t('metrics.items', { returnObjects: true }) || [];
 
   useEffect(() => {
@@ -111,9 +114,12 @@ export default function Home() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="md:col-span-8 bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-200/80 shadow-sm flex flex-col lg:flex-row items-center gap-8 relative overflow-hidden"
         >
-          {/* Premium Headshot with "Clarity Transition" */}
+          {/* Premium Headshot with "Clarity Transition".
+              Ordered second on small screens so the headline and the employer
+              CTA land inside the first viewport instead of below a 200px
+              portrait. */}
           <motion.div 
-            className="relative shrink-0 cursor-pointer mb-6"
+            className="relative shrink-0 cursor-pointer mb-6 order-2 lg:order-1"
             initial="initial"
             animate={isInView ? "active" : "initial"}
             whileHover="active"
@@ -146,16 +152,34 @@ export default function Home() {
             </div>
           </motion.div>
           
-          <div className="min-w-0 flex-1 text-center lg:text-left">
+          <div className="min-w-0 flex-1 text-center lg:text-left order-1 lg:order-2">
             <span className="text-blueprint-600 font-bold tracking-[0.2em] text-[11px] uppercase mb-4 block">
               {t('hero.tagline')}
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-[2rem] xl:text-[2.6rem] font-extrabold text-slate-900 mb-5 leading-[1.1] tracking-[-0.02em] text-balance hyphens-auto break-words">
               {t('hero.headline')}
             </h1>
-            <p className="text-slate-600 text-base leading-relaxed mb-8 max-w-xl hyphens-auto">
+            <p className="text-slate-600 text-base leading-relaxed mb-6 max-w-xl hyphens-auto">
               {t('hero.subhead')}
             </p>
+
+            {/* Primary employer action, above the contact details and inside the
+                first viewport on a 390px screen. */}
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center justify-center lg:justify-start mb-6">
+              <Link
+                to={getLocalizedPath('meet-philipp')}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-blueprint-600 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blueprint-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blueprint-700 sm:w-auto"
+              >
+                {t('hero.cta.primary')}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                to={getLocalizedPath('vacancies')}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-slate-300 px-6 py-3.5 text-sm font-semibold text-slate-700 transition-colors hover:border-slate-400 hover:text-slate-900 sm:w-auto"
+              >
+                {t('hero.cta.secondary')}
+              </Link>
+            </div>
             
             {/* One way to reach a named person, no competing calls to action. */}
             <div className="flex flex-col gap-2 text-sm sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2 justify-center lg:justify-start">
@@ -348,10 +372,14 @@ export default function Home() {
           </div>
 
           <ul className="space-y-4">
-            {(t('searches.items', { returnObjects: true }) || []).map((item, idx) => (
-              <li key={idx} className="flex gap-3 text-slate-700 leading-relaxed">
+            {mandates.map(({ key, title, location }) => (
+              <li key={key} className="flex gap-3 text-slate-700 leading-relaxed">
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blueprint-500" />
-                <span>{item}</span>
+                <span>
+                  {title}
+                  <span className="text-slate-400"> — </span>
+                  <span className="text-slate-500">{location}</span>
+                </span>
               </li>
             ))}
           </ul>
@@ -359,6 +387,12 @@ export default function Home() {
           <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
             {t('searches.note')}
           </p>
+          <Link
+            to={getLocalizedPath('vacancies')}
+            className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors"
+          >
+            {t('searches.allRoles')} &rarr;
+          </Link>
         </motion.div>
 
 

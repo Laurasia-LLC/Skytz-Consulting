@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Download, MapPin, Building2 } from 'lucide-react';
+import { Download, MapPin, Building2, ArrowRight } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
+import { VACANCIES } from '../content/vacancies';
+import useLanguage from '../hooks/useLanguage';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -21,33 +24,11 @@ const stagger = {
   },
 };
 
-const VACANCIES = [
-  {
-    key: 'gfAssistenz',
-    pdfPath: '/GF-Assistenz.pdf',
-  },
-  {
-    key: 'bauueberwachung',
-    pdfPath: '/Bauueberwachung.pdf',
-  },
-  {
-    key: 'technischerZeichner',
-    pdfPath: '/Technischer-Zeichner.pdf',
-  },
-  {
-    key: 'bimManagerCoordinator',
-    pdfPath: '/BIM-Manager-Coordinator.pdf',
-  },
-  {
-    key: 'expertSifa',
-    pdfPath: '/Experte-Sifa.pdf',
-  },
-];
-
 export default function Vacancies() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.vacancies?.[lang] || pageSEOConfig.vacancies?.en;
+  const { getLocalizedPath } = useLanguage();
 
   useEffect(() => {
     document.title = `${t('nav.vacancies')} | Skytz Consulting`;
@@ -134,10 +115,22 @@ export default function Vacancies() {
               ))}
             </motion.div>
 
-            <div className="mt-12 text-center">
+            <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-8 text-center">
+              <p className="text-lg font-semibold text-slate-900">{t('vacancies.employer.title')}</p>
+              <p className="mx-auto mt-2 max-w-xl text-sm text-slate-600">{t('vacancies.employer.text')}</p>
+              <Link
+                to={getLocalizedPath('meet-philipp')}
+                className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-blueprint-600 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-blueprint-700"
+              >
+                {t('hero.cta.primary')}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+
+            <div className="mt-6 text-center">
               <a
                 href="mailto:info@skytz-consulting.com"
-                className="inline-flex items-center justify-center rounded-xl bg-blueprint-600 px-6 py-3.5 text-sm font-semibold text-white hover:bg-blueprint-700 transition-colors"
+                className="inline-flex items-center justify-center rounded-xl border border-slate-300 px-6 py-3.5 text-sm font-semibold text-slate-700 hover:border-slate-400 hover:text-slate-900 transition-colors"
               >
                 {t('vacancies.cta')}
               </a>

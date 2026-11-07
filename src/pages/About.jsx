@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Search, Users, Shield, TrendingUp, Lock, Building2, Briefcase, ArrowRight, Columns2, Globe2, Ruler } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
+import { mandateSummaries } from '../content/vacancies';
 import useLanguage from '../hooks/useLanguage';
 
 const fadeIn = {
@@ -40,7 +41,7 @@ export default function About() {
     { icon: Lock, key: 'discretion' }
   ];
 
-  const searchItems = t('searches.items', { returnObjects: true }) || [];
+  const mandates = useMemo(() => mandateSummaries(t), [t]);
 
   return (
     <>
@@ -91,16 +92,26 @@ export default function About() {
                   <h2 className="text-xl font-bold text-slate-900">{t('searches.title')}</h2>
                 </div>
                 <ul className="space-y-4">
-                  {searchItems.map((item, index) => (
-                    <li key={index} className="flex gap-3 text-slate-700 leading-relaxed">
+                  {mandates.map(({ key, title, location }) => (
+                    <li key={key} className="flex gap-3 text-slate-700 leading-relaxed">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blueprint-500" />
-                      <span>{item}</span>
+                      <span>
+                        {title}
+                        <span className="text-slate-400"> — </span>
+                        <span className="text-slate-500">{location}</span>
+                      </span>
                     </li>
                   ))}
                 </ul>
                 <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
                   {t('searches.note')}
                 </p>
+                <Link
+                  to={getLocalizedPath('vacancies')}
+                  className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors"
+                >
+                  {t('searches.allRoles')} &rarr;
+                </Link>
               </BentoCard>
             </motion.div>
           </div>
