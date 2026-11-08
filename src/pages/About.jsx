@@ -68,8 +68,7 @@ export default function About() {
               <motion.div variants={fadeIn} className="mt-6 space-y-5 text-slate-600 leading-relaxed">
                 <p>{t('about.body.market')}</p>
                 <p>{t('about.body.placed')}</p>
-                {/* German ships no metric strip, so the retention figure lands here instead. */}
-                <p>{t('about.body.numbers')}</p>
+                {t('about.body.numbers') ? <p>{t('about.body.numbers')}</p> : null}
               </motion.div>
             </motion.div>
           </div>

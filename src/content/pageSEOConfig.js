@@ -1,9 +1,9 @@
 export const pageSEOConfig = {
   home: {
     en: {
-      title: "Sales Engineer Recruiter, Direct Search",
+      title: "US Industrial & Technical Sales Search",
       description:
-        'Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.',
+        'Skytz Consulting — Philipp Hoffschröer. External search for industrial and technical sales roles in the United States. Power, test & measurement, semiconductors. DACH coverage in German.',
     },
     de: {
       title: "Personalberatung Vertriebsingenieure",
@@ -25,9 +25,9 @@ export const pageSEOConfig = {
   },
   about: {
     en: {
-      title: "Sales Engineer Recruiting Since 2015",
+      title: "About Philipp Hoffschröer & Skytz Consulting",
       description:
-        'Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.',
+        'Founder-led external search for industrial and technical sales. Electrical-engineering background in power, T&M, and semiconductors. Laurasia LLC / Skytz Consulting.',
     },
     de: {
       title: "Über uns: Personalberatung seit 2015",
@@ -37,9 +37,9 @@ export const pageSEOConfig = {
   },
   contact: {
     en: {
-      title: "Meet Philipp, Book a Call",
+      title: "Contact Philipp Hoffschröer",
       description:
-        'Book a direct conversation about your Sales Engineer or technical leadership hiring needs. Direct contact, handled in confidence. Free initial consultation.',
+        'Reach Skytz Consulting about an external search for industrial or technical sales. Email, phone, or calendar — handled in confidence.',
     },
     de: {
       title: "Philipp treffen, Gespräch buchen",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers",
-    "description": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States."
+    "title": "Skytz Consulting | External Search for US Industrial & Technical Sales",
+    "description": "Skytz Consulting — Philipp Hoffschröer, founder. External search for industrial and technical sales roles in the United States. Background in electrical engineering, power, test and measurement, and semiconductors. Germany and Switzerland for DACH."
   },
   "nav": {
     "home": "Home",
@@ -61,9 +61,9 @@
     }
   },
   "hero": {
-    "tagline": "Industrial automation · Instrumentation · Test and measurement",
-    "headline": "I recruit sales engineers for German manufacturers' U.S. operations.",
-    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Most of the people I place were not looking for a job when I called them.",
+    "tagline": "Power · Test & measurement · Semiconductors · Industrial sales",
+    "headline": "External search for industrial and technical sales roles in the United States.",
+    "subhead": "Skytz Consulting — Philipp Hoffschröer, founder. Electrical-engineering background; searches in power, T&M, and related technical sales markets since 2015.",
     "cta": {
       "primary": "Brief me on a search",
       "secondary": "Looking for a role?"
@@ -91,34 +91,13 @@
   },
   "metrics": {
     "title": "US searches, measured",
-    "items": [
-      {
-        "value": "5",
-        "label": "business days to shortlist",
-        "detail": "From signed engagement to three or more qualified candidates in your inbox."
-      },
-      {
-        "value": "~20",
-        "label": "days to a signed offer",
-        "detail": "Calendar days from engagement to written acceptance. The start date follows two to four weeks later."
-      },
-      {
-        "value": "92%",
-        "label": "still there at 12 months",
-        "detail": "Placed candidates still employed by the client, or promoted inside it, a year after starting."
-      },
-      {
-        "value": "90",
-        "label": "day replacement guarantee",
-        "detail": "If it does not work out inside 90 days, I run the search again at no fee."
-      }
-    ],
+    "items": [],
     "methodLabel": "How I measure this",
-    "germanNote": "These are US figures. German and Swiss searches run on a different clock — see how the two markets differ."
+    "germanNote": ""
   },
   "searches": {
     "title": "Searches running now",
-    "note": "These are the roles I am currently retained to fill, not samples. Full briefs go to candidates. If your market is on this list, write to me and I will tell you what I am seeing in it.",
+    "note": "These are searches I am running for clients now, not samples. Full briefs go to candidates. If your market is on this list, write to me and I will tell you what I am seeing in it.",
     "allRoles": "All open roles"
   },
   "process": {
@@ -246,7 +225,7 @@
   "industries": {
     "title": "The industries I work in",
     "subtitle": "What I actually screen for",
-    "intro": "I recruit commercial and technical people for industrial manufacturers. These are the four areas I work, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.",
+    "intro": "I run external searches for commercial and technical people at industrial manufacturers in the US and DACH. Grounded in electrical engineering and technical sales markets — power, test and measurement, and semiconductors. These sectors, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.",
     "sectors": [
       {
         "name": "Industrial automation and sensor technologies",
@@ -314,7 +293,7 @@
       },
       {
         "q": "How fast will I see candidates?",
-        "a": "For a US search, a shortlist of three or more inside five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks and a start date three to six months out, because notice periods there run to the end of a quarter."
+        "a": "Timing depends on the role, market, and how quickly you can move interviews and offers. US notice periods are usually short once there is a yes; German and Swiss searches are slower because notice periods often run to the end of a quarter. I will give you an honest read on your case in the first conversation."
       },
       {
         "q": "Where do you find people, if not job boards?",
@@ -330,7 +309,7 @@
       },
       {
         "q": "How do we start?",
-        "a": "One call, forty-five minutes, no charge. We go through the role, the territory, the compensation band and what a good first year looks like. You get the fee and the guarantee in writing after that call, and nothing happens until you sign it."
+        "a": "One conversation to go through the role, territory, compensation band, and what a good first year looks like. Terms and any guarantees go in writing afterward; nothing starts until you agree them."
       }
     ]
   },
@@ -511,12 +490,12 @@
   "about": {
     "title": "About",
     "subtitle": "Philipp Hoffschröer, Founder",
-    "description": "I'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. I work mainly with manufacturers of measuring and test equipment.",
+    "description": "I'm Philipp Hoffschröer, founder of Skytz Consulting. I run external searches for industrial and technical sales roles, with a grounded background in electrical engineering, power, test and measurement, and semiconductors. Recruiting has been my focus since 2015.",
     "body": {
-      "market": "Most of my clients are German manufacturers with U.S. operations, or U.S. subsidiaries reporting into a German parent. That is a specific hiring problem. The role needs someone who can hold a technical conversation with a plant engineer in Ohio and a product conversation with a development team in Baden-Württemberg, who understands how a German parent makes decisions, and who will still be in the seat in three years. The people who can do that are employed, and they are not on job boards.",
-      "placed": "What I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.",
-      "reach": "I am based in Germany and work U.S. hours through midday Eastern. Email is the fastest way to reach me, and it reaches me, not an assistant.",
-      "numbers": "Of the candidates I have placed, 92% are still with the client twelve months later, or have been promoted inside it. How I count that is set out below."
+      "market": "Skytz Consulting is entering the United States market for employer-facing search work. I take on a specific role when you need an external search — sales engineers, application engineers, regional and national sales managers, and related technical sales leadership in industrial markets.",
+      "placed": "Signed reference letters on the references page are historical client work awarded to me personally — including repeated hires with Megger since 2016. They are not claims about US placements under the Skytz brand unless documented separately.",
+      "reach": "I am based in Germany and work US mornings through midday Eastern. Email reaches me directly.",
+      "numbers": ""
     },
     "operationsTitle": "How I work",
     "operations": {
