@@ -102,7 +102,7 @@
   },
   "process": {
     "title": "So läuft eine Suche ab",
-    "note": "Die Shortlist steht in der Regel nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommen danach die Kündigungsfristen dazu, meist drei Monate zum Quartalsende.",
+    "note": "Der Ablauf ist in jedem Markt derselbe, das Tempo nicht. In Deutschland und der Schweiz kommen nach der Zusage oft noch Kündigungsfristen dazu — die Unterschiede stehen in der Markttabelle weiter unten.",
     "steps": [
       {
         "title": "Erstgespräch",
@@ -118,7 +118,7 @@
       },
       {
         "title": "Shortlist",
-        "text": "Drei bis fünf Kandidaten, die Sie tatsächlich einstellen können — mit den Schwächen ebenso schriftlich wie den Stärken."
+        "text": "Eine Shortlist, mit der Sie arbeiten können — Schwächen und Stärken schriftlich, kein Massenabzug."
       }
     ]
   },
@@ -150,7 +150,7 @@
       {
         "topic": "Was Sie bekommen",
         "them": "Ein Stapel Profile, schnell weitergeleitet.",
-        "me": "Drei bis fünf Kandidaten, mit schriftlich dokumentierten Risiken."
+        "me": "Eine fokussierte Shortlist, mit dokumentierten Risiken."
       },
       {
         "topic": "Diskretion",
@@ -511,7 +511,7 @@
     },
     "getInTouch": {
       "title": "E-Mail",
-      "description": "Der schnellste Weg zu mir. Antwort am selben Tag."
+      "description": "Der schnellste Weg zu mir per E-Mail."
     },
     "booking": {
       "label": "Termin vereinbaren",
@@ -536,7 +536,7 @@
     "hours": {
       "title": "Erreichbarkeit",
       "weekdays": "Montag bis Freitag, 8:00 bis 17:00 Uhr",
-      "timezone": "E-Mails beantworte ich am selben Tag."
+      "timezone": "Entspricht in etwa 2:00–11:00 Uhr Eastern (nur Orientierung, kein Zusicherungsversprechen)."
     }
   },
   "privacy": {

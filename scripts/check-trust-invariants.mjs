@@ -36,7 +36,8 @@ const flatten = (obj, prefix = '') =>
 
 // 0. No un-audited headline statistics or default fee/guarantee copy on public locales.
 {
-  const bannedStats = /50\+|92\s*%|92\s*Prozent|90-day|90 day|85\s*% of agency|SHRM's 2026/;
+  const bannedStats =
+    /50\+|92\s*%|92\s*Prozent|90-day|90 day|85\s*% of agency|SHRM's 2026|six to ten weeks|drei bis vier Wochen|acht bis sechzehn/;
   const offenders = locales.flatMap(({ lang, data }) => {
     const blob = JSON.stringify(data);
     return bannedStats.test(blob) ? [`${lang}: locale contains banned headline-stat or default guarantee pattern`] : [];

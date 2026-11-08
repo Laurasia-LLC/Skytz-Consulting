@@ -102,7 +102,7 @@
   },
   "process": {
     "title": "How a search runs",
-    "note": "US searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.",
+    "note": "The sequence is the same in every market; the pace is not. US notice periods are often short once there is a yes. German and Swiss searches usually wait on contract notice — see how the two markets differ below.",
     "steps": [
       {
         "title": "Intake call",
@@ -118,7 +118,7 @@
       },
       {
         "title": "Shortlist",
-        "text": "Three to five people you can actually hire, each with the problems written down alongside the strengths."
+        "text": "A shortlist you can act on, with problems written down alongside strengths — not a volume dump."
       }
     ]
   },
@@ -150,7 +150,7 @@
       {
         "topic": "What lands in your inbox",
         "them": "A stack of resumes, forwarded fast.",
-        "me": "Three to five people, with the risks written down."
+        "me": "A focused shortlist, with risks written down."
       },
       {
         "topic": "Talking to your parent company",
@@ -515,7 +515,7 @@
     },
     "getInTouch": {
       "title": "Email",
-      "description": "The fastest way to reach me. Same-day reply."
+      "description": "The fastest way to reach me by email."
     },
     "booking": {
       "label": "Schedule a call",
@@ -540,7 +540,7 @@
     "hours": {
       "title": "When I'm reachable",
       "weekdays": "Monday–Friday, 8:00 a.m. – 5:00 p.m. Central European Time",
-      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern. Email gets a same-day reply."
+      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern (orientation only — not a service-level promise)."
     }
   },
   "privacy": {
