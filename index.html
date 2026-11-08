@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PL3F42RM');</script>
-    <!-- End Google Tag Manager -->
+    <!--
+      No tag manager and no analytics are loaded here on purpose. GTM/GA4 used
+      to initialise before any visitor interaction, which set _ga cookies and
+      sent a hit to Google on first paint, before consent. Without a consent
+      management platform the only defensible state is none, so the loader is
+      gone rather than gated. If measurement is required later, reinstate it
+      behind a real consent decision and update the privacy policy in the same
+      change.
+    -->
     <meta charset="UTF-8" />
     <!-- Favicon – SVG (all modern browsers) with PNG fallbacks -->
     <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
@@ -18,9 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Primary SEO Meta Tags -->
-    <title>Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers</title>
-    <meta name="title" content="Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers" />
-    <meta name="description" content="Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States." />
+    <title>Skytz Consulting | External Search for US Industrial & Technical Sales</title>
+    <meta name="title" content="Skytz Consulting | External Search for US Industrial & Technical Sales" />
+    <meta name="description" content="Skytz Consulting — Philipp Hoffschröer, founder. External search for industrial and technical sales roles in the United States. Power, test and measurement, semiconductors." />
     <meta name="author" content="Philipp Hoffschröer, Skytz Consulting" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="canonical" href="https://skytz-consulting.com/en" />
@@ -28,8 +30,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://skytz-consulting.com/en" />
-    <meta property="og:title" content="Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers" />
-    <meta property="og:description" content="Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation." />
+    <meta property="og:title" content="Skytz Consulting | External Search for US Industrial & Technical Sales" />
+    <meta property="og:description" content="External search for industrial and technical sales roles in the United States. Founder Philipp Hoffschröer — power, test & measurement, semiconductors." />
     <meta property="og:image" content="https://skytz-consulting.com/brand/og-image.jpg" />
     <meta property="og:site_name" content="Skytz Consulting" />
     <meta property="og:locale" content="en_US" />
@@ -38,8 +40,8 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://skytz-consulting.com/en" />
-    <meta name="twitter:title" content="Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers" />
-    <meta name="twitter:description" content="Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation." />
+    <meta name="twitter:title" content="Skytz Consulting | External Search for US Industrial & Technical Sales" />
+    <meta name="twitter:description" content="External search for industrial and technical sales roles in the United States. Founder Philipp Hoffschröer — power, test & measurement, semiconductors." />
     <meta name="twitter:image" content="https://skytz-consulting.com/brand/og-image.jpg" />
 
     <!-- Language Alternates -->
@@ -56,7 +58,7 @@
       "legalName": "Laurasia LLC",
       "url": "https://skytz-consulting.com",
       "logo": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
-      "description": "Technical sales recruiting for measurement and test equipment manufacturers. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States.",
+      "description": "External search for industrial and technical sales roles. United States and DACH. Founder Philipp Hoffschröer — electrical engineering, power, test and measurement, semiconductors.",
       "foundingDate": "2015",
       "sameAs": ["https://www.linkedin.com/in/philipp-hoffschroer/"],
       "founder": {
@@ -101,9 +103,8 @@
       "name": "Skytz Consulting",
       "image": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
       "url": "https://skytz-consulting.com",
-      "priceRange": "$$$$",
       "telephone": "+1-307-429-0181",
-      "description": "Technical sales recruiting for industrial manufacturers: industrial automation and sensors, motion control and drives, process instrumentation, and test and measurement equipment. Working since 2015.",
+      "description": "External search for industrial and technical sales roles in the United States and DACH markets.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "1309 Coffeen Avenue STE 1200",
@@ -112,22 +113,11 @@
         "postalCode": "82801",
         "addressCountry": "US"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 44.7972,
-        "longitude": -106.9564
-      },
       "serviceArea": [
         {"@type": "Country", "name": "United States"},
         {"@type": "Country", "name": "Germany"},
         {"@type": "Country", "name": "Switzerland"}
-      ],
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      }
+      ]
     }
     </script>
     
@@ -177,19 +167,14 @@
     }
     </script>
     
-    <!-- Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts are self-hosted (see src/index.css) so no connection to Google
+         is made while rendering the page. -->
     
     <!-- Theme Color -->
     <meta name="theme-color" content="#1e40af" />
     <meta name="msapplication-TileColor" content="#1e40af" />
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL3F42RM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

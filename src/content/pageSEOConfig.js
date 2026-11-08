@@ -1,9 +1,9 @@
 export const pageSEOConfig = {
   home: {
     en: {
-      title: "Sales Engineer Recruiter, Direct Search",
+      title: "US Industrial & Technical Sales Search",
       description:
-        'Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.',
+        'Skytz Consulting — Philipp Hoffschröer. External search for industrial and technical sales roles in the United States. Power, test & measurement, semiconductors. DACH coverage in German.',
     },
     de: {
       title: "Personalberatung Vertriebsingenieure",
@@ -15,19 +15,19 @@ export const pageSEOConfig = {
     en: {
       title: "Client References & Case Studies",
       description:
-        'Proven track record with reference clients since 2015. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.',
+        'Reference clients since 2015. Signed letters and named testimonials from managing directors and CEOs on the references page.',
     },
     de: {
       title: "Kundenreferenzen & Erfolgsgeschichten",
       description:
-        'Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2015. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.',
+        'Referenzkunden seit 2015. Unterschriebene Schreiben und benannte Testimonials von Geschäftsführern und CEOs auf der Referenzseite.',
     },
   },
   about: {
     en: {
-      title: "Sales Engineer Recruiting Since 2015",
+      title: "About Philipp Hoffschröer & Skytz Consulting",
       description:
-        'Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.',
+        'Founder-led external search for industrial and technical sales. Electrical-engineering background in power, T&M, and semiconductors. Laurasia LLC / Skytz Consulting.',
     },
     de: {
       title: "Über uns: Personalberatung seit 2015",
@@ -37,9 +37,9 @@ export const pageSEOConfig = {
   },
   contact: {
     en: {
-      title: "Meet Philipp, Book a Call",
+      title: "Contact Philipp Hoffschröer",
       description:
-        'Book a direct conversation about your Sales Engineer or technical leadership hiring needs. Direct contact, handled in confidence. Free initial consultation.',
+        'Reach Skytz Consulting about an external search for industrial or technical sales. Email, phone, or calendar — handled in confidence.',
     },
     de: {
       title: "Philipp treffen, Gespräch buchen",

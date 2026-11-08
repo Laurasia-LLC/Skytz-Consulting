@@ -11,12 +11,14 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "industries": "Branchen",
-    "home": "Startseite"
+    "home": "Startseite",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "vacancies": {
     "title": "Offene Positionen",
     "subtitle": "Aktuelle Vakanzen",
-    "description": "Hier finden Sie aktuelle Rollenprofile als PDF. Für Details und Verfügbarkeit: schreiben Sie uns kurz.",
+    "description": "Hier finden Sie aktuelle Rollenprofile als PDF. Für Details und Verfügbarkeit: schreiben Sie mir kurz.",
     "positionsTitle": "Rollenprofile",
     "positionsHint": "PDFs öffnen in einem neuen Tab.",
     "download": "PDF",
@@ -52,14 +54,19 @@
         "location": "Nordostbayern",
         "summary": "Rollenprofil als PDF zum Download."
       }
+    },
+    "employer": {
+      "title": "Sie besetzen eine ähnliche Position?",
+      "text": "Diese Positionen besetze ich derzeit im Auftrag von Kunden. Wenn Sie eine vergleichbare Rolle besetzen wollen, ist der Weg für Auftraggeber der folgende."
     }
   },
   "hero": {
     "tagline": "Personalberatung · Deutschland · Schweiz",
     "headline": "Positionen im technischen Vertrieb und im Engineering.",
-    "subhead": "Mein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Ich arbeite allein: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir persönlich. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.",
+    "subhead": "Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, Ingenieurbüros und Unternehmen im Tief- und Rohrleitungsbau. Die Suche führe ich persönlich.",
     "cta": {
-      "primary": "Vakanz vertraulich besprechen"
+      "primary": "Vakanz vertraulich besprechen",
+      "secondary": "Sie suchen eine Stelle?"
     },
     "signature": "Philipp Hoffschröer, Gründer",
     "reach": {
@@ -70,9 +77,9 @@
   },
   "stats": {
     "placements": {
-      "value": "50+",
-      "label": "Besetzungen seit 2015",
-      "subtext": "Technischer Vertrieb, Vertriebsleitung, Geschäftsbereichsleitung und Bauleitung."
+      "value": "",
+      "label": "Personalberatung seit 2015",
+      "subtext": "Technischer Vertrieb und angrenzende Führungsrollen."
     },
     "letters": {
       "value": "4",
@@ -80,7 +87,7 @@
       "subtext": "Auf Firmenbogen, mit Namen und Datum. Lesen Sie sie selbst.",
       "linkLabel": "Referenzschreiben lesen"
     },
-    "repeat": "Jeder Auftraggeber, mit dem ich gearbeitet habe, hat mich mehr als einmal beauftragt."
+    "repeat": "Referenzschreiben und zitierte Aussagen stammen von benannten Auftraggebern — die unterschriebenen PDFs und Zitate stehen auf der Referenzseite."
   },
   "metrics": {
     "title": "Zahlen",
@@ -90,21 +97,15 @@
   },
   "searches": {
     "title": "Aktuelle Mandate",
-    "items": [
-      "Projektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg",
-      "Bauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Technischer Zeichner (CAD) — Baubranche — Deutschland",
-      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Parallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik"
-    ],
-    "note": "Das sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe."
+    "note": "Das sind die Mandate, die ich derzeit besetze, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn Ihr Markt dabei ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe.",
+    "allRoles": "Alle offenen Positionen"
   },
   "process": {
     "title": "So läuft eine Suche ab",
-    "note": "Die Shortlist steht in der Regel nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommen danach die Kündigungsfristen dazu, meist drei Monate zum Quartalsende.",
+    "note": "Der Ablauf ist in jedem Markt derselbe, das Tempo nicht. In Deutschland und der Schweiz kommen nach der Zusage oft noch Kündigungsfristen dazu — die Unterschiede stehen in der Markttabelle weiter unten.",
     "steps": [
       {
-        "title": "Erstgespräch, 45 Minuten",
+        "title": "Erstgespräch",
         "text": "Die Position, das Vertriebsgebiet, der Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Wenn ich die Position so nicht für besetzbar halte, sage ich Ihnen das im ersten Gespräch und nicht im dritten Monat."
       },
       {
@@ -117,7 +118,7 @@
       },
       {
         "title": "Shortlist",
-        "text": "Drei bis fünf Kandidaten, die Sie tatsächlich einstellen können — mit den Schwächen ebenso schriftlich wie den Stärken."
+        "text": "Eine Shortlist, mit der Sie arbeiten können — Schwächen und Stärken schriftlich, kein Massenabzug."
       }
     ]
   },
@@ -149,7 +150,7 @@
       {
         "topic": "Was Sie bekommen",
         "them": "Ein Stapel Profile, schnell weitergeleitet.",
-        "me": "Drei bis fünf Kandidaten, mit schriftlich dokumentierten Risiken."
+        "me": "Eine fokussierte Shortlist, mit dokumentierten Risiken."
       },
       {
         "topic": "Diskretion",
@@ -159,28 +160,12 @@
     ]
   },
   "method": {
-    "title": "Wie ich das messe",
-    "intro": "Eine Zahl ohne Definition ist Werbung. Hier steht, was ich zähle und was ich ausklammere.",
+    "title": "Ergebnisse und Zeitrahmen",
+    "intro": "Der Zeitrahmen hängt von Rolle, Markt und Entscheidungsgeschwindigkeit ab. Wenn wir bestimmte Ergebnisse messen, legen wir das schriftlich fest, bevor die Suche startet. Die Website veröffentlicht keine Kennzahlen-Statistik.",
     "excludesLabel": "Nicht gezählt",
-    "items": [
-      {
-        "metric": "Wochen bis zur Shortlist",
-        "definition": "Wochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In Deutschland und der Schweiz sind das in der Regel drei bis vier Wochen.",
-        "excludes": "Wartezeiten auf Kundenseite von mehr als einer Woche und Mandate, die nach dem Start neu zugeschnitten werden."
-      },
-      {
-        "metric": "Wochen bis zur Unterschrift",
-        "definition": "Wochen von der Beauftragung bis zur unterschriebenen Zusage, in der Regel acht bis sechzehn. Das ist nicht der Eintrittstermin — dazwischen liegt die Kündigungsfrist.",
-        "excludes": "Abgebrochene, ausgesetzte oder wesentlich veränderte Mandate."
-      },
-      {
-        "metric": "Verbleib nach zwölf Monaten",
-        "definition": "Vermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten. Aktuell 92 Prozent.",
-        "excludes": "Betriebsbedingte Kündigungen, Restrukturierungen, Stellenstreichungen und Standortschließungen."
-      }
-    ],
-    "window": "Die Zahlen umfassen Vermittlungen seit 2015 und werden quartalsweise überprüft. Wenn Sie die Fallzahlen dahinter sehen möchten, fragen Sie im ersten Gespräch.",
-    "benchmarkNote": "Zur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu."
+    "items": [],
+    "window": "",
+    "benchmarkNote": ""
   },
   "markets": {
     "title": "Eine Suche in Deutschland und eine in den USA laufen unterschiedlich",
@@ -263,7 +248,7 @@
     "items": [
       {
         "q": "Wie rechnen Sie ab?",
-        "a": "Ein Prozentsatz der Jahreszielvergütung, schriftlich vereinbart, bevor ich beginne. Die Zahl nenne ich Ihnen im ersten Gespräch. Das Gespräch ist kostenfrei und verpflichtet zu nichts."
+        "a": "Die Konditionen vereinbaren wir schriftlich, bevor die Suche beginnt. Im ersten Gespräch klären wir sie; verbindlich wird erst, was Sie unterschreiben."
       },
       {
         "q": "Was passiert, wenn die Besetzung nicht funktioniert?",
@@ -275,7 +260,7 @@
       },
       {
         "q": "Wie lange dauert eine Suche?",
-        "a": "Die Shortlist steht meist nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommt die Kündigungsfrist dazu, in der Regel drei Monate zum Quartalsende. Wenn Ihre Position davon abweicht, sage ich Ihnen das vorher."
+        "a": "Das hängt von Rolle, Markt und Entscheidungsgeschwindigkeit ab. Kündigungsfristen in Deutschland und der Schweiz verlängern oft den Eintritt. Im ersten Gespräch bekommen Sie eine ehrliche Einschätzung für Ihren Fall."
       },
       {
         "q": "Wo finden Sie Kandidaten, wenn nicht über Jobbörsen?",
@@ -283,7 +268,7 @@
       },
       {
         "q": "Sind Sie eine Zeitarbeitsfirma?",
-        "a": "Nein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen und werde einmal bezahlt, wenn die Besetzung zustande kommt."
+        "a": "Nein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen über Direktansprache."
       },
       {
         "q": "Wie prüfen Sie, ob ein technischer Kandidat wirklich etwas kann?",
@@ -295,11 +280,11 @@
       },
       {
         "q": "Wer macht die Arbeit tatsächlich?",
-        "a": "Ich. Es gibt kein Research-Team, keinen Account Manager und niemanden, der Sie nach Vertragsabschluss weiterreicht. Das ist der Handel: eine erfahrene Person statt einer Mannschaft."
+        "a": "Die Suche führe ich persönlich. Es gibt kein Research-Team und keinen Account Manager, der Sie nach Vertragsabschluss weiterreicht. Bei der Terminorganisation und der ersten Beantwortung von Anfragen unterstützt mich ein KI-Assistent; die inhaltliche Arbeit am Mandat bleibt bei mir."
       },
       {
         "q": "Wie fangen wir an?",
-        "a": "Ein Gespräch, 45 Minuten, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben."
+        "a": "Ein Gespräch, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben."
       }
     ]
   },
@@ -381,7 +366,7 @@
         "role": "VP Global Sales CI, Geschäftsführer Megger Germany GmbH",
         "quote": "Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.",
         "quoteNote": "",
-        "outcome": "10+ Besetzungen seit 2016",
+        "outcome": "",
         "highlights": [
           "Mehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen",
           "Europaweite Besetzungen, teilweise in Tochtergesellschaften",
@@ -484,7 +469,7 @@
     "body": {
       "market": "Was diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.",
       "placed": "Besetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.",
-      "numbers": "Von den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.",
+      "numbers": "",
       "reach": "Ich sitze in Deutschland und arbeite bis in den US-Vormittag hinein. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
     },
     "operationsTitle": "Wie ich arbeite",
@@ -526,13 +511,13 @@
     },
     "getInTouch": {
       "title": "E-Mail",
-      "description": "Der schnellste Weg zu mir. Antwort am selben Tag."
+      "description": "Der schnellste Weg zu mir per E-Mail."
     },
     "booking": {
       "label": "Termin vereinbaren",
       "action": "Einen Termin direkt im Kalender wählen"
     },
-    "noCommitment": "Unverbindlich. Das erste Gespräch ist kostenfrei.",
+    "noCommitment": "Unverbindlich. Wählen Sie einen Termin, der Ihnen passt.",
     "fasterAlignment": {
       "title": "Damit wir eine Runde sparen",
       "description": "Wenn Sie wegen einer konkreten Position schreiben, nennen Sie:",
@@ -551,12 +536,12 @@
     "hours": {
       "title": "Erreichbarkeit",
       "weekdays": "Montag bis Freitag, 8:00 bis 17:00 Uhr",
-      "timezone": "E-Mails beantworte ich am selben Tag."
+      "timezone": "Entspricht in etwa 2:00–11:00 Uhr Eastern (nur Orientierung, kein Zusicherungsversprechen)."
     }
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+    "lastUpdated": "Zuletzt aktualisiert: November 2026",
     "intro": "Skytz Consulting ist eine Marke der Laurasia LLC (\"wir\", \"uns\", \"unser\"). Diese Erklärung beschreibt, welche personenbezogenen Daten wir erheben, warum, und welche Rechte Sie haben. Sie berücksichtigt die EU-Datenschutz-Grundverordnung (DSGVO) sowie US-Datenschutzgesetze einschließlich des California Consumer Privacy Act (CCPA/CPRA).",
     "controller": {
       "title": "1. Verantwortlicher",
@@ -568,9 +553,9 @@
       "items": {
         "contact": "Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Berufsbezeichnung",
         "email": "Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und Anhängen, die Sie uns senden",
-        "technical": "Technische Daten: IP-Adresse, Browsertyp und -version, Zeitzone, Betriebssystem, Zugriffszeiten",
+        "technical": "Technische Daten: IP-Adresse und Zugriffszeitpunkt, soweit sie beim Aufruf der Website oder beim Versand einer E-Mail technisch anfallen. Diese Website setzt keine Analyse-Cookies und bindet keine Analyse- oder Werbedienste ein.",
         "candidate": "Berufsbezogene Daten (für Kandidaten): Lebenslauf, Berufserfahrung, Qualifikationen, Gehaltsvorstellungen",
-        "usage": "Nutzungsdaten: besuchte Seiten, Verweildauer, Referrer-Quelle"
+        "usage": "Terminbuchung: Wenn Sie freiwillig einen Termin über den verlinkten Kalender buchen, verarbeitet der jeweilige Anbieter die von Ihnen dort eingegebenen Daten."
       }
     },
     "purpose": {
@@ -601,11 +586,11 @@
     },
     "sharing": {
       "title": "6. Datenweitergabe und internationale Übermittlung",
-      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unter Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln."
+      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unterstützen, insbesondere den Hoster dieser Website und den Anbieter des E-Mail-Postfachs; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln."
     },
     "retention": {
       "title": "7. Speicherdauer",
-      "description": "Wir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
+      "description": "Wir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung zuzüglich der gesetzlichen Aufbewahrungsfristen; (b) Kommunikationsaufzeichnungen bis zum Wegfall des Zwecks. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
     },
     "security": {
       "title": "8. Datensicherheit",
@@ -613,7 +598,7 @@
     },
     "cookies": {
       "title": "9. Cookies und Analyse",
-      "description": "Diese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen."
+      "description": "Diese Website setzt keine Analyse- oder Werbe-Cookies und lädt keine Analyse- oder Werbedienste. Deshalb ist kein Einwilligungsbanner erforderlich. Schriftarten werden mit der Website ausgeliefert und nicht von Servern Dritter geladen. Einzelne technisch notwendige Speichervorgänge des Browsers können stattfinden, um die Seite auszuliefern; sie dienen nicht der Reichweitenmessung."
     },
     "changes": {
       "title": "10. Änderungen dieser Erklärung",

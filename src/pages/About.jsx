@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Search, Users, Shield, TrendingUp, Lock, Building2, Briefcase, ArrowRight, Columns2, Globe2, Ruler } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
+import { mandateSummaries } from '../content/vacancies';
 import useLanguage from '../hooks/useLanguage';
 
 const fadeIn = {
@@ -40,7 +41,7 @@ export default function About() {
     { icon: Lock, key: 'discretion' }
   ];
 
-  const searchItems = t('searches.items', { returnObjects: true }) || [];
+  const mandates = useMemo(() => mandateSummaries(t), [t]);
 
   return (
     <>
@@ -67,8 +68,7 @@ export default function About() {
               <motion.div variants={fadeIn} className="mt-6 space-y-5 text-slate-600 leading-relaxed">
                 <p>{t('about.body.market')}</p>
                 <p>{t('about.body.placed')}</p>
-                {/* German ships no metric strip, so the retention figure lands here instead. */}
-                <p>{t('about.body.numbers')}</p>
+                {t('about.body.numbers') ? <p>{t('about.body.numbers')}</p> : null}
               </motion.div>
             </motion.div>
           </div>
@@ -91,16 +91,26 @@ export default function About() {
                   <h2 className="text-xl font-bold text-slate-900">{t('searches.title')}</h2>
                 </div>
                 <ul className="space-y-4">
-                  {searchItems.map((item, index) => (
-                    <li key={index} className="flex gap-3 text-slate-700 leading-relaxed">
+                  {mandates.map(({ key, title, location }) => (
+                    <li key={key} className="flex gap-3 text-slate-700 leading-relaxed">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blueprint-500" />
-                      <span>{item}</span>
+                      <span>
+                        {title}
+                        <span className="text-slate-400"> — </span>
+                        <span className="text-slate-500">{location}</span>
+                      </span>
                     </li>
                   ))}
                 </ul>
                 <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
                   {t('searches.note')}
                 </p>
+                <Link
+                  to={getLocalizedPath('vacancies')}
+                  className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors"
+                >
+                  {t('searches.allRoles')} &rarr;
+                </Link>
               </BentoCard>
             </motion.div>
           </div>
@@ -141,7 +151,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* Methodology: the thing that makes the numbers defensible rather than decorative */}
+        {t('method.intro') ? (
         <section id="method" className="border-t border-slate-200 py-16 scroll-mt-24">
           <div className="mx-auto max-w-7xl px-6">
             <motion.div
@@ -157,33 +167,42 @@ export default function About() {
                   </div>
                   <h2 className="text-xl font-bold text-slate-900">{t('method.title')}</h2>
                 </div>
-                <p className="mb-6 text-slate-600 leading-relaxed">{t('method.intro')}</p>
+                <p className="text-slate-600 leading-relaxed">{t('method.intro')}</p>
 
-                <div className="divide-y divide-slate-100">
+                {(t('method.items', { returnObjects: true }) || []).length > 0 && (
+                <div className="mt-6 divide-y divide-slate-100">
                   {(t('method.items', { returnObjects: true }) || []).map((item, index) => (
                     <div key={index} className="py-5 first:pt-0">
                       <h3 className="font-semibold text-slate-900">{item.metric}</h3>
                       <p className="mt-2 text-sm text-slate-600 leading-relaxed">{item.definition}</p>
+                      {item.excludes ? (
                       <p className="mt-2 text-sm text-slate-500 leading-relaxed">
                         <span className="font-semibold text-slate-600">
                           {t('method.excludesLabel')}:
                         </span>{' '}
                         {item.excludes}
                       </p>
+                      ) : null}
                     </div>
                   ))}
                 </div>
+                )}
 
+                {t('method.window') ? (
                 <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
                   {t('method.window')}
                 </p>
+                ) : null}
+                {t('method.benchmarkNote') ? (
                 <p className="mt-3 text-sm text-slate-500 leading-relaxed">
                   {t('method.benchmarkNote')}
                 </p>
+                ) : null}
               </BentoCard>
             </motion.div>
           </div>
         </section>
+        ) : null}
 
         {/* How the two markets differ - the thing a US subsidiary has to explain upward */}
         <section className="border-t border-slate-200 bg-white py-16">

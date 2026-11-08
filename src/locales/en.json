@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers",
-    "description": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States."
+    "title": "Skytz Consulting | External Search for US Industrial & Technical Sales",
+    "description": "Skytz Consulting — Philipp Hoffschröer, founder. External search for industrial and technical sales roles in the United States. Background in electrical engineering, power, test and measurement, and semiconductors. Germany and Switzerland for DACH."
   },
   "nav": {
     "home": "Home",
@@ -11,12 +11,14 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms",
-    "industries": "Industries"
+    "industries": "Industries",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "vacancies": {
     "title": "Open Positions",
     "subtitle": "Current Vacancies",
-    "description": "Download the role briefs as PDFs. For details and availability, email us.",
+    "description": "Download the role briefs as PDFs. For details and availability, email me.",
     "positionsTitle": "Role Briefs",
     "positionsHint": "PDFs open in a new tab.",
     "download": "PDF",
@@ -52,14 +54,19 @@
         "location": "Northeast Bavaria, Germany",
         "summary": "Role brief available as PDF."
       }
+    },
+    "employer": {
+      "title": "Hiring for a role like this?",
+      "text": "These are searches I am currently running for clients. If you have a similar role to fill, the employer contact path is the one below."
     }
   },
   "hero": {
-    "tagline": "Industrial automation · Instrumentation · Test and measurement",
-    "headline": "I recruit sales engineers for German manufacturers' U.S. operations.",
-    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Three searches running right now in industrial automation and sensors, motion control and drives, and process instrumentation. Most of the people I place were not looking for a job when I called them.",
+    "tagline": "Power · Test & measurement · Semiconductors · Industrial sales",
+    "headline": "External search for industrial and technical sales roles in the United States.",
+    "subhead": "I run Skytz Consulting, helping employers fill industrial and technical sales roles in the United States.",
     "cta": {
-      "primary": "Contact Philipp"
+      "primary": "Brief me on a search",
+      "secondary": "Looking for a role?"
     },
     "signature": "Philipp Hoffschröer, Founder",
     "reach": {
@@ -70,9 +77,9 @@
   },
   "stats": {
     "placements": {
-      "value": "50+",
-      "label": "Hires since 2015",
-      "subtext": "Sales engineers, technical sales leads, business unit heads, and site management."
+      "value": "",
+      "label": "Recruiting since 2015",
+      "subtext": "Industrial and technical sales roles and related leadership."
     },
     "letters": {
       "value": "4",
@@ -80,50 +87,25 @@
       "subtext": "On company letterhead, with names and dates. Read them yourself.",
       "linkLabel": "Read the letters"
     },
-    "repeat": "Every client I have worked with has hired through me more than once."
+    "repeat": "Reference letters on the site come from named clients; read the signed PDFs and quotes there."
   },
   "metrics": {
     "title": "US searches, measured",
-    "items": [
-      {
-        "value": "5",
-        "label": "business days to shortlist",
-        "detail": "From signed engagement to three or more qualified candidates in your inbox."
-      },
-      {
-        "value": "~20",
-        "label": "days to a signed offer",
-        "detail": "Calendar days from engagement to written acceptance. The start date follows two to four weeks later."
-      },
-      {
-        "value": "92%",
-        "label": "still there at 12 months",
-        "detail": "Placed candidates still employed by the client, or promoted inside it, a year after starting."
-      },
-      {
-        "value": "90",
-        "label": "day replacement guarantee",
-        "detail": "If it does not work out inside 90 days, I run the search again at no fee."
-      }
-    ],
+    "items": [],
     "methodLabel": "How I measure this",
-    "germanNote": "These are US figures. German and Swiss searches run on a different clock — see how the two markets differ."
+    "germanNote": ""
   },
   "searches": {
     "title": "Searches running now",
-    "items": [
-      "Sales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast",
-      "Sales Engineer — motion control and drives — Midwest and Southeast districts",
-      "Sales Engineer — process instrumentation and valve automation — Texas Gulf Coast"
-    ],
-    "note": "These are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it."
+    "note": "These are searches I am running for clients now, not samples. Full briefs go to candidates. If your market is on this list, write to me and I will tell you what I am seeing in it.",
+    "allRoles": "All open roles"
   },
   "process": {
     "title": "How a search runs",
-    "note": "US searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.",
+    "note": "The sequence is the same in every market; the pace is not. US notice periods are often short once there is a yes. German and Swiss searches usually wait on contract notice — see how the two markets differ below.",
     "steps": [
       {
-        "title": "Intake call, 45 minutes",
+        "title": "Intake call",
         "text": "The role, the territory, the compensation band, and what a good first year looks like. If I think the role cannot be filled as written, you hear it here rather than in month three."
       },
       {
@@ -136,7 +118,7 @@
       },
       {
         "title": "Shortlist",
-        "text": "Three to five people you can actually hire, each with the problems written down alongside the strengths."
+        "text": "A shortlist you can act on, with problems written down alongside strengths — not a volume dump."
       }
     ]
   },
@@ -168,7 +150,7 @@
       {
         "topic": "What lands in your inbox",
         "them": "A stack of resumes, forwarded fast.",
-        "me": "Three to five people, with the risks written down."
+        "me": "A focused shortlist, with risks written down."
       },
       {
         "topic": "Talking to your parent company",
@@ -178,32 +160,11 @@
     ]
   },
   "method": {
-    "title": "How I measure this",
-    "intro": "A number without a definition is marketing. Here is exactly what each figure counts, and what it leaves out.",
-    "items": [
-      {
-        "metric": "Days to shortlist",
-        "definition": "Business days from signed engagement to delivery of the first shortlist of three or more qualified candidates.",
-        "excludes": "Client-side delays longer than three business days, and searches rescoped after kickoff."
-      },
-      {
-        "metric": "Days to a signed offer",
-        "definition": "Calendar days from signed engagement to written offer acceptance. This is not the start date — in the US that normally follows two to four weeks later, after notice.",
-        "excludes": "Searches cancelled, frozen, or materially rescoped mid-process, and offers withdrawn by the client."
-      },
-      {
-        "metric": "12-month retention",
-        "definition": "Placed candidates still employed by the client, or promoted within it, twelve months after their first day, divided by the placements old enough to have reached twelve months.",
-        "excludes": "Layoffs, restructures, role eliminations and site closures — departures the candidate did not choose and I could not have predicted."
-      },
-      {
-        "metric": "Replacement guarantee",
-        "definition": "If a placement leaves or is terminated within 90 days of starting, I run the search again at no additional fee. The clock starts on the candidate's first day, and the guarantee is written into the engagement agreement before the search begins.",
-        "excludes": "Nothing is excluded by role elimination or a change of plan on your side — if you no longer need the role, you owe me nothing further."
-      }
-    ],
-    "window": "Figures cover placements since 2015 and are reviewed each quarter. If you want the underlying counts before you sign anything, ask me on the first call and I will send them.",
-    "benchmarkNote": "For context: SHRM's 2026 benchmark puts median US time-to-fill at 39 days across non-executive roles, and published benchmarks for industrial and manufacturing sales run 45 to 75 days. A specialist working one market with a live network should beat that, and this is by how much.",
+    "title": "Outcomes and timing",
+    "intro": "Timing depends on the role, market, and how quickly interviews and decisions move. If we agree to track specific outcomes, we define them in the written terms before the search starts. The site does not publish headline performance statistics.",
+    "items": [],
+    "window": "",
+    "benchmarkNote": "",
     "excludesLabel": "Not counted"
   },
   "markets": {
@@ -238,12 +199,12 @@
         "de": "Plan the start date backwards from the quarter. Pushing a German candidate to start sooner does not work."
       }
     ],
-    "note": "German federal statistics put the average time a reported vacancy stays open at around 95 days for roles requiring a degree and about 140 days for skilled trades. Neither number includes the notice period that follows."
+    "note": "These are typical market patterns — your timeline still depends on the role and how decisions are made on your side."
   },
   "industries": {
     "title": "The industries I work in",
     "subtitle": "What I actually screen for",
-    "intro": "I recruit commercial and technical people for industrial manufacturers. These are the four areas I work, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.",
+    "intro": "I run external searches for commercial and technical people at industrial manufacturers in the US and DACH. Grounded in electrical engineering and technical sales markets — power, test and measurement, and semiconductors. These sectors, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.",
     "sectors": [
       {
         "name": "Industrial automation and sensor technologies",
@@ -287,11 +248,11 @@
     "items": [
       {
         "q": "How do you charge?",
-        "a": "A percentage of first-year total compensation, agreed in writing before I start. You get the number on the first call. That call is free and nothing follows from it automatically."
+        "a": "Commercial terms are agreed in writing before the search starts. We go through them in the first conversation; nothing is binding until you sign."
       },
       {
         "q": "What happens if the hire does not work out?",
-        "a": "A written 90-day replacement guarantee: if the person leaves or is let go within 90 days of their first day, I run the search again at no additional fee. Ninety days is the US standard — around 85% of agency guarantees fall in the 30-to-90-day band, and most are replacement-only rather than a refund. The clock starts on the candidate's first day, and it is in the engagement agreement before the search begins."
+        "a": "That is whatever we put in the written agreement for your search. Terms differ by market and role — ask in the first conversation and I will spell out what applies to your case."
       },
       {
         "q": "Do you work exclusively?",
@@ -307,11 +268,11 @@
       },
       {
         "q": "Who actually does the work?",
-        "a": "I do. There is no research team, no account manager, and nobody hands you off after the sale. That is the trade: one experienced person rather than a bench."
+        "a": "I run the search myself. There is no research team and no account manager who takes over after the sale. Scheduling and first replies are handled with the help of an AI assistant; the work on your mandate stays with me."
       },
       {
         "q": "How fast will I see candidates?",
-        "a": "For a US search, a shortlist of three or more inside five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks and a start date three to six months out, because notice periods there run to the end of a quarter."
+        "a": "Timing depends on the role, market, and how quickly you can move interviews and offers. US notice periods are usually short once there is a yes; German and Swiss searches are slower because notice periods often run to the end of a quarter. I will give you an honest read on your case in the first conversation."
       },
       {
         "q": "Where do you find people, if not job boards?",
@@ -319,7 +280,7 @@
       },
       {
         "q": "Are you a staffing agency?",
-        "a": "No. Staffing agencies place contractors and temporary workers at volume and bill hourly. I run individual permanent searches, one at a time, and I am paid once on a successful hire."
+        "a": "No. Staffing agencies place contractors and temporary workers at volume. I run individual permanent searches through direct approach."
       },
       {
         "q": "How do you judge whether a technical candidate is credible?",
@@ -327,7 +288,7 @@
       },
       {
         "q": "How do we start?",
-        "a": "One call, forty-five minutes, no charge. We go through the role, the territory, the compensation band and what a good first year looks like. You get the fee and the guarantee in writing after that call, and nothing happens until you sign it."
+        "a": "One conversation to go through the role, territory, compensation band, and what a good first year looks like. Terms and any guarantees go in writing afterward; nothing starts until you agree them."
       }
     ]
   },
@@ -409,7 +370,7 @@
         "role": "VP Global Sales CI, Managing Director Megger Germany GmbH",
         "quote": "He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.",
         "quoteNote": "",
-        "outcome": "10+ placements since 2016",
+        "outcome": "",
         "highlights": [
           "Sales, commercial, and leadership roles filled repeatedly",
           "Placements across Europe, including subsidiaries",
@@ -508,12 +469,12 @@
   "about": {
     "title": "About",
     "subtitle": "Philipp Hoffschröer, Founder",
-    "description": "I'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. I work mainly with manufacturers of measuring and test equipment.",
+    "description": "I run Skytz Consulting, with a focus on helping employers fill industrial and technical sales roles in the United States. My background includes sales and leadership recruitment in technical markets — particularly electrical engineering, power, test and measurement, and semiconductors.",
     "body": {
-      "market": "Most of my clients are German manufacturers with U.S. operations, or U.S. subsidiaries reporting into a German parent. That is a specific hiring problem. The role needs someone who can hold a technical conversation with a plant engineer in Ohio and a product conversation with a development team in Baden-Württemberg, who understands how a German parent makes decisions, and who will still be in the seat in three years. The people who can do that are employed, and they are not on job boards.",
-      "placed": "What I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.",
-      "reach": "I am based in Germany and work U.S. hours through midday Eastern. Email is the fastest way to reach me, and it reaches me, not an assistant.",
-      "numbers": "Of the candidates I have placed, 92% are still with the client twelve months later, or have been promoted inside it. How I count that is set out below."
+      "market": "I take on a specific search when you have a role to fill — sales engineers, application engineers, regional and national sales managers, and related technical sales leadership in industrial markets.",
+      "placed": "Signed reference letters and client quotes on the references page come from past clients, including Megger since 2016. Read the letters and attributed quotations there.",
+      "reach": "I am based in Germany and work US mornings through midday Eastern. Email reaches me directly.",
+      "numbers": ""
     },
     "operationsTitle": "How I work",
     "operations": {
@@ -554,13 +515,13 @@
     },
     "getInTouch": {
       "title": "Email",
-      "description": "The fastest way to reach me. Same-day reply."
+      "description": "The fastest way to reach me by email."
     },
     "booking": {
       "label": "Schedule a call",
       "action": "Pick a time in my calendar"
     },
-    "noCommitment": "No commitment. First conversations are free.",
+    "noCommitment": "No commitment. Pick a slot that suits you.",
     "fasterAlignment": {
       "title": "To save a round trip",
       "description": "If you're writing about a specific search, include:",
@@ -579,12 +540,12 @@
     "hours": {
       "title": "When I'm reachable",
       "weekdays": "Monday–Friday, 8:00 a.m. – 5:00 p.m. Central European Time",
-      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern. Email gets a same-day reply."
+      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern (orientation only — not a service-level promise)."
     }
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: August 2026",
+    "lastUpdated": "Last updated: November 2026",
     "intro": "Skytz Consulting is a trade name of Laurasia LLC (\"we\", \"us\", \"our\"). This policy explains what personal information we collect, why, and what you can ask us to do about it. It covers U.S. state privacy laws including the California Consumer Privacy Act (CCPA/CPRA), and the EU General Data Protection Regulation (GDPR) for visitors in Europe.",
     "controller": {
       "title": "1. Who is responsible",
@@ -596,9 +557,9 @@
       "items": {
         "contact": "Contact information: name, email address, telephone number, company name, job title",
         "email": "Communication data: the content of emails, messages, and any attachments you send us",
-        "technical": "Technical data: IP address, browser type and version, time zone, operating system, access times",
+        "technical": "Technical data: IP address and access time, where these arise technically when the site is requested or an email is sent. This site sets no analytics cookies and loads no analytics or advertising services.",
         "candidate": "Professional data (for candidates): resume, work history, qualifications, compensation expectations",
-        "usage": "Usage data: pages visited, time spent on pages, referral source"
+        "usage": "Booking: if you choose to book a slot through the linked calendar, the provider of that calendar processes the details you enter there."
       }
     },
     "purpose": {
@@ -629,11 +590,11 @@
     },
     "sharing": {
       "title": "6. Who we share it with",
-      "description": "We do not sell personal information. We may share it with: (a) clients, solely for recruiting purposes and only with your consent; (b) service providers who support our operations under confidentiality agreements; (c) authorities where required by law. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe are made under Standard Contractual Clauses where applicable."
+      "description": "We do not sell your personal data. We share data with: (a) clients, strictly for recruitment purposes and only with your consent; (b) service providers that support our work, in particular the host of this website and the provider of the email mailbox; (c) authorities where legally required. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe rely on standard contractual clauses where applicable."
     },
     "retention": {
       "title": "7. How long we keep it",
-      "description": "We keep personal information only as long as necessary: (a) client and candidate data for the duration of the business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You can ask us to delete it earlier, subject to legal retention requirements."
+      "description": "We keep personal data only as long as needed: (a) client and candidate data for the duration of the business relationship plus applicable statutory retention periods; (b) communication records until the purpose falls away. You may ask for earlier deletion, subject to statutory retention obligations."
     },
     "security": {
       "title": "8. Security",
@@ -641,7 +602,7 @@
     },
     "cookies": {
       "title": "9. Cookies and analytics",
-      "description": "This site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site."
+      "description": "This site sets no analytics or advertising cookies and loads no analytics or advertising services, so no consent banner is required. Fonts are served together with the site rather than fetched from third-party servers. Individual technically necessary browser storage may occur in order to deliver the page; it is not used for audience measurement."
     },
     "changes": {
       "title": "10. Changes",
