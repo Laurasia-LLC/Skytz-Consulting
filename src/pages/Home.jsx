@@ -417,10 +417,12 @@ export default function Home() {
                 {t('stats.placements.label')}
               </span>
             </div>
-            <div className="text-6xl lg:text-7xl font-black mb-3 tracking-[-0.04em]">
-              {t('stats.placements.value')}
-            </div>
-            <p className="text-blueprint-100 font-medium text-lg leading-snug max-w-xs">
+            {t('stats.placements.value') ? (
+              <div className="text-6xl lg:text-7xl font-black mb-3 tracking-[-0.04em]">
+                {t('stats.placements.value')}
+              </div>
+            ) : null}
+            <p className={`text-blueprint-100 font-medium text-lg leading-snug max-w-xs ${t('stats.placements.value') ? '' : 'mt-1'}`}>
               {t('stats.placements.subtext')}
             </p>
 

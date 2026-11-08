@@ -34,6 +34,17 @@ const flatten = (obj, prefix = '') =>
     return v && typeof v === 'object' && !Array.isArray(v) ? flatten(v, key) : [[key, v]];
   });
 
+// 0. No un-audited headline statistics or default fee/guarantee copy on public locales.
+{
+  const bannedStats = /50\+|92\s*%|92\s*Prozent|90-day|90 day|85\s*% of agency|SHRM's 2026/;
+  const offenders = locales.flatMap(({ lang, data }) => {
+    const blob = JSON.stringify(data);
+    return bannedStats.test(blob) ? [`${lang}: locale contains banned headline-stat or default guarantee pattern`] : [];
+  });
+  if (offenders.length === 0) pass('no banned un-audited headline stats in locale JSON');
+  else fail('no banned un-audited headline stats in locale JSON', offenders.join(' | '));
+}
+
 console.log('\nSkytz trust and friction checks\n');
 
 // 1. Single booking identity, and it is the authorised schedule.

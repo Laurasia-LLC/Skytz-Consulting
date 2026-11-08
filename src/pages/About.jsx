@@ -151,7 +151,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* Methodology: the thing that makes the numbers defensible rather than decorative */}
+        {t('method.intro') ? (
         <section id="method" className="border-t border-slate-200 py-16 scroll-mt-24">
           <div className="mx-auto max-w-7xl px-6">
             <motion.div
@@ -167,33 +167,42 @@ export default function About() {
                   </div>
                   <h2 className="text-xl font-bold text-slate-900">{t('method.title')}</h2>
                 </div>
-                <p className="mb-6 text-slate-600 leading-relaxed">{t('method.intro')}</p>
+                <p className="text-slate-600 leading-relaxed">{t('method.intro')}</p>
 
-                <div className="divide-y divide-slate-100">
+                {(t('method.items', { returnObjects: true }) || []).length > 0 && (
+                <div className="mt-6 divide-y divide-slate-100">
                   {(t('method.items', { returnObjects: true }) || []).map((item, index) => (
                     <div key={index} className="py-5 first:pt-0">
                       <h3 className="font-semibold text-slate-900">{item.metric}</h3>
                       <p className="mt-2 text-sm text-slate-600 leading-relaxed">{item.definition}</p>
+                      {item.excludes ? (
                       <p className="mt-2 text-sm text-slate-500 leading-relaxed">
                         <span className="font-semibold text-slate-600">
                           {t('method.excludesLabel')}:
                         </span>{' '}
                         {item.excludes}
                       </p>
+                      ) : null}
                     </div>
                   ))}
                 </div>
+                )}
 
+                {t('method.window') ? (
                 <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
                   {t('method.window')}
                 </p>
+                ) : null}
+                {t('method.benchmarkNote') ? (
                 <p className="mt-3 text-sm text-slate-500 leading-relaxed">
                   {t('method.benchmarkNote')}
                 </p>
+                ) : null}
               </BentoCard>
             </motion.div>
           </div>
         </section>
+        ) : null}
 
         {/* How the two markets differ - the thing a US subsidiary has to explain upward */}
         <section className="border-t border-slate-200 bg-white py-16">

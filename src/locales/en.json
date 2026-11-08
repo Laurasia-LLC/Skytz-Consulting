@@ -63,7 +63,7 @@
   "hero": {
     "tagline": "Power · Test & measurement · Semiconductors · Industrial sales",
     "headline": "External search for industrial and technical sales roles in the United States.",
-    "subhead": "Skytz Consulting — Philipp Hoffschröer, founder. Electrical-engineering background; searches in power, T&M, and related technical sales markets since 2015.",
+    "subhead": "I run Skytz Consulting, helping employers fill industrial and technical sales roles in the United States.",
     "cta": {
       "primary": "Brief me on a search",
       "secondary": "Looking for a role?"
@@ -77,9 +77,9 @@
   },
   "stats": {
     "placements": {
-      "value": "50+",
-      "label": "Hires since 2015",
-      "subtext": "Sales engineers, technical sales leads, business unit heads, and site management."
+      "value": "",
+      "label": "Recruiting since 2015",
+      "subtext": "Industrial and technical sales roles and related leadership."
     },
     "letters": {
       "value": "4",
@@ -87,7 +87,7 @@
       "subtext": "On company letterhead, with names and dates. Read them yourself.",
       "linkLabel": "Read the letters"
     },
-    "repeat": "Every client I have worked with has hired through me more than once."
+    "repeat": "Reference letters on the site come from named clients; read the signed PDFs and quotes there."
   },
   "metrics": {
     "title": "US searches, measured",
@@ -160,32 +160,11 @@
     ]
   },
   "method": {
-    "title": "How I measure this",
-    "intro": "A number without a definition is marketing. Here is exactly what each figure counts, and what it leaves out.",
-    "items": [
-      {
-        "metric": "Days to shortlist",
-        "definition": "Business days from signed engagement to delivery of the first shortlist of three or more qualified candidates.",
-        "excludes": "Client-side delays longer than three business days, and searches rescoped after kickoff."
-      },
-      {
-        "metric": "Days to a signed offer",
-        "definition": "Calendar days from signed engagement to written offer acceptance. This is not the start date — in the US that normally follows two to four weeks later, after notice.",
-        "excludes": "Searches cancelled, frozen, or materially rescoped mid-process, and offers withdrawn by the client."
-      },
-      {
-        "metric": "12-month retention",
-        "definition": "Placed candidates still employed by the client, or promoted within it, twelve months after their first day, divided by the placements old enough to have reached twelve months.",
-        "excludes": "Layoffs, restructures, role eliminations and site closures — departures the candidate did not choose and I could not have predicted."
-      },
-      {
-        "metric": "Replacement guarantee",
-        "definition": "If a placement leaves or is terminated within 90 days of starting, I run the search again at no additional fee. The clock starts on the candidate's first day, and the guarantee is written into the engagement agreement before the search begins.",
-        "excludes": "Nothing is excluded by role elimination or a change of plan on your side — if you no longer need the role, you owe me nothing further."
-      }
-    ],
-    "window": "Figures cover placements since 2015 and are reviewed each quarter. If you want the underlying counts before you sign anything, ask me on the first call and I will send them.",
-    "benchmarkNote": "For context: SHRM's 2026 benchmark puts median US time-to-fill at 39 days across non-executive roles, and published benchmarks for industrial and manufacturing sales run 45 to 75 days. A specialist working one market with a live network should beat that, and this is by how much.",
+    "title": "Outcomes and timing",
+    "intro": "Timing depends on the role, market, and how quickly interviews and decisions move. If we agree to track specific outcomes, we define them in the written terms before the search starts. The site does not publish headline performance statistics.",
+    "items": [],
+    "window": "",
+    "benchmarkNote": "",
     "excludesLabel": "Not counted"
   },
   "markets": {
@@ -220,7 +199,7 @@
         "de": "Plan the start date backwards from the quarter. Pushing a German candidate to start sooner does not work."
       }
     ],
-    "note": "German federal statistics put the average time a reported vacancy stays open at around 95 days for roles requiring a degree and about 140 days for skilled trades. Neither number includes the notice period that follows."
+    "note": "These are typical market patterns — your timeline still depends on the role and how decisions are made on your side."
   },
   "industries": {
     "title": "The industries I work in",
@@ -269,11 +248,11 @@
     "items": [
       {
         "q": "How do you charge?",
-        "a": "A percentage of first-year total compensation, agreed in writing before I start. You get the number on the first call. That call is free and nothing follows from it automatically."
+        "a": "Commercial terms are agreed in writing before the search starts. We go through them in the first conversation; nothing is binding until you sign."
       },
       {
         "q": "What happens if the hire does not work out?",
-        "a": "A written 90-day replacement guarantee: if the person leaves or is let go within 90 days of their first day, I run the search again at no additional fee. Ninety days is the US standard — around 85% of agency guarantees fall in the 30-to-90-day band, and most are replacement-only rather than a refund. The clock starts on the candidate's first day, and it is in the engagement agreement before the search begins."
+        "a": "That is whatever we put in the written agreement for your search. Terms differ by market and role — ask in the first conversation and I will spell out what applies to your case."
       },
       {
         "q": "Do you work exclusively?",
@@ -301,7 +280,7 @@
       },
       {
         "q": "Are you a staffing agency?",
-        "a": "No. Staffing agencies place contractors and temporary workers at volume and bill hourly. I run individual permanent searches, one at a time, and I am paid once on a successful hire."
+        "a": "No. Staffing agencies place contractors and temporary workers at volume. I run individual permanent searches through direct approach."
       },
       {
         "q": "How do you judge whether a technical candidate is credible?",
@@ -391,7 +370,7 @@
         "role": "VP Global Sales CI, Managing Director Megger Germany GmbH",
         "quote": "He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.",
         "quoteNote": "",
-        "outcome": "10+ placements since 2016",
+        "outcome": "",
         "highlights": [
           "Sales, commercial, and leadership roles filled repeatedly",
           "Placements across Europe, including subsidiaries",
@@ -490,10 +469,10 @@
   "about": {
     "title": "About",
     "subtitle": "Philipp Hoffschröer, Founder",
-    "description": "I'm Philipp Hoffschröer, founder of Skytz Consulting. I run external searches for industrial and technical sales roles, with a grounded background in electrical engineering, power, test and measurement, and semiconductors. Recruiting has been my focus since 2015.",
+    "description": "I run Skytz Consulting, with a focus on helping employers fill industrial and technical sales roles in the United States. My background includes sales and leadership recruitment in technical markets — particularly electrical engineering, power, test and measurement, and semiconductors.",
     "body": {
-      "market": "Skytz Consulting is entering the United States market for employer-facing search work. I take on a specific role when you need an external search — sales engineers, application engineers, regional and national sales managers, and related technical sales leadership in industrial markets.",
-      "placed": "Signed reference letters on the references page are historical client work awarded to me personally — including repeated hires with Megger since 2016. They are not claims about US placements under the Skytz brand unless documented separately.",
+      "market": "I take on a specific search when you have a role to fill — sales engineers, application engineers, regional and national sales managers, and related technical sales leadership in industrial markets.",
+      "placed": "Signed reference letters and client quotes on the references page come from past clients, including Megger since 2016. Read the letters and attributed quotations there.",
       "reach": "I am based in Germany and work US mornings through midday Eastern. Email reaches me directly.",
       "numbers": ""
     },

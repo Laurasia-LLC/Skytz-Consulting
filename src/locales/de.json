@@ -77,9 +77,9 @@
   },
   "stats": {
     "placements": {
-      "value": "50+",
-      "label": "Besetzungen seit 2015",
-      "subtext": "Technischer Vertrieb, Vertriebsleitung, Geschäftsbereichsleitung und Bauleitung."
+      "value": "",
+      "label": "Personalberatung seit 2015",
+      "subtext": "Technischer Vertrieb und angrenzende Führungsrollen."
     },
     "letters": {
       "value": "4",
@@ -87,7 +87,7 @@
       "subtext": "Auf Firmenbogen, mit Namen und Datum. Lesen Sie sie selbst.",
       "linkLabel": "Referenzschreiben lesen"
     },
-    "repeat": "Jeder Auftraggeber, mit dem ich gearbeitet habe, hat mich mehr als einmal beauftragt."
+    "repeat": "Referenzschreiben und zitierte Aussagen stammen von benannten Auftraggebern — die unterschriebenen PDFs und Zitate stehen auf der Referenzseite."
   },
   "metrics": {
     "title": "Zahlen",
@@ -160,28 +160,12 @@
     ]
   },
   "method": {
-    "title": "Wie ich das messe",
-    "intro": "Eine Zahl ohne Definition ist Werbung. Hier steht, was ich zähle und was ich ausklammere.",
+    "title": "Ergebnisse und Zeitrahmen",
+    "intro": "Der Zeitrahmen hängt von Rolle, Markt und Entscheidungsgeschwindigkeit ab. Wenn wir bestimmte Ergebnisse messen, legen wir das schriftlich fest, bevor die Suche startet. Die Website veröffentlicht keine Kennzahlen-Statistik.",
     "excludesLabel": "Nicht gezählt",
-    "items": [
-      {
-        "metric": "Wochen bis zur Shortlist",
-        "definition": "Wochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In Deutschland und der Schweiz sind das in der Regel drei bis vier Wochen.",
-        "excludes": "Wartezeiten auf Kundenseite von mehr als einer Woche und Mandate, die nach dem Start neu zugeschnitten werden."
-      },
-      {
-        "metric": "Wochen bis zur Unterschrift",
-        "definition": "Wochen von der Beauftragung bis zur unterschriebenen Zusage, in der Regel acht bis sechzehn. Das ist nicht der Eintrittstermin — dazwischen liegt die Kündigungsfrist.",
-        "excludes": "Abgebrochene, ausgesetzte oder wesentlich veränderte Mandate."
-      },
-      {
-        "metric": "Verbleib nach zwölf Monaten",
-        "definition": "Vermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten. Aktuell 92 Prozent.",
-        "excludes": "Betriebsbedingte Kündigungen, Restrukturierungen, Stellenstreichungen und Standortschließungen."
-      }
-    ],
-    "window": "Die Zahlen umfassen Vermittlungen seit 2015 und werden quartalsweise überprüft. Wenn Sie die Fallzahlen dahinter sehen möchten, fragen Sie im ersten Gespräch.",
-    "benchmarkNote": "Zur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu."
+    "items": [],
+    "window": "",
+    "benchmarkNote": ""
   },
   "markets": {
     "title": "Eine Suche in Deutschland und eine in den USA laufen unterschiedlich",
@@ -264,7 +248,7 @@
     "items": [
       {
         "q": "Wie rechnen Sie ab?",
-        "a": "Ein Prozentsatz der Jahreszielvergütung, schriftlich vereinbart, bevor ich beginne. Die Zahl nenne ich Ihnen im ersten Gespräch. Das Gespräch ist kostenfrei und verpflichtet zu nichts."
+        "a": "Die Konditionen vereinbaren wir schriftlich, bevor die Suche beginnt. Im ersten Gespräch klären wir sie; verbindlich wird erst, was Sie unterschreiben."
       },
       {
         "q": "Was passiert, wenn die Besetzung nicht funktioniert?",
@@ -276,7 +260,7 @@
       },
       {
         "q": "Wie lange dauert eine Suche?",
-        "a": "Die Shortlist steht meist nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommt die Kündigungsfrist dazu, in der Regel drei Monate zum Quartalsende. Wenn Ihre Position davon abweicht, sage ich Ihnen das vorher."
+        "a": "Das hängt von Rolle, Markt und Entscheidungsgeschwindigkeit ab. Kündigungsfristen in Deutschland und der Schweiz verlängern oft den Eintritt. Im ersten Gespräch bekommen Sie eine ehrliche Einschätzung für Ihren Fall."
       },
       {
         "q": "Wo finden Sie Kandidaten, wenn nicht über Jobbörsen?",
@@ -284,7 +268,7 @@
       },
       {
         "q": "Sind Sie eine Zeitarbeitsfirma?",
-        "a": "Nein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen und werde einmal bezahlt, wenn die Besetzung zustande kommt."
+        "a": "Nein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen über Direktansprache."
       },
       {
         "q": "Wie prüfen Sie, ob ein technischer Kandidat wirklich etwas kann?",
@@ -382,7 +366,7 @@
         "role": "VP Global Sales CI, Geschäftsführer Megger Germany GmbH",
         "quote": "Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.",
         "quoteNote": "",
-        "outcome": "10+ Besetzungen seit 2016",
+        "outcome": "",
         "highlights": [
           "Mehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen",
           "Europaweite Besetzungen, teilweise in Tochtergesellschaften",
@@ -485,7 +469,7 @@
     "body": {
       "market": "Was diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.",
       "placed": "Besetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.",
-      "numbers": "Von den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.",
+      "numbers": "",
       "reach": "Ich sitze in Deutschland und arbeite bis in den US-Vormittag hinein. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
     },
     "operationsTitle": "Wie ich arbeite",

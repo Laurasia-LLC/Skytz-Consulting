@@ -15,12 +15,12 @@ export const pageSEOConfig = {
     en: {
       title: "Client References & Case Studies",
       description:
-        'Proven track record with reference clients since 2015. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.',
+        'Reference clients since 2015. Signed letters and named testimonials from managing directors and CEOs on the references page.',
     },
     de: {
       title: "Kundenreferenzen & Erfolgsgeschichten",
       description:
-        'Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2015. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.',
+        'Referenzkunden seit 2015. Unterschriebene Schreiben und benannte Testimonials von Geschäftsführern und CEOs auf der Referenzseite.',
     },
   },
   about: {
