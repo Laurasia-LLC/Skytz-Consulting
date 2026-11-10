@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, Linkedin, MapPin, Clock, ArrowRight, FileText, Calendar, HelpCircle } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
@@ -28,10 +27,6 @@ export default function Contact() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.contact[lang] || pageSEOConfig.contact.en;
-
-  useEffect(() => {
-    document.title = `${t('nav.contact')} | Skytz Consulting`;
-  }, [t]);
 
   return (
     <>
