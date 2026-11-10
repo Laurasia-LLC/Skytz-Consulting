@@ -105,6 +105,15 @@ export default function Industries() {
                           {labels.screen}
                         </p>
                         <p className="mt-2 text-slate-700 leading-relaxed">{sector.screen}</p>
+                        {sector.slug && (
+                          <Link
+                            to={getLocalizedPath(`industries/${sector.slug}`)}
+                            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700"
+                          >
+                            {t('industries.detailShared.more')}
+                            <ArrowRight className="h-4 w-4" />
+                          </Link>
+                        )}
                       </div>
                     </BentoCard>
                   </motion.div>

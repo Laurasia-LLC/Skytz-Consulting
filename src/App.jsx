@@ -5,6 +5,7 @@ import './i18n';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import CookieConsent from './components/CookieConsent';
 
 const Home = lazy(() => import('./pages/Home'));
 const Testimonials = lazy(() => import('./pages/Testimonials'));
@@ -15,6 +16,7 @@ const Terms = lazy(() => import('./pages/Terms'));
 const Imprint = lazy(() => import('./pages/Imprint'));
 const Vacancies = lazy(() => import('./pages/Vacancies'));
 const Industries = lazy(() => import('./pages/Industries'));
+const IndustryDetail = lazy(() => import('./pages/IndustryDetail'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 function LoadingFallback() {
@@ -99,6 +101,7 @@ export default function App() {
           <Route path="/:lang/testimonials" element={<LangGate><Layout><Testimonials /></Layout></LangGate>} />
           <Route path="/:lang/about" element={<LangGate><Layout><About /></Layout></LangGate>} />
           <Route path="/:lang/industries" element={<LangGate><Layout><Industries /></Layout></LangGate>} />
+          <Route path="/:lang/industries/:slug" element={<LangGate><Layout><IndustryDetail /></Layout></LangGate>} />
           <Route path="/:lang/meet-philipp" element={<LangGate><Layout><Contact /></Layout></LangGate>} />
           <Route path="/:lang/vacancies" element={<LangGate><VacanciesRoute /></LangGate>} />
           <Route path="/:lang/privacy" element={<LangGate><Layout><Privacy /></Layout></LangGate>} />
@@ -124,6 +127,7 @@ export default function App() {
               real 404, not a silent redirect to the homepage. */}
           <Route path="*" element={<Layout><NotFound /></Layout>} />
         </Routes>
+        <CookieConsent />
       </BrowserRouter>
     </Suspense>
   );

@@ -60,8 +60,11 @@ const ROUTES = [
   { key: 'testimonials', segment: 'testimonials' },
   { key: 'about', segment: 'about' },
   { key: 'industries', segment: 'industries' },
+  { key: 'industry-process-instrumentation', segment: 'industries/process-instrumentation', faq: (l) => l.industries.detail['process-instrumentation'].faq },
+  { key: 'industry-motion-control-drives', segment: 'industries/motion-control-drives', faq: (l) => l.industries.detail['motion-control-drives'].faq },
+  { key: 'industry-test-measurement', segment: 'industries/test-measurement', faq: (l) => l.industries.detail['test-measurement'].faq },
   { key: 'vacancies', segment: 'vacancies' },
-  { key: 'contact', segment: 'meet-philipp' },
+  { key: 'contact', segment: 'meet-philipp', faq: (l) => l.faq.items },
   { key: 'privacy', segment: 'privacy' },
   { key: 'terms', segment: 'terms' },
   { key: 'imprint', segment: 'imprint' },
@@ -93,9 +96,12 @@ async function main() {
   }
 
   const template = await readFile(path.join(DIST, 'index.html'), 'utf-8');
+  const locales = Object.fromEntries(
+    await Promise.all(LANGS.map(async (l) => [l, JSON.parse(await readFile(path.join(ROOT, 'src', 'locales', `${l}.json`), 'utf-8'))]))
+  );
 
   let written = 0;
-  for (const { key, segment } of ROUTES) {
+  for (const { key, segment, faq } of ROUTES) {
     const configByLang = pageSEOConfig[key];
     if (!configByLang) {
       console.warn(`prerender-seo: no pageSEOConfig entry for "${key}", skipping.`);
@@ -147,6 +153,26 @@ async function main() {
         `${hreflangBlock}\n`,
         'hreflang block'
       );
+
+      // FAQPage JSON-LD built from the same locale strings the page renders,
+      // so the markup always matches the visible Q&A. "<" is escaped so no
+      // answer text can close the script tag.
+      if (faq) {
+        const items = faq(locales[lang]) || [];
+        const faqLd = {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          inLanguage: lang,
+          url,
+          mainEntity: items.map(({ q, a }) => ({
+            '@type': 'Question',
+            name: q,
+            acceptedAnswer: { '@type': 'Answer', text: a },
+          })),
+        };
+        const json = JSON.stringify(faqLd).replace(/</g, '\\u003c');
+        html = replaceOrThrow(html, /<\/head>/, `    <script type="application/ld+json">${json}</script>\n  </head>`, '</head>');
+      }
 
       const outDir = path.join(DIST, lang, segment);
       await mkdir(outDir, { recursive: true });

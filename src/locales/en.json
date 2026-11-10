@@ -257,21 +257,24 @@
         "roles": "District and territory sales, OEM account management, channel management",
         "tech": "Gear motors, variable-frequency drives, motion control systems, power transmission; sizing from torque, speed, duty cycle and ambient conditions",
         "channel": "Direct OEM and stocking distributors at the same time, which need different handling",
-        "screen": "Can they size a gearbox from an application sheet and defend the math? Have they genuinely run direct and distribution in parallel, or only one of the two?"
+        "screen": "Can they size a gearbox from an application sheet and defend the math? Have they genuinely run direct and distribution in parallel, or only one of the two?",
+        "slug": "motion-control-drives"
       },
       {
         "name": "Process instrumentation and valve automation",
         "roles": "Account managers and sales engineers into refining, petrochemical and midstream",
         "tech": "Control valves, isolation valves, flow measurement, actuation and materials selection; how DCS, PLC and SCADA relate to the instrumentation",
         "channel": "Project and MRO in parallel, EPC bid packages, turnaround and outage support",
-        "screen": "Have they walked a unit during a turnaround? Do they know which EPC writes the spec and which one forwards the package?"
+        "screen": "Have they walked a unit during a turnaround? Do they know which EPC writes the spec and which one forwards the package?",
+        "slug": "process-instrumentation"
       },
       {
         "name": "Test and measurement",
         "roles": "Sales and commercial leadership, business unit management",
         "tech": "Electrical test equipment, cable fault location, pipeline leak detection, bulk and process measurement",
         "channel": "Direct and subsidiary sales organizations across Europe and the US",
-        "screen": "This is where my longest client relationships sit, including Megger since 2016. The reference letters on the references page come from this sector."
+        "screen": "This is where my longest client relationships sit, including Megger since 2016. The reference letters on the references page come from this sector.",
+        "slug": "test-measurement"
       }
     ],
     "note": "If your product line sits next to one of these rather than inside it, say so on the first call. I would rather tell you it is not my patch than learn it in week six.",
@@ -280,6 +283,102 @@
       "tech": "Products and technology",
       "channel": "Channel",
       "screen": "What I screen for"
+    },
+    "detailShared": {
+      "back": "All industries",
+      "more": "More on this sector",
+      "faqTitle": "Questions about this sector",
+      "searchTitle": "How a search runs",
+      "searchText": "I map the companies where the right background actually sits: your competitors, adjacent product categories and the distribution channel. Then I approach those people directly, mostly by phone and through LinkedIn Recruiter. For a US search you get a shortlist of three or more within five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks. The fee is a percentage of first-year total compensation, agreed in writing before the search starts, with a 90-day replacement guarantee."
+    },
+    "detail": {
+      "process-instrumentation": {
+        "sector": 2,
+        "title": "Recruiting sales engineers for process instrumentation and valve automation",
+        "intro": "I recruit account managers and sales engineers who sell control valves, isolation valves, flow measurement and actuation into refining, petrochemical and midstream. The people who do this job well mostly work for your competitors, your distributors or the EPCs that write your specs, and very few of them are looking.",
+        "sections": [
+          {
+            "h": "What the role actually involves",
+            "p": "Instrumentation sales runs on two clocks at once. Project business follows EPC bid packages and the spec cycle. MRO business follows the plant and peaks around turnarounds and outages. A good candidate knows which EPC writes the spec and which one only forwards the package, has walked a unit during a turnaround, and can explain how the DCS, PLC and SCADA layers relate to the instruments being quoted."
+          },
+          {
+            "h": "Why these searches go wrong",
+            "p": "The usual mistake is hiring for product knowledge alone. Someone who knows flow measurement inside out but has never managed an EPC relationship loses project business to a competitor who has. The reverse happens too: a strong relationship seller who cannot hold a materials-selection conversation with a process engineer. I test for both in conversation before you see anyone."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Does Skytz Consulting recruit for refining, petrochemical and midstream?",
+            "a": "Yes. Skytz Consulting recruits account managers and sales engineers for process instrumentation and valve automation manufacturers selling into refining, petrochemical and midstream, covering both project and MRO business."
+          },
+          {
+            "q": "Which process instrumentation roles does Skytz Consulting fill?",
+            "a": "Account managers and sales engineers who sell control valves, isolation valves, flow measurement and actuation, both directly to plants and through EPC bid packages."
+          },
+          {
+            "q": "How does Skytz Consulting check that an instrumentation sales candidate is credible?",
+            "a": "By asking the candidate to do the work in conversation: which EPC writes the spec on a given project, what happens commercially during a turnaround, and how the instruments tie into DCS, PLC and SCADA. People who have done the job answer immediately."
+          }
+        ]
+      },
+      "motion-control-drives": {
+        "sector": 1,
+        "title": "Recruiting sales engineers for motion control and drives",
+        "intro": "I recruit district and territory sales people, OEM account managers and channel managers for manufacturers of gear motors, variable-frequency drives, motion control systems and power transmission.",
+        "sections": [
+          {
+            "h": "What the role actually involves",
+            "p": "Drives are sold on the application. A credible sales engineer sizes a gearbox from torque, speed, duty cycle and ambient conditions, and can defend the math in front of the customer's design engineer. Most territories also serve direct OEM accounts and stocking distributors at the same time. The two need different handling: the OEM wants engineering support and a design-in, the distributor wants stock, margin and help moving product."
+          },
+          {
+            "h": "Why these searches go wrong",
+            "p": "Many candidates have run one channel and describe it as both. Before anyone reaches your shortlist, I check whether they have genuinely run direct and distribution in parallel, and whether they can size an application rather than look one up."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Which motion control and drives roles does Skytz Consulting fill?",
+            "a": "District and territory sales, OEM account management and channel management for manufacturers of gear motors, variable-frequency drives, motion control systems and power transmission."
+          },
+          {
+            "q": "Does Skytz Consulting recruit drives sales people who sell through distribution as well as direct?",
+            "a": "Yes. Most drives territories serve direct OEM accounts and stocking distributors at the same time, and Skytz Consulting screens specifically for candidates who have handled both channels in parallel."
+          },
+          {
+            "q": "How does Skytz Consulting test a drives sales candidate's technical depth?",
+            "a": "The candidate is given an application and asked to size the gearbox from torque, speed, duty cycle and ambient conditions, then explain the result. People who have done the job can defend the math."
+          }
+        ]
+      },
+      "test-measurement": {
+        "sector": 3,
+        "title": "Recruiting sales leaders for test and measurement equipment",
+        "intro": "I recruit sales people, commercial leaders and business unit managers for manufacturers of electrical test equipment, cable fault location, pipeline leak detection and bulk and process measurement. This is where my longest client relationships sit, including Megger since 2016.",
+        "sections": [
+          {
+            "h": "What the role actually involves",
+            "p": "Test and measurement customers are engineers, utilities and service companies who buy instruments they trust. Selling to them takes someone who talks about the measurement problem first and the product second. At leadership level, the role usually spans direct sales and subsidiary sales organizations across Europe and the US, so the candidate also has to lead people they rarely see in person."
+          },
+          {
+            "h": "Track record in this sector",
+            "p": "I have recruited for measurement, test and instrumentation manufacturers since 2015. The reference letters on the references page come from this sector, and reference calls with clients can be arranged."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Which test and measurement roles does Skytz Consulting fill?",
+            "a": "Sales, commercial leadership and business unit management for manufacturers of electrical test equipment, cable fault location, pipeline leak detection and bulk and process measurement."
+          },
+          {
+            "q": "Does Skytz Consulting have references in test and measurement?",
+            "a": "Yes. Its longest client relationships are in test and measurement, including Megger since 2016, and the reference letters published on the Skytz Consulting references page come from this sector."
+          },
+          {
+            "q": "Can Skytz Consulting recruit for subsidiaries in both Europe and the US?",
+            "a": "Yes. Skytz Consulting runs searches in Germany, Switzerland and the United States, for direct sales teams and for subsidiary sales organizations."
+          }
+        ]
+      }
     }
   },
   "faq": {
@@ -641,7 +740,7 @@
     },
     "cookies": {
       "title": "9. Cookies and analytics",
-      "description": "This site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site."
+      "description": "With your consent, this site uses Google Tag Manager and Google Analytics to measure traffic. These are only loaded after you click \"Accept\" in the cookie banner; if you decline, no request is sent to Google. Once loaded, they set cookies and process your IP address; IP anonymization is enabled. The legal basis is your consent (Art. 6(1)(a) GDPR, § 25(1) TDDDG). You can withdraw it at any time via \"Cookie settings\" in the footer. We do not run advertising cookies and we do not sell or share the data with advertisers. The site works the same whether you accept or decline."
     },
     "changes": {
       "title": "10. Changes",
@@ -709,5 +808,13 @@
     "title": "Page Not Found",
     "description": "The page you're looking for doesn't exist or may have moved.",
     "cta": "Back to homepage"
+  },
+  "consent": {
+    "label": "Cookie consent",
+    "text": "With your consent, this site uses Google Tag Manager and Google Analytics to measure traffic. Nothing is loaded until you accept, and the site works the same either way.",
+    "more": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie settings"
   }
 }

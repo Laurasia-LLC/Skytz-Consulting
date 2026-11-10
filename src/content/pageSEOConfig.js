@@ -95,6 +95,42 @@ export const pageSEOConfig = {
         "Die vier Industriefelder, in denen ich besetze \u2014 Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik, Mess- und Pr\u00fcftechnik \u2014 und worauf ich Kandidaten pr\u00fcfe.",
     },
   },
+  'industry-process-instrumentation': {
+    en: {
+      title: 'Process Instrumentation Sales Recruiter',
+      description:
+        'Recruiting sales engineers and account managers for control valves, flow measurement and actuation into refining, petrochemical and midstream. US and Germany.',
+    },
+    de: {
+      title: 'Personalberatung Prozessmesstechnik',
+      description:
+        'Personalberatung für Vertriebsingenieure und Key-Account-Manager in Prozessmesstechnik und Armaturenautomation: Raffinerie, Petrochemie, Midstream. Direktsuche seit 2015.',
+    },
+  },
+  'industry-motion-control-drives': {
+    en: {
+      title: 'Motion Control & Drives Sales Recruiter',
+      description:
+        'Recruiting territory sales, OEM account managers and channel managers for gear motors, VFDs, motion control and power transmission. Direct and distribution.',
+    },
+    de: {
+      title: 'Vertrieb Antriebs- und Bewegungstechnik',
+      description:
+        'Personalberatung für Gebietsverkauf, OEM-Betreuung und Handelsvertrieb bei Herstellern von Getriebemotoren, Frequenzumrichtern und Motion Control.',
+    },
+  },
+  'industry-test-measurement': {
+    en: {
+      title: 'Test & Measurement Sales Recruiter',
+      description:
+        'Recruiting sales and commercial leaders for electrical test equipment, cable fault location, leak detection and process measurement. Megger client since 2016.',
+    },
+    de: {
+      title: 'Personalberatung Messtechnik & Prüftechnik',
+      description:
+        'Personalberatung für Vertrieb und Führung in der Mess- und Prüftechnik: elektrische Prüftechnik, Kabelfehlerortung, Leckortung, Prozessmessung. Megger seit 2016.',
+    },
+  },
   vacancies: {
     en: {
       title: "Open Positions",

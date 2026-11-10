@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import useLanguage from '../../hooks/useLanguage';
+import { resetConsent } from '../../utils/consent';
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/philipp-hoffschroer/';
 
@@ -82,6 +83,13 @@ export default function Footer() {
               >
                 {t('footer.links.imprint')}
               </Link>
+              <button
+                type="button"
+                onClick={resetConsent}
+                className="block text-left text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                {t('consent.settings')}
+              </button>
             </div>
           </div>
         </div>

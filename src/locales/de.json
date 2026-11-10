@@ -233,21 +233,24 @@
         "roles": "Gebietsverkauf, OEM-Betreuung, Handelsvertriebssteuerung",
         "tech": "Getriebemotoren, Frequenzumrichter, Motion-Control-Systeme, Antriebstechnik; Auslegung nach Drehmoment, Drehzahl, Einschaltdauer und Umgebungsbedingungen",
         "channel": "Direkter OEM-Vertrieb und Lagerhändler gleichzeitig, mit unterschiedlicher Behandlung",
-        "screen": "Kann die Person ein Getriebe aus einem Anwendungsdatenblatt auslegen und die Rechnung begründen? Hat sie Direktvertrieb und Handel wirklich parallel geführt oder nur eines von beidem?"
+        "screen": "Kann die Person ein Getriebe aus einem Anwendungsdatenblatt auslegen und die Rechnung begründen? Hat sie Direktvertrieb und Handel wirklich parallel geführt oder nur eines von beidem?",
+        "slug": "motion-control-drives"
       },
       {
         "name": "Prozessmesstechnik und Armaturenautomation",
         "roles": "Key-Account-Management und Vertriebsingenieure für Raffinerie, Petrochemie und Midstream",
         "tech": "Regel- und Absperrarmaturen, Durchflussmessung, Antriebe und Werkstoffauswahl; das Zusammenspiel von DCS, SPS und SCADA mit der Messtechnik",
         "channel": "Projekt- und MRO-Geschäft parallel, EPC-Ausschreibungen, Turnaround- und Stillstandsbetreuung",
-        "screen": "War die Person während eines Turnarounds in der Anlage? Weiß sie, welcher EPC die Spezifikation schreibt und welcher das Paket nur weiterreicht?"
+        "screen": "War die Person während eines Turnarounds in der Anlage? Weiß sie, welcher EPC die Spezifikation schreibt und welcher das Paket nur weiterreicht?",
+        "slug": "process-instrumentation"
       },
       {
         "name": "Mess- und Prüftechnik",
         "roles": "Vertrieb und kaufmännische Führung, Geschäftsbereichsleitung",
         "tech": "Elektrische Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen, Schüttgut- und Prozessmessung",
         "channel": "Direktvertrieb und Tochtergesellschaften in Europa und den USA",
-        "screen": "Hier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich."
+        "screen": "Hier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich.",
+        "slug": "test-measurement"
       }
     ],
     "note": "Wenn Ihr Produktprogramm daneben statt mittendrin liegt, sagen Sie es im ersten Gespräch. Mir ist lieber, ich sage Ihnen, dass es nicht mein Feld ist, als dass ich es in Woche sechs merke.",
@@ -256,6 +259,102 @@
       "tech": "Produkte und Technik",
       "channel": "Vertriebsweg",
       "screen": "Worauf ich prüfe"
+    },
+    "detailShared": {
+      "back": "Alle Branchen",
+      "more": "Mehr zu diesem Bereich",
+      "faqTitle": "Fragen zu diesem Bereich",
+      "searchTitle": "So läuft eine Suche",
+      "searchText": "Ich kartiere die Unternehmen, in denen der passende Hintergrund tatsächlich sitzt: Ihre Wettbewerber, angrenzende Produktkategorien und den Handel. Diese Personen spreche ich direkt an, meist telefonisch und über LinkedIn Recruiter. Bei einer Suche in Deutschland oder der Schweiz erhalten Sie eine Shortlist in drei bis vier Wochen; wegen der Kündigungsfristen zum Quartalsende liegt der Eintritt meist drei bis sechs Monate entfernt. Bei einer US-Suche erhalten Sie drei oder mehr Kandidaten innerhalb von fünf Werktagen nach Auftragserteilung. Das Honorar ist ein Prozentsatz der Gesamtvergütung im ersten Jahr, vor Beginn schriftlich vereinbart, mit 90 Tagen Nachbesetzungsgarantie."
+    },
+    "detail": {
+      "process-instrumentation": {
+        "sector": 2,
+        "title": "Personalberatung für Vertriebsingenieure in der Prozessmesstechnik und Armaturenautomation",
+        "intro": "Ich besetze Key-Account-Manager und Vertriebsingenieure, die Regel- und Absperrarmaturen, Durchflussmessung und Antriebe an Raffinerien, Petrochemie und Midstream verkaufen. Wer diese Aufgabe gut macht, arbeitet meist bei Ihren Wettbewerbern, Ihren Händlern oder bei den EPCs, die Ihre Spezifikationen schreiben, und sucht nur selten aktiv.",
+        "sections": [
+          {
+            "h": "Was die Rolle tatsächlich verlangt",
+            "p": "Der Vertrieb von Prozessmesstechnik läuft nach zwei Takten gleichzeitig. Das Projektgeschäft folgt den EPC-Ausschreibungen und dem Spezifikationszyklus. Das MRO-Geschäft folgt der Anlage und hat seine Spitzen in Turnarounds und Stillständen. Wer für diese Rolle passt, weiß, welcher EPC die Spezifikation schreibt und welcher das Paket nur weiterreicht, war während eines Turnarounds in der Anlage und kann erklären, wie DCS, SPS und SCADA mit der angebotenen Messtechnik zusammenhängen."
+          },
+          {
+            "h": "Woran diese Suchen scheitern",
+            "p": "Der häufigste Fehler ist die Besetzung allein nach Produktwissen. Wer Durchflussmessung im Schlaf beherrscht, aber nie eine EPC-Beziehung geführt hat, verliert Projektgeschäft an einen Wettbewerber, der das kann. Umgekehrt gibt es den starken Beziehungsverkäufer, der kein Gespräch über Werkstoffauswahl mit einem Verfahrensingenieur führen kann. Ich prüfe beides im Gespräch, bevor Sie jemanden sehen."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Besetzt Skytz Consulting Positionen für Raffinerie, Petrochemie und Midstream?",
+            "a": "Ja. Skytz Consulting besetzt Key-Account-Manager und Vertriebsingenieure für Hersteller von Prozessmesstechnik und Armaturenautomation, die an Raffinerien, Petrochemie und Midstream verkaufen, im Projekt- wie im MRO-Geschäft."
+          },
+          {
+            "q": "Welche Positionen in der Prozessmesstechnik besetzt Skytz Consulting?",
+            "a": "Key-Account-Manager und Vertriebsingenieure für Regel- und Absperrarmaturen, Durchflussmessung und Antriebe, im Direktvertrieb an Anlagen und über EPC-Ausschreibungen."
+          },
+          {
+            "q": "Wie prüft Skytz Consulting, ob ein Kandidat im Messtechnik-Vertrieb glaubwürdig ist?",
+            "a": "Der Kandidat soll die Arbeit im Gespräch erledigen: welcher EPC bei einem Projekt die Spezifikation schreibt, was kaufmännisch während eines Turnarounds passiert und wie die Messtechnik an DCS, SPS und SCADA angebunden ist. Wer die Aufgabe gemacht hat, antwortet sofort."
+          }
+        ]
+      },
+      "motion-control-drives": {
+        "sector": 1,
+        "title": "Personalberatung für den Vertrieb in der Antriebs- und Bewegungstechnik",
+        "intro": "Ich besetze Gebietsverkäufer, OEM-Betreuer und Verantwortliche für den Handelsvertrieb bei Herstellern von Getriebemotoren, Frequenzumrichtern, Motion-Control-Systemen und Antriebstechnik.",
+        "sections": [
+          {
+            "h": "Was die Rolle tatsächlich verlangt",
+            "p": "Antriebe werden über die Anwendung verkauft. Ein glaubwürdiger Vertriebsingenieur legt ein Getriebe nach Drehmoment, Drehzahl, Einschaltdauer und Umgebungsbedingungen aus und kann die Rechnung vor dem Konstrukteur des Kunden vertreten. Die meisten Gebiete betreuen direkte OEM-Kunden und Lagerhändler gleichzeitig. Beide brauchen eine andere Behandlung: Der OEM will technische Unterstützung und ein Design-in, der Händler will Bestand, Marge und Hilfe beim Abverkauf."
+          },
+          {
+            "h": "Woran diese Suchen scheitern",
+            "p": "Viele Kandidaten haben einen Vertriebsweg geführt und beschreiben ihn als beide. Bevor jemand auf Ihre Shortlist kommt, prüfe ich, ob die Person Direktvertrieb und Handel wirklich parallel geführt hat und ob sie eine Anwendung auslegen kann, statt sie nachzuschlagen."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Welche Positionen in der Antriebstechnik besetzt Skytz Consulting?",
+            "a": "Gebietsverkauf, OEM-Betreuung und Handelsvertriebssteuerung für Hersteller von Getriebemotoren, Frequenzumrichtern, Motion-Control-Systemen und Antriebstechnik."
+          },
+          {
+            "q": "Besetzt Skytz Consulting Vertriebsrollen in der Antriebstechnik, die direkt und über den Handel verkaufen?",
+            "a": "Ja. Die meisten Gebiete in der Antriebstechnik betreuen direkte OEM-Kunden und Lagerhändler gleichzeitig, und Skytz Consulting prüft gezielt, ob Kandidaten beide Vertriebswege parallel geführt haben."
+          },
+          {
+            "q": "Wie prüft Skytz Consulting die technische Tiefe eines Kandidaten in der Antriebstechnik?",
+            "a": "Der Kandidat erhält eine Anwendung und soll das Getriebe nach Drehmoment, Drehzahl, Einschaltdauer und Umgebungsbedingungen auslegen und das Ergebnis begründen. Wer die Aufgabe gemacht hat, kann die Rechnung vertreten."
+          }
+        ]
+      },
+      "test-measurement": {
+        "sector": 3,
+        "title": "Personalberatung für Vertrieb und Führung in der Mess- und Prüftechnik",
+        "intro": "Ich besetze Vertrieb, kaufmännische Führung und Geschäftsbereichsleitung bei Herstellern von elektrischer Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen sowie Schüttgut- und Prozessmessung. Hier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016.",
+        "sections": [
+          {
+            "h": "Was die Rolle tatsächlich verlangt",
+            "p": "Kunden der Mess- und Prüftechnik sind Ingenieure, Energieversorger und Dienstleister, die Geräte kaufen, denen sie vertrauen. Wer an sie verkauft, spricht zuerst über das Messproblem und dann über das Produkt. Auf Führungsebene umfasst die Rolle meist Direktvertrieb und Tochtergesellschaften in Europa und den USA, also auch die Führung von Menschen, die man selten persönlich sieht."
+          },
+          {
+            "h": "Erfahrung in diesem Bereich",
+            "p": "Ich besetze seit 2015 Positionen für Hersteller von Mess-, Prüf- und Instrumentierungstechnik. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich, und Referenzgespräche mit Kunden lassen sich vereinbaren."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Welche Positionen in der Mess- und Prüftechnik besetzt Skytz Consulting?",
+            "a": "Vertrieb, kaufmännische Führung und Geschäftsbereichsleitung für Hersteller von elektrischer Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen sowie Schüttgut- und Prozessmessung."
+          },
+          {
+            "q": "Hat Skytz Consulting Referenzen in der Messtechnik?",
+            "a": "Ja. Die längsten Kundenbeziehungen von Skytz Consulting liegen in der Mess- und Prüftechnik, darunter Megger seit 2016, und die auf der Referenzseite veröffentlichten Referenzschreiben stammen aus diesem Bereich."
+          },
+          {
+            "q": "Kann Skytz Consulting für Tochtergesellschaften in Europa und den USA besetzen?",
+            "a": "Ja. Skytz Consulting führt Suchen in Deutschland, der Schweiz und den USA durch, für Direktvertriebsteams ebenso wie für Vertriebstochtergesellschaften."
+          }
+        ]
+      }
     }
   },
   "faq": {
@@ -613,7 +712,7 @@
     },
     "cookies": {
       "title": "9. Cookies und Analyse",
-      "description": "Diese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen."
+      "description": "Mit Ihrer Einwilligung nutzt diese Website Google Tag Manager und Google Analytics zur Reichweitenmessung. Beide werden erst geladen, nachdem Sie im Cookie-Banner auf „Akzeptieren“ geklickt haben; lehnen Sie ab, wird keine Anfrage an Google gesendet. Nach dem Laden setzen sie Cookies und verarbeiten Ihre IP-Adresse; die IP-Anonymisierung ist aktiviert. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Sie können sie jederzeit über „Cookie-Einstellungen“ im Footer widerrufen. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Die Website funktioniert unabhängig von Ihrer Entscheidung gleich."
     },
     "changes": {
       "title": "10. Änderungen dieser Erklärung",
@@ -681,5 +780,13 @@
     "title": "Seite nicht gefunden",
     "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
     "cta": "Zurück zur Startseite"
+  },
+  "consent": {
+    "label": "Cookie-Einwilligung",
+    "text": "Mit Ihrer Einwilligung nutzt diese Website Google Tag Manager und Google Analytics zur Reichweitenmessung. Vor Ihrer Zustimmung wird nichts geladen, und die Website funktioniert in beiden Fällen gleich.",
+    "more": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
   }
 }

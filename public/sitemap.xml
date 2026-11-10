@@ -24,7 +24,7 @@
 
   <url>
     <loc>https://skytz-consulting.com/en/industries</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries"/>
@@ -34,12 +34,72 @@
 
   <url>
     <loc>https://skytz-consulting.com/de/industries</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/en/industries/process-instrumentation</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/process-instrumentation"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/process-instrumentation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/process-instrumentation"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/de/industries/process-instrumentation</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/process-instrumentation"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/process-instrumentation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/process-instrumentation"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/en/industries/motion-control-drives</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/motion-control-drives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/motion-control-drives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/motion-control-drives"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/de/industries/motion-control-drives</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/motion-control-drives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/motion-control-drives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/motion-control-drives"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/en/industries/test-measurement</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/test-measurement"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/test-measurement"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/test-measurement"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/de/industries/test-measurement</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/industries/test-measurement"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/industries/test-measurement"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/industries/test-measurement"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
@@ -124,7 +184,7 @@
 
   <url>
     <loc>https://skytz-consulting.com/en/privacy</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/privacy"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/privacy"/>
@@ -134,7 +194,7 @@
 
   <url>
     <loc>https://skytz-consulting.com/de/privacy</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/privacy"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/privacy"/>

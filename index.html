@@ -1,13 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PL3F42RM');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <!-- Favicon – SVG (all modern browsers) with PNG fallbacks -->
     <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
@@ -47,18 +40,22 @@
     <link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de" />
     <link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en" />
     
-    <!-- Structured Data: Organization -->
+    <!-- Structured Data: one organization node (EmploymentAgency is an Organization subtype) plus the service it provides -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "EmploymentAgency",
+      "@id": "https://skytz-consulting.com/#organization",
       "name": "Skytz Consulting",
       "legalName": "Laurasia LLC",
       "url": "https://skytz-consulting.com",
       "logo": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
-      "description": "Technical sales recruiting for measurement and test equipment manufacturers. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States.",
+      "image": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+      "description": "Technical sales recruiting for industrial manufacturers: industrial automation and sensors, motion control and drives, process instrumentation, and test and measurement equipment. Germany and the United States, since 2015.",
       "foundingDate": "2015",
-      "sameAs": ["https://www.linkedin.com/in/philipp-hoffschroer/"],
+      "sameAs": [
+        "https://www.linkedin.com/in/philipp-hoffschroer/"
+      ],
       "founder": {
         "@type": "Person",
         "name": "Philipp Hoffschröer",
@@ -74,13 +71,30 @@
         "postalCode": "82801",
         "addressCountry": "US"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.7972,
+        "longitude": -106.9564
+      },
       "email": "info@skytz-consulting.com",
       "telephone": "+1-307-429-0181",
       "areaServed": [
-        {"@type": "Country", "name": "United States"},
-        {"@type": "Country", "name": "Germany"},
-        {"@type": "Country", "name": "Switzerland"},
-        {"@type": "Country", "name": "Austria"}
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        }
       ],
       "knowsAbout": [
         "Sales Engineer Recruitment",
@@ -89,61 +103,49 @@
         "Process Instrumentation and Valve Automation",
         "Test and Measurement Equipment",
         "Technical Sales Recruiting"
-      ]
-    }
-    </script>
-    
-    <!-- Structured Data: Employment Agency -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "EmploymentAgency",
-      "name": "Skytz Consulting",
-      "image": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
-      "url": "https://skytz-consulting.com",
-      "priceRange": "$$$$",
-      "telephone": "+1-307-429-0181",
-      "description": "Technical sales recruiting for industrial manufacturers: industrial automation and sensors, motion control and drives, process instrumentation, and test and measurement equipment. Working since 2015.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "1309 Coffeen Avenue STE 1200",
-        "addressLocality": "Sheridan",
-        "addressRegion": "WY",
-        "postalCode": "82801",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 44.7972,
-        "longitude": -106.9564
-      },
-      "serviceArea": [
-        {"@type": "Country", "name": "United States"},
-        {"@type": "Country", "name": "Germany"},
-        {"@type": "Country", "name": "Switzerland"}
       ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
         "opens": "09:00",
         "closes": "18:00"
       }
     }
     </script>
-    
-    <!-- Structured Data: Service -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
       "serviceType": "Executive Recruitment",
       "provider": {
-        "@type": "Organization",
-        "name": "Skytz Consulting"
+        "@id": "https://skytz-consulting.com/#organization"
       },
       "name": "Sales Engineer Search",
       "description": "Recruiting sales engineers, application engineers, and sales leadership for industrial manufacturers in the United States and Germany.",
-      "areaServed": ["United States", "Germany", "Switzerland", "Austria"],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Recruiting Services",
@@ -161,6 +163,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Sales Engineer Search — Motion Control and Drives",
+              "url": "https://skytz-consulting.com/en/industries/motion-control-drives",
               "description": "Technical sales for gear motors, variable-frequency drives, and power transmission, direct and through distribution"
             }
           },
@@ -169,14 +172,24 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Sales Engineer Search — Process Instrumentation",
+              "url": "https://skytz-consulting.com/en/industries/process-instrumentation",
               "description": "Technical sales for control valves, flow measurement, and instrumentation in refining, petrochemical, and midstream"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sales Leadership Search — Test and Measurement",
+              "url": "https://skytz-consulting.com/en/industries/test-measurement",
+              "description": "Sales and commercial leadership for electrical test equipment, cable fault location, leak detection, and process measurement"
             }
           }
         ]
       }
     }
     </script>
-    
+
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -186,10 +199,6 @@
     <meta name="msapplication-TileColor" content="#1e40af" />
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL3F42RM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
