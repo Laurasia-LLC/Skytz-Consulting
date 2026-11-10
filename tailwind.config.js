@@ -12,7 +12,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'Public Sans', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['Inter Variable', 'Inter', 'Public Sans', 'system-ui', '-apple-system', 'sans-serif'],
       },
       letterSpacing: {
         tighter: '-0.025em',
