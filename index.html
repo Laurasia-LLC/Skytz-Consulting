@@ -47,18 +47,22 @@
     <link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de" />
     <link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en" />
     
-    <!-- Structured Data: Organization -->
+    <!-- Structured Data: one organization node (EmploymentAgency is an Organization subtype) plus the service it provides -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "EmploymentAgency",
+      "@id": "https://skytz-consulting.com/#organization",
       "name": "Skytz Consulting",
       "legalName": "Laurasia LLC",
       "url": "https://skytz-consulting.com",
       "logo": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
-      "description": "Technical sales recruiting for measurement and test equipment manufacturers. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States.",
+      "image": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+      "description": "Technical sales recruiting for industrial manufacturers: industrial automation and sensors, motion control and drives, process instrumentation, and test and measurement equipment. Germany and the United States, since 2015.",
       "foundingDate": "2015",
-      "sameAs": ["https://www.linkedin.com/in/philipp-hoffschroer/"],
+      "sameAs": [
+        "https://www.linkedin.com/in/philipp-hoffschroer/"
+      ],
       "founder": {
         "@type": "Person",
         "name": "Philipp Hoffschröer",
@@ -77,10 +81,22 @@
       "email": "info@skytz-consulting.com",
       "telephone": "+1-307-429-0181",
       "areaServed": [
-        {"@type": "Country", "name": "United States"},
-        {"@type": "Country", "name": "Germany"},
-        {"@type": "Country", "name": "Switzerland"},
-        {"@type": "Country", "name": "Austria"}
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        }
       ],
       "knowsAbout": [
         "Sales Engineer Recruitment",
@@ -92,58 +108,34 @@
       ]
     }
     </script>
-    
-    <!-- Structured Data: Employment Agency -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "EmploymentAgency",
-      "name": "Skytz Consulting",
-      "image": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
-      "url": "https://skytz-consulting.com",
-      "priceRange": "$$$$",
-      "telephone": "+1-307-429-0181",
-      "description": "Technical sales recruiting for industrial manufacturers: industrial automation and sensors, motion control and drives, process instrumentation, and test and measurement equipment. Working since 2015.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "1309 Coffeen Avenue STE 1200",
-        "addressLocality": "Sheridan",
-        "addressRegion": "WY",
-        "postalCode": "82801",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 44.7972,
-        "longitude": -106.9564
-      },
-      "serviceArea": [
-        {"@type": "Country", "name": "United States"},
-        {"@type": "Country", "name": "Germany"},
-        {"@type": "Country", "name": "Switzerland"}
-      ],
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      }
-    }
-    </script>
-    
-    <!-- Structured Data: Service -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
       "serviceType": "Executive Recruitment",
       "provider": {
-        "@type": "Organization",
-        "name": "Skytz Consulting"
+        "@id": "https://skytz-consulting.com/#organization"
       },
       "name": "Sales Engineer Search",
       "description": "Recruiting sales engineers, application engineers, and sales leadership for industrial manufacturers in the United States and Germany.",
-      "areaServed": ["United States", "Germany", "Switzerland", "Austria"],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Recruiting Services",
