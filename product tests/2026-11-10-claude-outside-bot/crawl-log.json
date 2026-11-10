@@ -1,0 +1,2431 @@
+{
+  "crawledAt": "2026-11-10T04:35:12.982Z",
+  "site": "https://skytz-consulting.com",
+  "sitemapUrls": [
+    "https://skytz-consulting.com/en",
+    "https://skytz-consulting.com/de",
+    "https://skytz-consulting.com/en/industries",
+    "https://skytz-consulting.com/de/industries",
+    "https://skytz-consulting.com/en/testimonials",
+    "https://skytz-consulting.com/de/testimonials",
+    "https://skytz-consulting.com/en/vacancies",
+    "https://skytz-consulting.com/de/vacancies",
+    "https://skytz-consulting.com/en/about",
+    "https://skytz-consulting.com/de/about",
+    "https://skytz-consulting.com/en/meet-philipp",
+    "https://skytz-consulting.com/de/meet-philipp",
+    "https://skytz-consulting.com/en/privacy",
+    "https://skytz-consulting.com/de/privacy",
+    "https://skytz-consulting.com/en/terms",
+    "https://skytz-consulting.com/de/terms"
+  ],
+  "siteFiles": {
+    "/robots.txt": {
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "body": "# Robots.txt for Skytz Consulting\n# https://skytz-consulting.com\n\nUser-agent: *\nAllow: /\n\n# Sitemap location\nSitemap: https://skytz-consulting.com/sitemap.xml\n\n# Disallow admin or private paths (none currently)\n# Disallow: /admin/\n\n# Crawl-delay for polite crawling\nCrawl-delay: 1\n",
+      "isSpaShell": false
+    },
+    "/llms.txt": {
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "body": null,
+      "isSpaShell": true
+    },
+    "/llms-full.txt": {
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "body": null,
+      "isSpaShell": true
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "contentType": "application/xml",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n        xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n\n  <url>\n    <loc>https://skytz-consulting.com/en</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en\"/>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en\"/>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/industries</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/industries\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/industries\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/industries\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/industries</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/industries\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/industries\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/industries\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/testimonials</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/testimonials\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/testimonials\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/testimonials\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/testimonials</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/testimonials\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/testimonials\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/testimonials\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/vacancies</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/vacancies\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/vacancies\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/vacancies\"/>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/vacancies</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/vacancies\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/vacancies\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/vacancies\"/>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/about</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/about\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/about\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/about\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/about</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/about\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/about\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/about\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/meet-philipp</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/meet-philipp\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/meet-philipp\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/meet-philipp\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/meet-philipp</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/meet-philipp\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/meet-philipp\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/meet-philipp\"/>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/privacy</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/privacy\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/privacy\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/privacy\"/>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/privacy</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/privacy\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/privacy\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/privacy\"/>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/en/terms</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/terms\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/terms\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/terms\"/>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n\n  <url>\n    <loc>https://skytz-consulting.com/de/terms</loc>\n    <lastmod>2026-10-23</lastmod>\n    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://skytz-consulting.com/en/terms\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://skytz-consulting.com/de/terms\"/>\n    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://skytz-consulting.com/en/terms\"/>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n\n</urlset>\n",
+      "isSpaShell": false
+    },
+    "/.well-known/security.txt": {
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "body": null,
+      "isSpaShell": true
+    }
+  },
+  "redirects": [
+    {
+      "url": "http://skytz-consulting.com/",
+      "status": 308,
+      "location": "https://skytz-consulting.com/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.skytz-consulting.com/",
+      "status": 308,
+      "location": "https://skytz-consulting.com/",
+      "xRobots": null
+    },
+    {
+      "url": "https://skytz-consulting.com/",
+      "status": 200,
+      "location": null,
+      "xRobots": null
+    },
+    {
+      "url": "https://skytz-consulting.com/about",
+      "status": 200,
+      "location": null,
+      "xRobots": null
+    },
+    {
+      "url": "https://skytz-consulting.com/en/",
+      "status": 308,
+      "location": "/en",
+      "xRobots": null
+    },
+    {
+      "url": "https://skytz-consulting.com/this-page-does-not-exist",
+      "status": 404,
+      "location": null,
+      "xRobots": null
+    },
+    {
+      "url": "https://skytz-consulting.com/en/nonexistent-page",
+      "status": 404,
+      "location": null,
+      "xRobots": null
+    },
+    {
+      "url": "https://vacancies.skytz-consulting.com/",
+      "status": 200,
+      "location": null,
+      "xRobots": "noindex, nofollow"
+    }
+  ],
+  "aiUA": {
+    "GPTBot": {
+      "status": 200,
+      "bytes": 9445
+    },
+    "PerplexityBot": {
+      "status": 200,
+      "bytes": 9445
+    },
+    "ClaudeBot": {
+      "status": 200,
+      "bytes": 9445
+    }
+  },
+  "notFound": {
+    "status": 404,
+    "title": "Page Not Found | Skytz Consulting",
+    "robots": "noindex, nofollow",
+    "shot": "en_this-page-does-not-exist-desktop.jpg"
+  },
+  "assets": [
+    {
+      "url": "https://skytz-consulting.com/recommendation/Megger-Reference-Friedrich-Enkert.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/recommendation/Eurasia-Reference-Mustafa-Sahin.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/recommendation/SWR-Reference-Dirk-Heesen.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/recommendation/Otopront-Reference-Carlo-Happersberger-DE.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/GF-Assistenz.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/Bauueberwachung.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/Technischer-Zeichner.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/BIM-Manager-Coordinator.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "url": "https://skytz-consulting.com/Experte-Sifa.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    }
+  ],
+  "externalLinks": [
+    "https://www.linkedin.com/in/philipp-hoffschroer/",
+    "https://calendly.com/philipp-ho/meet"
+  ],
+  "pages": [
+    {
+      "url": "https://skytz-consulting.com/en",
+      "finalUrl": "https://skytz-consulting.com/en",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Sales Engineer Recruiter, Direct Search | Skytz Consulting",
+        "lang": "en",
+        "description": "Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en",
+        "ogTitle": "Sales Engineer Recruiter, Direct Search | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en",
+          "de=https://skytz-consulting.com/de",
+          "x-default=https://skytz-consulting.com/en"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: I recruit sales engineers for German manufacturers' U.S. operations.",
+          "H2: US SEARCHES, MEASURED",
+          "H2: SEARCHES RUNNING NOW",
+          "H2: HOW A SEARCH RUNS",
+          "H3: Intake call, 45 minutes",
+          "H3: Market map",
+          "H3: Direct approach",
+          "H3: Shortlist",
+          "H2: WHAT YOU GET ON EVERY CANDIDATE",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/brand/Philipp-Hoffschroer.jpg",
+            "alt": "Philipp Hoffschröer – Founder, Skytz Consulting",
+            "w": 800,
+            "h": 800,
+            "loading": "lazy"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Megger_logo_without_slogan.svg",
+            "alt": "Megger Group",
+            "w": 612,
+            "h": 127,
+            "loading": "auto"
+          }
+        ],
+        "wordCount": 581,
+        "text": "Philipp Hoffschröer\n\nSKYTZ CONSULTING\n\nINDUSTRIAL AUTOMATION · INSTRUMENTATION · TEST AND MEASUREMENT\nI recruit sales engineers for German manufacturers' U.S. operations.\n\nTechnical sales recruiting for measurement and test equipment manufacturers since 2015. Three searches running right now in industrial automation and sensors, motion control and drives, and process instrumentation. Most of the people I place were not looking for a job when I called them.\n\ninfo@skytz-consulting.com\n+1 307 429 0181\nLinkedIn\nCLIENT SINCE 2016\n\n\"He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.\"\n\nFriedrich Enkert\nVP Global Sales CI, Managing Director Megger Germany GmbH\nUS SEARCHES, MEASURED\n5\nbusiness days to shortlist\nFrom signed engagement to three or more qualified candidates in your inbox.\n~20\ndays to a signed offer\nCalendar days from engagement to written acceptance. The start date follows two to four weeks later.\n92%\nstill there at 12 months\nPlaced candidates still employed by the client, or promoted inside it, a year after starting.\n90\nday replacement guarantee\nIf it does not work out inside 90 days, I run the search again at no fee.\n\nThese are US figures. German and Swiss searches run on a different clock — see how the two markets differ.\n\nHow I measure this →\nSEARCHES RUNNING NOW\nSales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast\nSales Engineer — motion control and drives — Midwest and Southeast districts\nSales Engineer — process instrumentation and valve automation — Texas Gulf Coast\n\nThese are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it.\n\nHIRES SINCE 2015\n50+\n\nSales engineers, technical sales leads, business unit heads, and site management.\n\n4\nsigned reference letters\n\nOn company letterhead, with names and dates. Read them yourself.\n\nRead the letters\n\nEvery client I have worked with has hired through me more than once.\n\nHOW A SEARCH RUNS\n1\nIntake call, 45 minutes\n\nThe role, the territory, the compensation band, and what a good first year looks like. If I think the role cannot be filled as written, you hear it here rather than in month three.\n\n2\nMarket map\n\nThe list of companies where the right background actually sits: your competitors, adjacent product categories, the distributors. You see that list before I start calling.\n\n3\nDirect approach\n\nI make the calls myself. No advertising, no database dump. You get an anonymized summary of each person first, and no candidate's name reaches you before they have agreed to it.\n\n4\nShortlist\n\nThree to five people you can actually hire, each with the problems written down alongside the strengths.\n\nUS searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.\n\nWHAT YOU GET ON EVERY CANDIDATE\nA written summary you can forward to your parent company without rewriting it\nCompensation expectations in writing, before you spend an hour interviewing\nWhat is wrong with them, not only what is right\nWhy they would move, and what would make them stay where they are\nNotice period and a realistic start date",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9445,
+        "title": "Sales Engineer Recruiter, Direct Search | Skytz Consulting",
+        "description": "Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.",
+        "canonical": "https://skytz-consulting.com/en",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en",
+          "de=https://skytz-consulting.com/de",
+          "x-default=https://skytz-consulting.com/en"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 192,
+          "domContentLoaded": 377,
+          "load": 752,
+          "fcp": 404,
+          "lcp": 752,
+          "cls": 0.0001,
+          "wallMs": 1323,
+          "requests": 18,
+          "transferKB": 677
+        },
+        "mobile": {
+          "ttfb": 61,
+          "domContentLoaded": 246,
+          "load": 491,
+          "fcp": 272,
+          "lcp": 684,
+          "cls": 0,
+          "wallMs": 1149,
+          "requests": 18,
+          "transferKB": 677
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en-desktop.jpg",
+        "mobile": "en-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de",
+      "finalUrl": "https://skytz-consulting.com/de",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Personalberatung Vertriebsingenieure | Skytz Consulting",
+        "lang": "de",
+        "description": "Spezialisierter Personalberater für Sales Engineers und technische Führungskräfte. Direktsuche – die meisten Besetzungen aus passiven Kandidaten. Deutschland, Schweiz, USA. Seit 2015.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de",
+        "ogTitle": "Personalberatung Vertriebsingenieure | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en",
+          "de=https://skytz-consulting.com/de",
+          "x-default=https://skytz-consulting.com/en"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Positionen im technischen Vertrieb und im Engineering.",
+          "H2: AKTUELLE MANDATE",
+          "H2: SO LÄUFT EINE SUCHE AB",
+          "H3: Erstgespräch, 45 Minuten",
+          "H3: Zielfirmenliste",
+          "H3: Direktansprache",
+          "H3: Shortlist",
+          "H2: WAS SIE ZU JEDEM KANDIDATEN ERHALTEN",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/brand/Philipp-Hoffschroer.jpg",
+            "alt": "Philipp Hoffschröer – Founder, Skytz Consulting",
+            "w": 800,
+            "h": 800,
+            "loading": "lazy"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Megger_logo_without_slogan.svg",
+            "alt": "Megger Group",
+            "w": 612,
+            "h": 127,
+            "loading": "auto"
+          }
+        ],
+        "wordCount": 446,
+        "text": "Philipp Hoffschröer\n\nSKYTZ CONSULTING\n\nPERSONALBERATUNG · DEUTSCHLAND · SCHWEIZ\nPositionen im technischen Vertrieb und im Engineering.\n\nMein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Ich arbeite allein: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir persönlich. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.\n\ninfo@skytz-consulting.com\n+1 307 429 0181\nLinkedIn\nKUNDE SEIT 2016\n\n\"Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.\"\n\nFriedrich Enkert\nVP Global Sales CI, Geschäftsführer Megger Germany GmbH\nAKTUELLE MANDATE\nProjektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg\nBauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main\nTechnischer Zeichner (CAD) — Baubranche — Deutschland\nAssistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main\nParallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik\n\nDas sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe.\n\nBESETZUNGEN SEIT 2015\n50+\n\nTechnischer Vertrieb, Vertriebsleitung, Geschäftsbereichsleitung und Bauleitung.\n\n4\nunterschriebene Referenzschreiben\n\nAuf Firmenbogen, mit Namen und Datum. Lesen Sie sie selbst.\n\nReferenzschreiben lesen\n\nJeder Auftraggeber, mit dem ich gearbeitet habe, hat mich mehr als einmal beauftragt.\n\nSO LÄUFT EINE SUCHE AB\n1\nErstgespräch, 45 Minuten\n\nDie Position, das Vertriebsgebiet, der Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Wenn ich die Position so nicht für besetzbar halte, sage ich Ihnen das im ersten Gespräch und nicht im dritten Monat.\n\n2\nZielfirmenliste\n\nDie Unternehmen, in denen der passende Hintergrund tatsächlich sitzt: Ihre Wettbewerber, angrenzende Produktfelder, der Handel. Sie sehen die Liste, bevor ich mit der Ansprache beginne.\n\n3\nDirektansprache\n\nIch spreche die Kandidaten selbst an. Keine Anzeigen, kein Datenbankabzug. Zu jeder Person erhalten Sie zuerst ein anonymisiertes Profil; kein Name geht an Sie, bevor der Kandidat zugestimmt hat.\n\n4\nShortlist\n\nDrei bis fünf Kandidaten, die Sie tatsächlich einstellen können — mit den Schwächen ebenso schriftlich wie den Stärken.\n\nDie Shortlist steht in der Regel nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommen danach die Kündigungsfristen dazu, meist drei Monate zum Quartalsende.\n\nWAS SIE ZU JEDEM KANDIDATEN ERHALTEN\nEin schriftliches Profil, das Sie ohne Nacharbeit in Ihre Geschäftsführung geben können\nGehaltsvorstellungen schriftlich, bevor Sie Zeit in Gespräche investieren\nWas gegen den Kandidaten spricht, nicht nur was für ihn spricht\nDen Wechselgrund und das, was die Person beim jetzigen Arbeitgeber halten würde\nKündigungsfrist und ein realistisches Eintrittsdatum",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9454,
+        "title": "Personalberatung Vertriebsingenieure | Skytz Consulting",
+        "description": "Spezialisierter Personalberater für Sales Engineers und technische Führungskräfte. Direktsuche – die meisten Besetzungen aus passiven Kandidaten. Deutschland, Schweiz, USA. Seit 2015.",
+        "canonical": "https://skytz-consulting.com/de",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en",
+          "de=https://skytz-consulting.com/de",
+          "x-default=https://skytz-consulting.com/en"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 15,
+          "domContentLoaded": 84,
+          "load": 200,
+          "fcp": 112,
+          "lcp": 1088,
+          "cls": 0,
+          "wallMs": 956,
+          "requests": 18,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 15,
+          "domContentLoaded": 81,
+          "load": 217,
+          "fcp": 112,
+          "lcp": 468,
+          "cls": 0,
+          "wallMs": 951,
+          "requests": 18,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de-desktop.jpg",
+        "mobile": "de-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/industries",
+      "finalUrl": "https://skytz-consulting.com/en/industries",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Industries | Skytz Consulting",
+        "lang": "en",
+        "description": "The four industrial sectors I recruit in — automation and sensors, motion control and drives, process instrumentation, test and measurement — and what I screen candidates for in each.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/industries",
+        "ogTitle": "Automation, Drives & Instrumentation | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/industries",
+          "de=https://skytz-consulting.com/de/industries",
+          "x-default=https://skytz-consulting.com/en/industries"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: The industries I work in",
+          "H2: Industrial automation and sensor technologies",
+          "H2: Motion control and drives",
+          "H2: Process instrumentation and valve automation",
+          "H2: Test and measurement",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 385,
+        "text": "WHAT I ACTUALLY SCREEN FOR\n\nThe industries I work in\n\nI recruit commercial and technical people for industrial manufacturers. These are the four areas I work, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.\n\nIndustrial automation and sensor technologies\nROLES\nSales engineers, application engineers, regional sales managers\nPRODUCTS AND TECHNOLOGY\nSensing, industrial connectivity, safety and control components, PLCs and I/O, control architecture, robotics, factory automation\nCHANNEL\nOEM and end-user accounts, run alongside distribution\n\nWHAT I SCREEN FOR\n\nCan they walk a production floor, work out why the sensing is failing, and close the fix? Do they know where sensing sits in a control architecture well enough to hold that conversation with a controls engineer?\n\nMotion control and drives\nROLES\nDistrict and territory sales, OEM account management, channel management\nPRODUCTS AND TECHNOLOGY\nGear motors, variable-frequency drives, motion control systems, power transmission; sizing from torque, speed, duty cycle and ambient conditions\nCHANNEL\nDirect OEM and stocking distributors at the same time, which need different handling\n\nWHAT I SCREEN FOR\n\nCan they size a gearbox from an application sheet and defend the math? Have they genuinely run direct and distribution in parallel, or only one of the two?\n\nProcess instrumentation and valve automation\nROLES\nAccount managers and sales engineers into refining, petrochemical and midstream\nPRODUCTS AND TECHNOLOGY\nControl valves, isolation valves, flow measurement, actuation and materials selection; how DCS, PLC and SCADA relate to the instrumentation\nCHANNEL\nProject and MRO in parallel, EPC bid packages, turnaround and outage support\n\nWHAT I SCREEN FOR\n\nHave they walked a unit during a turnaround? Do they know which EPC writes the spec and which one forwards the package?\n\nTest and measurement\nROLES\nSales and commercial leadership, business unit management\nPRODUCTS AND TECHNOLOGY\nElectrical test equipment, cable fault location, pipeline leak detection, bulk and process measurement\nCHANNEL\nDirect and subsidiary sales organizations across Europe and the US\n\nWHAT I SCREEN FOR\n\nThis is where my longest client relationships sit, including Megger since 2016. The reference letters on the references page come from this sector.\n\nIf your product line sits next to one of these rather than inside it, say so on the first call. I would rather tell you it is not my patch than learn it in week six.\n\nContact Philipp",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9536,
+        "title": "Automation, Drives &amp; Instrumentation | Skytz Consulting",
+        "description": "The four industrial sectors I recruit in — automation and sensors, motion control and drives, process instrumentation, test and measurement — and what I screen candidates for in each.",
+        "canonical": "https://skytz-consulting.com/en/industries",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/industries",
+          "de=https://skytz-consulting.com/de/industries",
+          "x-default=https://skytz-consulting.com/en/industries"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 17,
+          "domContentLoaded": 330,
+          "load": 426,
+          "fcp": 356,
+          "lcp": 1512,
+          "cls": 0,
+          "wallMs": 1162,
+          "requests": 16,
+          "transferKB": 6
+        },
+        "mobile": {
+          "ttfb": 16,
+          "domContentLoaded": 76,
+          "load": 176,
+          "fcp": 104,
+          "lcp": 1248,
+          "cls": 0,
+          "wallMs": 705,
+          "requests": 16,
+          "transferKB": 6
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_industries-desktop.jpg",
+        "mobile": "en_industries-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/industries",
+      "finalUrl": "https://skytz-consulting.com/de/industries",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Branchen | Skytz Consulting",
+        "lang": "de",
+        "description": "Die vier Industriefelder, in denen ich besetze — Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik, Mess- und Prüftechnik — und worauf ich Kandidaten prüfe.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/industries",
+        "ogTitle": "Branchen: Messtechnik & Antriebstechnik | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/industries",
+          "de=https://skytz-consulting.com/de/industries",
+          "x-default=https://skytz-consulting.com/en/industries"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Branchen, in denen ich arbeite",
+          "H2: Industrieautomation und Sensorik",
+          "H2: Antriebs- und Bewegungstechnik",
+          "H2: Prozessmesstechnik und Armaturenautomation",
+          "H2: Mess- und Prüftechnik",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 313,
+        "text": "WORAUF ICH TATSÄCHLICH PRÜFE\n\nBranchen, in denen ich arbeite\n\nIch besetze technische und kaufmännische Positionen für Industrieunternehmen und Ingenieurbüros. Das sind die Felder, die Positionen darin und die Fragen, mit denen ich einen glaubwürdigen von einem plausiblen Kandidaten unterscheide.\n\nIndustrieautomation und Sensorik\nROLLEN\nVertriebsingenieure, Applikationsingenieure, regionale Vertriebsleitung\nPRODUKTE UND TECHNIK\nSensorik, industrielle Konnektivität, Sicherheits- und Steuerungskomponenten, SPS und I/O, Steuerungsarchitektur, Robotik, Fabrikautomation\nVERTRIEBSWEG\nOEM- und Endkunden, parallel zum Handel\n\nWORAUF ICH PRÜFE\n\nKann die Person durch eine Fertigung gehen, erkennen, warum die Sensorik ausfällt, und die Lösung verkaufen? Weiß sie genug über Steuerungsarchitektur, um dieses Gespräch mit einem Steuerungstechniker zu führen?\n\nAntriebs- und Bewegungstechnik\nROLLEN\nGebietsverkauf, OEM-Betreuung, Handelsvertriebssteuerung\nPRODUKTE UND TECHNIK\nGetriebemotoren, Frequenzumrichter, Motion-Control-Systeme, Antriebstechnik; Auslegung nach Drehmoment, Drehzahl, Einschaltdauer und Umgebungsbedingungen\nVERTRIEBSWEG\nDirekter OEM-Vertrieb und Lagerhändler gleichzeitig, mit unterschiedlicher Behandlung\n\nWORAUF ICH PRÜFE\n\nKann die Person ein Getriebe aus einem Anwendungsdatenblatt auslegen und die Rechnung begründen? Hat sie Direktvertrieb und Handel wirklich parallel geführt oder nur eines von beidem?\n\nProzessmesstechnik und Armaturenautomation\nROLLEN\nKey-Account-Management und Vertriebsingenieure für Raffinerie, Petrochemie und Midstream\nPRODUKTE UND TECHNIK\nRegel- und Absperrarmaturen, Durchflussmessung, Antriebe und Werkstoffauswahl; das Zusammenspiel von DCS, SPS und SCADA mit der Messtechnik\nVERTRIEBSWEG\nProjekt- und MRO-Geschäft parallel, EPC-Ausschreibungen, Turnaround- und Stillstandsbetreuung\n\nWORAUF ICH PRÜFE\n\nWar die Person während eines Turnarounds in der Anlage? Weiß sie, welcher EPC die Spezifikation schreibt und welcher das Paket nur weiterreicht?\n\nMess- und Prüftechnik\nROLLEN\nVertrieb und kaufmännische Führung, Geschäftsbereichsleitung\nPRODUKTE UND TECHNIK\nElektrische Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen, Schüttgut- und Prozessmessung\nVERTRIEBSWEG\nDirektvertrieb und Tochtergesellschaften in Europa und den USA\n\nWORAUF ICH PRÜFE\n\nHier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich.\n\nWenn Ihr Produktprogramm daneben statt mittendrin liegt, sagen Sie es im ersten Gespräch. Mir ist lieber, ich sage Ihnen, dass es nicht mein Feld ist, als dass ich es in Woche sechs merke.\n\nVakanz vertraulich besprechen",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9527,
+        "title": "Branchen: Messtechnik &amp; Antriebstechnik | Skytz Consulting",
+        "description": "Die vier Industriefelder, in denen ich besetze — Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik, Mess- und Prüftechnik — und worauf ich Kandidaten prüfe.",
+        "canonical": "https://skytz-consulting.com/de/industries",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/industries",
+          "de=https://skytz-consulting.com/de/industries",
+          "x-default=https://skytz-consulting.com/en/industries"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 29,
+          "domContentLoaded": 81,
+          "load": 194,
+          "fcp": 112,
+          "lcp": 1268,
+          "cls": 0,
+          "wallMs": 727,
+          "requests": 16,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 26,
+          "domContentLoaded": 84,
+          "load": 187,
+          "fcp": 116,
+          "lcp": 1256,
+          "cls": 0,
+          "wallMs": 708,
+          "requests": 16,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_industries-desktop.jpg",
+        "mobile": "de_industries-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/testimonials",
+      "finalUrl": "https://skytz-consulting.com/en/testimonials",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "References | Skytz Consulting",
+        "lang": "en",
+        "description": "Proven track record with reference clients since 2015. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/testimonials",
+        "ogTitle": "Client References & Case Studies | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/testimonials",
+          "de=https://skytz-consulting.com/de/testimonials",
+          "x-default=https://skytz-consulting.com/en/testimonials"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Reference Clients",
+          "H2: Megger Germany GmbH",
+          "H2: SebaKMT by Megger",
+          "H2: Eurasia Group AG",
+          "H2: SWR · Südwestdeutsche Rohrleitungsbau GmbH",
+          "H2: Happersberger Otopront GmbH",
+          "H2: Box02 LLC",
+          "H2: GEF Ingenieur AG",
+          "H2: Want to talk to a client instead of reading about one?",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Megger_logo_without_slogan.svg",
+            "alt": "Megger",
+            "w": 612,
+            "h": 127,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/sebakmt-logo-black-rgb-scaled.png",
+            "alt": "SebaKMT",
+            "w": 2560,
+            "h": 421,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Eurasia-logo.png",
+            "alt": "Eurasia Group",
+            "w": 2116,
+            "h": 2115,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/SWR_logo.jpeg",
+            "alt": "SWR Südwestdeutsche Rohrleitungsbau",
+            "w": 200,
+            "h": 200,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/otopront-logo.png",
+            "alt": "Otopront",
+            "w": 421,
+            "h": 112,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Logo-box02.png",
+            "alt": "Box02",
+            "w": 171,
+            "h": 70,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Logo-gef.png",
+            "alt": "GEF Ingenieur AG",
+            "w": 281,
+            "h": 149,
+            "loading": "auto"
+          }
+        ],
+        "wordCount": 531,
+        "text": "NAMED CLIENTS, SIGNED LETTERS\n\nReference Clients\n\nNamed clients, named contacts, and the signed letters they wrote. The clients without a letter here will take a reference call if you ask.\n\nMegger Germany GmbH\n\nElectrical test and measurement equipment\n\nFriedrich Enkert\n\nVP Global Sales CI, Managing Director Megger Germany GmbH\n\n10+ placements since 2016\nSigned reference letter (PDF)\n\n\"He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.\"\n\nSales, commercial, and leadership roles filled repeatedly\nPlacements across Europe, including subsidiaries\nWorking together since 2016\nSebaKMT by Megger\n\nCable fault location and pipeline leak detection\n\nSascha Kuflik\n\nBusiness Unit Director at the time\n\n\"I first had the opportunity to know Philipp from the perspective of a candidate. Subsequently, as a Business Unit Leader at SebaKMT, I engaged Philipp's services as an external recruiter. From this dual perspective, I can attest to the fact that Philipp consistently delivers outstanding results.\"\n\nPlaced as a candidate in 2018\nLater became a client\nLong-standing collaboration\nEurasia Group AG\n\nAgriculture and financial holding, Switzerland\n\nMustafa Sahin\n\nChief Executive Officer\n\nCFO placement\nSigned reference letter (PDF)\n\nThe placed executive's name is redacted.\n\n\"He was responsible for the search, pre-selection, and candidate outreach, and supported the process through to the successful appointment of our Chief Financial Officer. The candidates presented were well targeted and professionally pre-qualified. The final placement fully met our expectations.\"\n\nOwner-led Swiss holding with more than 20 investments across Europe and Asia\nCore business in agriculture, in partnership with John Deere in Central Asia\nExecutive-level search and pre-qualification\nSWR · Südwestdeutsche Rohrleitungsbau GmbH\n\nPipeline and district heating construction, Frankfurt\n\nDirk Heesen\n\nManaging Director\n\nSigned reference letter (PDF)\n\n\"What sets him apart is his meticulous selection of candidates who not only possess the required skills but also align well with our corporate culture.\"\n\nMultiple site manager positions filled\nOperational and specialist roles recruited\nOngoing collaboration\nHappersberger Otopront GmbH\n\nMedical technology, ENT\n\nCarlo Happersberger\n\nCEO\n\nSigned reference letter (PDF, in German)\n\n\"During our collaboration, Philipp successfully completed two hires. The collaboration was professional, discreet, and characterized by a structured and efficient hiring process.\"\n\nInternational sales leadership\nHigh discretion\nTwo successful placements\nBox02 LLC\n\nE-commerce\n\nSebastian Wolff\n\nFounder & CEO\n\n\"Philipp supported us in filling two Marketing Manager positions. The process was efficient, well-structured, and resulted in candidates who were a great fit both professionally and culturally.\"\n\nTwo Marketing Managers placed\nEfficient, structured process\nPrecise candidate selection\nGEF Ingenieur AG\n\nEngineering services, district heating networks\n\nDipl.-Ing. (FH) Timo Che Banning\n\nAuthorized Signatory, Head of Route Planning\n\nProject engineer placed\n\n\"Mr. Hoffschröer impressed us in particular with his good understanding of our technical requirements, his structured pre-selection of suitable profiles, and his reliable and transparent communication throughout the entire process.\"\n\nWorking together since October 2025\nProject engineer placed, further roles in progress\nStructured pre-selection of suitable candidates\nWant to talk to a client instead of reading about one?\n\nI can share further reference letters and put you on a call with a past client.\n\nAsk for a reference",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "/recommendation/Megger-Reference-Friedrich-Enkert.pdf",
+          "/recommendation/Eurasia-Reference-Mustafa-Sahin.pdf",
+          "/recommendation/SWR-Reference-Dirk-Heesen.pdf",
+          "/recommendation/Otopront-Reference-Carlo-Happersberger-DE.pdf",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9472,
+        "title": "Client References &amp; Case Studies | Skytz Consulting",
+        "description": "Proven track record with reference clients since 2015. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.",
+        "canonical": "https://skytz-consulting.com/en/testimonials",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/testimonials",
+          "de=https://skytz-consulting.com/de/testimonials",
+          "x-default=https://skytz-consulting.com/en/testimonials"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 19,
+          "domContentLoaded": 422,
+          "load": 522,
+          "fcp": 452,
+          "lcp": 1468,
+          "cls": 0,
+          "wallMs": 1634,
+          "requests": 24,
+          "transferKB": 79
+        },
+        "mobile": {
+          "ttfb": 1329,
+          "domContentLoaded": 1397,
+          "load": 1559,
+          "fcp": 1424,
+          "lcp": 2580,
+          "cls": 0,
+          "wallMs": 2076,
+          "requests": 24,
+          "transferKB": 93
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_testimonials-desktop.jpg",
+        "mobile": "en_testimonials-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/testimonials",
+      "finalUrl": "https://skytz-consulting.com/de/testimonials",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Referenzen | Skytz Consulting",
+        "lang": "de",
+        "description": "Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2015. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/testimonials",
+        "ogTitle": "Kundenreferenzen & Erfolgsgeschichten | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/testimonials",
+          "de=https://skytz-consulting.com/de/testimonials",
+          "x-default=https://skytz-consulting.com/en/testimonials"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Referenzkunden",
+          "H2: Megger Germany GmbH",
+          "H2: SebaKMT by Megger",
+          "H2: Eurasia Group AG",
+          "H2: SWR · Südwestdeutsche Rohrleitungsbau GmbH",
+          "H2: Happersberger Otopront GmbH",
+          "H2: Box02 LLC",
+          "H2: GEF Ingenieur AG",
+          "H2: Lieber mit einem Auftraggeber sprechen als über ihn lesen?",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Megger_logo_without_slogan.svg",
+            "alt": "Megger",
+            "w": 612,
+            "h": 127,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/sebakmt-logo-black-rgb-scaled.png",
+            "alt": "SebaKMT",
+            "w": 2560,
+            "h": 421,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Eurasia-logo.png",
+            "alt": "Eurasia Group",
+            "w": 2116,
+            "h": 2115,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/SWR_logo.jpeg",
+            "alt": "SWR Südwestdeutsche Rohrleitungsbau",
+            "w": 200,
+            "h": 200,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/otopront-logo.png",
+            "alt": "Otopront",
+            "w": 421,
+            "h": 112,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Logo-box02.png",
+            "alt": "Box02",
+            "w": 171,
+            "h": 70,
+            "loading": "auto"
+          },
+          {
+            "src": "https://skytz-consulting.com/recommendation/Logo-gef.png",
+            "alt": "GEF Ingenieur AG",
+            "w": 281,
+            "h": 149,
+            "loading": "auto"
+          }
+        ],
+        "wordCount": 437,
+        "text": "NAMENTLICHE KUNDEN, UNTERSCHRIEBENE SCHREIBEN\n\nReferenzkunden\n\nNamentliche Auftraggeber, namentliche Ansprechpartner und die unterschriebenen Schreiben, die sie verfasst haben. Auftraggeber ohne Schreiben stehen für ein Referenzgespräch zur Verfügung.\n\nMegger Germany GmbH\n\nElektrische Mess- und Prüftechnik\n\nFriedrich Enkert\n\nVP Global Sales CI, Geschäftsführer Megger Germany GmbH\n\n10+ Besetzungen seit 2016\nUnterschriebenes Referenzschreiben (PDF)\n\n\"Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.\"\n\nMehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen\nEuropaweite Besetzungen, teilweise in Tochtergesellschaften\nZusammenarbeit seit 2016\nSebaKMT by Megger\n\nKabelfehlerortung und Leckortung in Rohrnetzen\n\nSascha Kuflik\n\ndamals Geschäftsbereichsleiter\n\n\"Ich habe Philipp zunächst als Kandidat kennengelernt und später als Auftraggeber bei SebaKMT beauftragt. Aus dieser doppelten Perspektive kann ich bestätigen, dass er durchgehend überzeugende Ergebnisse liefert.\"\n\n2018 als Kandidat vermittelt\nWurde zum Auftraggeber\nLangjährige Zusammenarbeit\nEurasia Group AG\n\nAgrarwesen und Finanz-Holding, Schweiz\n\nMustafa Sahin\n\nChief Executive Officer\n\nCFO-Besetzung\nUnterschriebenes Referenzschreiben (PDF)\n\nDer Name der besetzten Führungskraft ist geschwärzt.\n\n\"Herr Hoffschröer verantwortete die Suche, Vorauswahl und Ansprache geeigneter Kandidaten und begleitete den Prozess bis zur erfolgreichen Besetzung unserer CFO-Position. Die vorgestellten Kandidaten waren zielgerichtet ausgewählt und professionell vorqualifiziert. Die finale Besetzung hat unsere Erwartungen voll erfüllt.\"\n\nInhabergeführte Schweizer Holding mit über 20 Beteiligungen in Europa und Asien\nKerngeschäft Agrarwesen, in Partnerschaft mit John Deere in Zentralasien\nGezielte Auswahl und Vorqualifizierung auf Executive-Ebene\nSWR · Südwestdeutsche Rohrleitungsbau GmbH\n\nRohrleitungs- und Fernwärmebau, Frankfurt\n\nDirk Heesen\n\nGeschäftsführer\n\nUnterschriebenes Referenzschreiben (PDF)\n\n\"Was ihn auszeichnet, ist die sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.\"\n\nMehrere Bauleiterpositionen besetzt\nOperative und Fachrollen rekrutiert\nLaufende Zusammenarbeit\nHappersberger Otopront GmbH\n\nMedizintechnik / HNO\n\nCarlo Happersberger\n\nCEO\n\nUnterschriebenes Referenzschreiben (PDF, auf Deutsch)\n\n\"Während unserer Zusammenarbeit führte Philipp zwei erfolgreiche Personalbesetzungen durch. Die Zusammenarbeit war professionell, diskret und geprägt von einem strukturierten und effizienten Einstellungsprozess.\"\n\nInternationale Vertriebsleitung besetzt\nHohe Diskretion\nZwei erfolgreiche Besetzungen\nBox02 LLC\n\nE-Commerce\n\nSebastian Wolff\n\nFounder & CEO\n\n\"Philipp unterstützte uns bei der Besetzung von zwei Marketing-Managern. Der Prozess war effizient, gut strukturiert und führte zu Kandidaten, die sowohl fachlich als auch kulturell passten.\"\n\nZwei Marketing-Manager erfolgreich besetzt\nEffizienter, strukturierter Prozess\nPassgenaue Kandidatenauswahl\nGEF Ingenieur AG\n\nIngenieurdienstleistungen, Nah- und Fernwärmenetze\n\nDipl.-Ing. (FH) Timo Che Banning\n\nProkurist, Bereichsleitung Trassenplanung\n\nProjektingenieur besetzt\n\n\"Herr Hoffschröer überzeugte insbesondere durch ein gutes Verständnis unserer technischen Anforderungen, eine strukturierte Vorauswahl geeigneter Profile sowie eine verlässliche und transparente Kommunikation während des gesamten Prozesses.\"\n\nZusammenarbeit seit Oktober 2025\nProjektingenieur besetzt, weitere Positionen in Arbeit\nStrukturierte Vorauswahl geeigneter Kandidaten\nLieber mit einem Auftraggeber sprechen als über ihn lesen?\n\nIch stelle weitere Referenzschreiben bereit und vermittle Ihnen ein Gespräch mit einem früheren Auftraggeber.\n\nReferenz anfragen",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "/recommendation/Megger-Reference-Friedrich-Enkert.pdf",
+          "/recommendation/Eurasia-Reference-Mustafa-Sahin.pdf",
+          "/recommendation/SWR-Reference-Dirk-Heesen.pdf",
+          "/recommendation/Otopront-Reference-Carlo-Happersberger-DE.pdf",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9438,
+        "title": "Kundenreferenzen &amp; Erfolgsgeschichten | Skytz Consulting",
+        "description": "Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2015. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.",
+        "canonical": "https://skytz-consulting.com/de/testimonials",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/testimonials",
+          "de=https://skytz-consulting.com/de/testimonials",
+          "x-default=https://skytz-consulting.com/en/testimonials"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 66,
+          "domContentLoaded": 417,
+          "load": 560,
+          "fcp": 448,
+          "lcp": 1620,
+          "cls": 0,
+          "wallMs": 1089,
+          "requests": 24,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 16,
+          "domContentLoaded": 75,
+          "load": 209,
+          "fcp": 104,
+          "lcp": 1260,
+          "cls": 0,
+          "wallMs": 757,
+          "requests": 24,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_testimonials-desktop.jpg",
+        "mobile": "de_testimonials-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/vacancies",
+      "finalUrl": "https://skytz-consulting.com/en/vacancies",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Open Positions | Skytz Consulting",
+        "lang": "en",
+        "description": "Current open positions. Download role briefs as PDFs and contact us for details.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/vacancies",
+        "ogTitle": "Open Positions | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/vacancies",
+          "de=https://skytz-consulting.com/de/vacancies",
+          "x-default=https://skytz-consulting.com/en/vacancies"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Open Positions",
+          "H3: Executive Assistant (Managing Director)",
+          "H3: Construction Supervision",
+          "H3: Technical Draftsman (CAD)",
+          "H3: BIM Manager / Coordinator",
+          "H3: Occupational Safety Expert (Sifa) (m/f/d)",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 85,
+        "text": "CURRENT VACANCIES\n\nOpen Positions\n\nDownload the role briefs as PDFs. For details and availability, email us.\n\nExecutive Assistant (Managing Director)\nConstruction industry\nGermany\nPDF\n\nRole brief available as PDF.\n\nConstruction Supervision\nConstruction industry\nGermany\nPDF\n\nRole brief available as PDF.\n\nTechnical Draftsman (CAD)\nConstruction industry\nGermany\nPDF\n\nRole brief available as PDF.\n\nBIM Manager / Coordinator\nConstruction industry\nUnited States\nPDF\n\nRole brief available as PDF.\n\nOccupational Safety Expert (Sifa) (m/f/d)\nConstruction industry\nNortheast Bavaria, Germany\nPDF\n\nRole brief available as PDF.\n\nGet in touch",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "/GF-Assistenz.pdf",
+          "/Bauueberwachung.pdf",
+          "/Technischer-Zeichner.pdf",
+          "/BIM-Manager-Coordinator.pdf",
+          "/Experte-Sifa.pdf",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9117,
+        "title": "Open Positions | Skytz Consulting",
+        "description": "Current open positions. Download role briefs as PDFs and contact us for details.",
+        "canonical": "https://skytz-consulting.com/en/vacancies",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/vacancies",
+          "de=https://skytz-consulting.com/de/vacancies",
+          "x-default=https://skytz-consulting.com/en/vacancies"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 20,
+          "domContentLoaded": 74,
+          "load": 179,
+          "fcp": 104,
+          "lcp": 1144,
+          "cls": 0,
+          "wallMs": 880,
+          "requests": 16,
+          "transferKB": 4
+        },
+        "mobile": {
+          "ttfb": 37,
+          "domContentLoaded": 111,
+          "load": 230,
+          "fcp": 144,
+          "lcp": 1276,
+          "cls": 0,
+          "wallMs": 775,
+          "requests": 16,
+          "transferKB": 5
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_vacancies-desktop.jpg",
+        "mobile": "en_vacancies-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/vacancies",
+      "finalUrl": "https://skytz-consulting.com/de/vacancies",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Offene Positionen | Skytz Consulting",
+        "lang": "de",
+        "description": "Aktuelle offene Positionen. Rollenprofile als PDF herunterladen und bei Fragen Kontakt aufnehmen.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/vacancies",
+        "ogTitle": "Offene Positionen | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/vacancies",
+          "de=https://skytz-consulting.com/de/vacancies",
+          "x-default=https://skytz-consulting.com/en/vacancies"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Offene Positionen",
+          "H3: Assistenz der Geschäftsführung",
+          "H3: Bauüberwachung",
+          "H3: Technischer Zeichner (CAD)",
+          "H3: BIM-Manager / Koordinator",
+          "H3: Experte für Arbeitssicherheit (Sifa) (m/w/d)",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 76,
+        "text": "AKTUELLE VAKANZEN\n\nOffene Positionen\n\nHier finden Sie aktuelle Rollenprofile als PDF. Für Details und Verfügbarkeit: schreiben Sie uns kurz.\n\nAssistenz der Geschäftsführung\nBaubranche\nDeutschland\nPDF\n\nRollenprofil als PDF zum Download.\n\nBauüberwachung\nBaubranche\nDeutschland\nPDF\n\nRollenprofil als PDF zum Download.\n\nTechnischer Zeichner (CAD)\nBaubranche\nDeutschland\nPDF\n\nRollenprofil als PDF zum Download.\n\nBIM-Manager / Koordinator\nBaubranche\nUSA\nPDF\n\nRollenprofil als PDF zum Download.\n\nExperte für Arbeitssicherheit (Sifa) (m/w/d)\nBaubranche\nNordostbayern\nPDF\n\nRollenprofil als PDF zum Download.\n\nKontakt aufnehmen",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "/GF-Assistenz.pdf",
+          "/Bauueberwachung.pdf",
+          "/Technischer-Zeichner.pdf",
+          "/BIM-Manager-Coordinator.pdf",
+          "/Experte-Sifa.pdf",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9180,
+        "title": "Offene Positionen | Skytz Consulting",
+        "description": "Aktuelle offene Positionen. Rollenprofile als PDF herunterladen und bei Fragen Kontakt aufnehmen.",
+        "canonical": "https://skytz-consulting.com/de/vacancies",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/vacancies",
+          "de=https://skytz-consulting.com/de/vacancies",
+          "x-default=https://skytz-consulting.com/en/vacancies"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 20,
+          "domContentLoaded": 367,
+          "load": 470,
+          "fcp": 396,
+          "lcp": 1548,
+          "cls": 0,
+          "wallMs": 1008,
+          "requests": 16,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 20,
+          "domContentLoaded": 64,
+          "load": 169,
+          "fcp": 92,
+          "lcp": 1236,
+          "cls": 0,
+          "wallMs": 696,
+          "requests": 16,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_vacancies-desktop.jpg",
+        "mobile": "de_vacancies-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/about",
+      "finalUrl": "https://skytz-consulting.com/en/about",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "About | Skytz Consulting",
+        "lang": "en",
+        "description": "Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/about",
+        "ogTitle": "Sales Engineer Recruiting Since 2015 | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/about",
+          "de=https://skytz-consulting.com/de/about",
+          "x-default=https://skytz-consulting.com/en/about"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: About",
+          "H2: Searches running now",
+          "H2: How I work",
+          "H3: I go find people",
+          "H3: You see the downside too",
+          "H3: I tell you when it won't work",
+          "H3: Nobody's name moves without permission",
+          "H2: How I measure this",
+          "H3: Days to shortlist",
+          "H3: Days to a signed offer",
+          "H3: 12-month retention",
+          "H3: Replacement guarantee",
+          "H2: A US search and a German search do not run the same way",
+          "H2: Why not a generalist agency",
+          "H2: Before recruiting",
+          "H2: Company",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 1115,
+        "text": "PHILIPP HOFFSCHRÖER, FOUNDER\n\nAbout\n\nI'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. I work mainly with manufacturers of measuring and test equipment.\n\nMost of my clients are German manufacturers with U.S. operations, or U.S. subsidiaries reporting into a German parent. That is a specific hiring problem. The role needs someone who can hold a technical conversation with a plant engineer in Ohio and a product conversation with a development team in Baden-Württemberg, who understands how a German parent makes decisions, and who will still be in the seat in three years. The people who can do that are employed, and they are not on job boards.\n\nWhat I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.\n\nOf the candidates I have placed, 92% are still with the client twelve months later, or have been promoted inside it. How I count that is set out below.\n\nSearches running now\nSales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast\nSales Engineer — motion control and drives — Midwest and Southeast districts\nSales Engineer — process instrumentation and valve automation — Texas Gulf Coast\n\nThese are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it.\n\nHow I work\nI go find people\n\nMost of the people I place were not looking. I map the companies where the right background sits, approach people directly, and work references. I don't post an ad and wait to see what arrives.\n\nYou see the downside too\n\nEvery profile I send says where the candidate is weak, not only where they are strong: compensation gaps, relocation reluctance, where they will need support in the first year.\n\nI tell you when it won't work\n\nIf the band is below market, the timeline is unrealistic, or the role isn't placeable as written, you hear it on the first call — not after six months of invoices.\n\nNobody's name moves without permission\n\nYour search stays confidential. No candidate's name reaches you until they have agreed to it, and you see an anonymized summary first.\n\nHow I measure this\n\nA number without a definition is marketing. Here is exactly what each figure counts, and what it leaves out.\n\nDays to shortlist\n\nBusiness days from signed engagement to delivery of the first shortlist of three or more qualified candidates.\n\nNot counted: Client-side delays longer than three business days, and searches rescoped after kickoff.\n\nDays to a signed offer\n\nCalendar days from signed engagement to written offer acceptance. This is not the start date — in the US that normally follows two to four weeks later, after notice.\n\nNot counted: Searches cancelled, frozen, or materially rescoped mid-process, and offers withdrawn by the client.\n\n12-month retention\n\nPlaced candidates still employed by the client, or promoted within it, twelve months after their first day, divided by the placements old enough to have reached twelve months.\n\nNot counted: Layoffs, restructures, role eliminations and site closures — departures the candidate did not choose and I could not have predicted.\n\nReplacement guarantee\n\nIf a placement leaves or is terminated within 90 days of starting, I run the search again at no additional fee. The clock starts on the candidate's first day, and the guarantee is written into the engagement agreement before the search begins.\n\nNot counted: Nothing is excluded by role elimination or a change of plan on your side — if you no longer need the role, you owe me nothing further.\n\nFigures cover placements since 2015 and are reviewed each quarter. If you want the underlying counts before you sign anything, ask me on the first call and I will send them.\n\nFor context: SHRM's 2026 benchmark puts median US time-to-fill at 39 days across non-executive roles, and published benchmarks for industrial and manufacturing sales run 45 to 75 days. A specialist working one market with a live network should beat that, and this is by how much.\n\nA US search and a German search do not run the same way\n\nIf you report into a German parent, this is the difference you will spend the most time explaining to them. It is worth knowing before you set a start date.\n\n\tUnited States\tGermany and Switzerland\nNotice period\tTwo weeks is customary. Some senior people give four.\tThree months to the end of a quarter is normal in specialist and management contracts. Six months happens.\nFrom signed offer to first day\tTwo to four weeks.\tThree to six months, and it is set by the contract, not by willingness.\nCounter-offers\tCommon, usually money, usually fast.\tSlower, and more often about title, scope, or a company car than base salary.\nWhat kills a deal late\tA competing offer that moves faster than yours.\tRelocation inside Germany, and the family conversation that goes with it.\nWhat this means for you\tMove quickly or lose people. A slow internal approval loop is the main reason US searches fail.\tPlan the start date backwards from the quarter. Pushing a German candidate to start sooner does not work.\n\nGerman federal statistics put the average time a reported vacancy stays open at around 95 days for roles requiring a degree and about 140 days for skilled trades. Neither number includes the notice period that follows.\n\nWhy not a generalist agency\n\tA generalist agency\tWorking with me\nWho does the work\tA researcher you never meet, then an account manager who sells.\tMe. Every call, every profile, start to finish.\nWhere candidates come from\tJob boards, a database, and whoever answers.\tDirect approach to people currently doing the job at companies like yours.\nWhat lands in your inbox\tA stack of resumes, forwarded fast.\tThree to five people, with the risks written down.\nTalking to your parent company\tNot their problem.\tI do it, in German, if that moves the decision along.\nBefore recruiting\n\nThree years at KPMG in finance advisory, then commercial roles at Lufthansa and Deichmann. Co-Founder and Chief Business Development Officer at emteria GmbH, and CEO Germany at Studo.\n\nCompany\n\nSkytz Consulting is a trade name of Laurasia LLC. Registered office: 1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, United States.\n\nI am based in Germany and work U.S. hours through midday Eastern. Email is the fastest way to reach me, and it reaches me, not an assistant.\n\nContact Philipp",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9412,
+        "title": "Sales Engineer Recruiting Since 2015 | Skytz Consulting",
+        "description": "Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.",
+        "canonical": "https://skytz-consulting.com/en/about",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/about",
+          "de=https://skytz-consulting.com/de/about",
+          "x-default=https://skytz-consulting.com/en/about"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 18,
+          "domContentLoaded": 86,
+          "load": 187,
+          "fcp": 112,
+          "lcp": 1428,
+          "cls": 0,
+          "wallMs": 954,
+          "requests": 16,
+          "transferKB": 5
+        },
+        "mobile": {
+          "ttfb": 16,
+          "domContentLoaded": 77,
+          "load": 200,
+          "fcp": 112,
+          "lcp": 1256,
+          "cls": 0,
+          "wallMs": 749,
+          "requests": 16,
+          "transferKB": 5
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_about-desktop.jpg",
+        "mobile": "en_about-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/about",
+      "finalUrl": "https://skytz-consulting.com/de/about",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Über mich | Skytz Consulting",
+        "lang": "de",
+        "description": "Spezialisierte Personalberatung für Sales Engineering und Führungsrollen. Direktsuche, dokumentierte Abwägungen, ehrliches Feedback. DACH-Expertise.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/about",
+        "ogTitle": "Über uns: Personalberatung seit 2015 | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/about",
+          "de=https://skytz-consulting.com/de/about",
+          "x-default=https://skytz-consulting.com/en/about"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Über mich",
+          "H2: Aktuelle Mandate",
+          "H2: Wie ich arbeite",
+          "H3: Ich spreche Kandidaten selbst an",
+          "H3: Sie sehen auch die Schwächen",
+          "H3: Ich sage Ihnen, wenn es nicht funktioniert",
+          "H3: Kein Name bewegt sich ohne Zustimmung",
+          "H2: Wie ich das messe",
+          "H3: Wochen bis zur Shortlist",
+          "H3: Wochen bis zur Unterschrift",
+          "H3: Verbleib nach zwölf Monaten",
+          "H2: Eine Suche in Deutschland und eine in den USA laufen unterschiedlich",
+          "H2: Warum keine große Personalberatung",
+          "H2: Vor der Personalberatung",
+          "H2: Unternehmen",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 924,
+        "text": "PHILIPP HOFFSCHRÖER, GRÜNDER\n\nÜber mich\n\nSeit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — anfangs neben Geschäftsführungsaufgaben in zwei Softwareunternehmen, heute in Vollzeit. Meine Auftraggeber sind Hersteller von Mess- und Prüftechnik, Ingenieurbüros und Unternehmen im Tief- und Rohrleitungsbau.\n\nWas diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.\n\nBesetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.\n\nVon den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.\n\nAktuelle Mandate\nProjektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg\nBauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main\nTechnischer Zeichner (CAD) — Baubranche — Deutschland\nAssistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main\nParallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik\n\nDas sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe.\n\nWie ich arbeite\nIch spreche Kandidaten selbst an\n\nDie meisten, die ich vermittle, haben nicht gesucht. Ich sehe mir an, in welchen Unternehmen der passende Hintergrund sitzt, und rufe dort an. Eine Anzeige zu schalten und abzuwarten, ist keine Suche.\n\nSie sehen auch die Schwächen\n\nIn jedem Profil steht, wo der Kandidat schwach ist, nicht nur wo er stark ist: Gehaltslücken, Umzugsbereitschaft, wo er im ersten Jahr Unterstützung braucht.\n\nIch sage Ihnen, wenn es nicht funktioniert\n\nWenn der Gehaltsrahmen unter Markt liegt, der Zeitplan unrealistisch ist oder die Position so nicht besetzbar ist, hören Sie das im ersten Gespräch — nicht nach sechs Monaten.\n\nKein Name bewegt sich ohne Zustimmung\n\nIhre Suche bleibt vertraulich. Auf Wunsch spreche ich Kandidaten an, ohne Ihren Namen zu nennen, und kein Kandidatenname erreicht Sie, bevor die Person zugestimmt hat.\n\nWie ich das messe\n\nEine Zahl ohne Definition ist Werbung. Hier steht, was ich zähle und was ich ausklammere.\n\nWochen bis zur Shortlist\n\nWochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In Deutschland und der Schweiz sind das in der Regel drei bis vier Wochen.\n\nNicht gezählt: Wartezeiten auf Kundenseite von mehr als einer Woche und Mandate, die nach dem Start neu zugeschnitten werden.\n\nWochen bis zur Unterschrift\n\nWochen von der Beauftragung bis zur unterschriebenen Zusage, in der Regel acht bis sechzehn. Das ist nicht der Eintrittstermin — dazwischen liegt die Kündigungsfrist.\n\nNicht gezählt: Abgebrochene, ausgesetzte oder wesentlich veränderte Mandate.\n\nVerbleib nach zwölf Monaten\n\nVermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten. Aktuell 92 Prozent.\n\nNicht gezählt: Betriebsbedingte Kündigungen, Restrukturierungen, Stellenstreichungen und Standortschließungen.\n\nDie Zahlen umfassen Vermittlungen seit 2015 und werden quartalsweise überprüft. Wenn Sie die Fallzahlen dahinter sehen möchten, fragen Sie im ersten Gespräch.\n\nZur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu.\n\nEine Suche in Deutschland und eine in den USA laufen unterschiedlich\n\nWenn Sie in beiden Märkten besetzen oder Ihrer US-Tochter erklären müssen, warum es hier länger dauert: Das sind die Unterschiede, die den Zeitplan bestimmen.\n\n\tUSA\tDeutschland und Schweiz\nKündigungsfrist\tZwei Wochen sind üblich, bei erfahrenen Kandidaten manchmal vier.\tDrei Monate zum Quartalsende sind in Fach- und Führungsverträgen die Regel. Sechs Monate kommen vor.\nVon der Zusage bis zum ersten Tag\tZwei bis vier Wochen.\tDrei bis sechs Monate. Das bestimmt der Vertrag, nicht der gute Wille.\nGegenangebote\tHäufig, meist über Geld, meist innerhalb weniger Tage.\tSeltener und langsamer, und häufiger über Verantwortung oder Titel als über das Grundgehalt.\nWoran es spät scheitert\tEin konkurrierendes Angebot, das schneller war als Ihres.\tEin Umzug und das Familiengespräch, das dazugehört.\nWas das für Sie heißt\tSchnell entscheiden. Lange interne Freigaben sind der häufigste Grund, warum US-Suchen scheitern.\tDen Eintrittstermin vom Quartal her rückwärts planen. Druck auf den Kandidaten ändert die Frist nicht.\n\nBeides mache ich, aber nicht mit derselben Erwartung an das Tempo.\n\nWarum keine große Personalberatung\n\tGroße Beratung\tZusammenarbeit mit mir\nWer die Arbeit macht\tEin Researcher, den Sie nie sprechen, und ein Partner, der den Termin macht.\tIch. Jedes Gespräch, jedes Profil, von Anfang bis Ende.\nWoher die Kandidaten kommen\tDatenbank, Anzeigen und wer sich meldet.\tDirektansprache von Menschen, die die Aufgabe heute bei vergleichbaren Unternehmen machen.\nWas Sie bekommen\tEin Stapel Profile, schnell weitergeleitet.\tDrei bis fünf Kandidaten, mit schriftlich dokumentierten Risiken.\nDiskretion\tIhre Vakanz ist nach zwei Wochen im Markt bekannt.\tIch spreche Kandidaten an, ohne Ihren Namen zu nennen, solange Sie das so wollen.\nVor der Personalberatung\n\nDrei Jahre KPMG im Bereich Finance Advisory, danach kaufmännische Rollen bei Lufthansa und Deichmann. Co-Founder und Chief Business Development Officer der emteria GmbH, anschließend CEO Germany bei Studo.\n\nUnternehmen\n\nSkytz Consulting ist eine Marke der Laurasia LLC. Sitz der Gesellschaft: 1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA.\n\nIch sitze in Deutschland und arbeite bis in den US-Vormittag hinein. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz.\n\nVakanz vertraulich besprechen",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9385,
+        "title": "Über uns: Personalberatung seit 2015 | Skytz Consulting",
+        "description": "Spezialisierte Personalberatung für Sales Engineering und Führungsrollen. Direktsuche, dokumentierte Abwägungen, ehrliches Feedback. DACH-Expertise.",
+        "canonical": "https://skytz-consulting.com/de/about",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/about",
+          "de=https://skytz-consulting.com/de/about",
+          "x-default=https://skytz-consulting.com/en/about"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 18,
+          "domContentLoaded": 369,
+          "load": 542,
+          "fcp": 408,
+          "lcp": 1568,
+          "cls": 0,
+          "wallMs": 1083,
+          "requests": 16,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 21,
+          "domContentLoaded": 153,
+          "load": 279,
+          "fcp": 184,
+          "lcp": 1340,
+          "cls": 0,
+          "wallMs": 813,
+          "requests": 16,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_about-desktop.jpg",
+        "mobile": "de_about-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/meet-philipp",
+      "finalUrl": "https://skytz-consulting.com/en/meet-philipp",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Contact | Skytz Consulting",
+        "lang": "en",
+        "description": "Book a direct conversation about your Sales Engineer or technical leadership hiring needs. Direct contact, handled in confidence. Free initial consultation.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/meet-philipp",
+        "ogTitle": "Meet Philipp, Book a Call | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/meet-philipp",
+          "de=https://skytz-consulting.com/de/meet-philipp",
+          "x-default=https://skytz-consulting.com/en/meet-philipp"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Contact",
+          "H2: Schedule a call",
+          "H2: Philipp Hoffschröer",
+          "H2: To save a round trip",
+          "H2: Questions I get asked",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/brand/Philipp-Hoffschroer.jpg",
+            "alt": "Philipp Hoffschröer",
+            "w": 800,
+            "h": 800,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 698,
+        "text": "DIRECT LINE TO THE PERSON RUNNING YOUR SEARCH\n\nContact\n\nBook a call, or write or phone me directly. Every enquiry is answered personally and treated in confidence, including early, exploratory ones.\n\nSchedule a call\n\nPick a time in my calendar\n\nNo commitment. First conversations are free.\n\nSchedule a call\nPhilipp Hoffschröer\n\nFounder, Skytz Consulting\n\nEMAIL\n\ninfo@skytz-consulting.com\n\nPHONE\n\n+1 307 429 0181\n\nIf I don't pick up, leave a message. I check voicemail daily.\n\nLINKEDIN\n\n/in/philipp-hoffschroer\n\nWHEN I'M REACHABLE\n\nMonday–Friday, 8:00 a.m. – 5:00 p.m. Central European Time\n\nThat's 2:00 a.m. – 11:00 a.m. Eastern. Email gets a same-day reply.\n\nREGISTERED OFFICE\n\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801, United States\n\nLaurasia LLC is the legal entity behind Skytz Consulting.\n\nTo save a round trip\n\nIf you're writing about a specific search, include:\n\nRole title and scope\nLocation or territory\nSeniority level\nTimeline and urgency\nCompensation band, if you know it\nQuestions I get asked\nHow do you charge?\nA percentage of first-year total compensation, agreed in writing before I start. You get the number on the first call. That call is free and nothing follows from it automatically.\nWhat happens if the hire does not work out?\nA written 90-day replacement guarantee: if the person leaves or is let go within 90 days of their first day, I run the search again at no additional fee. Ninety days is the US standard — around 85% of agency guarantees fall in the 30-to-90-day band, and most are replacement-only rather than a refund. The clock starts on the candidate's first day, and it is in the engagement agreement before the search begins.\nDo you work exclusively?\nUsually, and the search is better for it. I will not spend eight weeks mapping a market in order to race three other agencies to the same five people. If exclusivity is a problem, say so and we will talk it through.\nCan you really recruit in the US from Germany?\nYes. US searches run by phone and video, and I work your morning. If someone needs to be met in person, I say so and we plan for it.\nWill you understand our products?\nI have recruited for measurement, test and instrumentation manufacturers since 2015. I will not pretend to know your product line better than you do. After the intake call I will know enough to hold a credible conversation with an engineer who does.\nWho actually does the work?\nI do. There is no research team, no account manager, and nobody hands you off after the sale. That is the trade: one experienced person rather than a bench.\nHow fast will I see candidates?\nFor a US search, a shortlist of three or more inside five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks and a start date three to six months out, because notice periods there run to the end of a quarter.\nWhere do you find people, if not job boards?\nI map the companies where the right background actually sits — your competitors, adjacent product categories, the distribution channel — and approach those people directly, mostly through LinkedIn Recruiter and the phone. Almost nobody I place was looking when I called.\nAre you a staffing agency?\nNo. Staffing agencies place contractors and temporary workers at volume and bill hourly. I run individual permanent searches, one at a time, and I am paid once on a successful hire.\nHow do you judge whether a technical candidate is credible?\nI ask them to do the work in conversation. Size the gearbox from the application sheet. Explain why the sensing is failing on that line. Tell me which EPC writes the spec. People who have done the job answer immediately, and people who have been near it do not.\nHow do we start?\nOne call, forty-five minutes, no charge. We go through the role, the territory, the compensation band and what a good first year looks like. You get the fee and the guarantee in writing after that call, and nothing happens until you sign it.",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "https://calendly.com/philipp-ho/meet",
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9407,
+        "title": "Meet Philipp, Book a Call | Skytz Consulting",
+        "description": "Book a direct conversation about your Sales Engineer or technical leadership hiring needs. Direct contact, handled in confidence. Free initial consultation.",
+        "canonical": "https://skytz-consulting.com/en/meet-philipp",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/meet-philipp",
+          "de=https://skytz-consulting.com/de/meet-philipp",
+          "x-default=https://skytz-consulting.com/en/meet-philipp"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 18,
+          "domContentLoaded": 92,
+          "load": 195,
+          "fcp": 120,
+          "lcp": 1280,
+          "cls": 0,
+          "wallMs": 935,
+          "requests": 18,
+          "transferKB": 5
+        },
+        "mobile": {
+          "ttfb": 18,
+          "domContentLoaded": 76,
+          "load": 183,
+          "fcp": 108,
+          "lcp": 1264,
+          "cls": 0,
+          "wallMs": 712,
+          "requests": 18,
+          "transferKB": 5
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_meet-philipp-desktop.jpg",
+        "mobile": "en_meet-philipp-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/meet-philipp",
+      "finalUrl": "https://skytz-consulting.com/de/meet-philipp",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Kontakt | Skytz Consulting",
+        "lang": "de",
+        "description": "Buchen Sie ein direktes Gespräch über Ihre Sales Engineer oder technische Führungskräfte-Anforderungen. Direkter Kontakt, vertraulich behandelt. Kostenlose Erstberatung.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/meet-philipp",
+        "ogTitle": "Philipp treffen, Gespräch buchen | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/meet-philipp",
+          "de=https://skytz-consulting.com/de/meet-philipp",
+          "x-default=https://skytz-consulting.com/en/meet-philipp"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Kontakt",
+          "H2: Termin vereinbaren",
+          "H2: Philipp Hoffschröer",
+          "H2: Damit wir eine Runde sparen",
+          "H2: Häufige Fragen",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          },
+          {
+            "src": "https://skytz-consulting.com/brand/Philipp-Hoffschroer.jpg",
+            "alt": "Philipp Hoffschröer",
+            "w": 800,
+            "h": 800,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 537,
+        "text": "DIREKTER DRAHT ZU DEM, DER IHRE SUCHE FÜHRT\n\nKontakt\n\nVereinbaren Sie einen Termin oder schreiben und rufen Sie mich direkt an. Jede Anfrage beantworte ich persönlich und vertraulich – auch wenn Sie zunächst nur unverbindlich sondieren möchten.\n\nTermin vereinbaren\n\nEinen Termin direkt im Kalender wählen\n\nUnverbindlich. Das erste Gespräch ist kostenfrei.\n\nTermin vereinbaren\nPhilipp Hoffschröer\n\nGründer, Skytz Consulting\n\nE-MAIL\n\ninfo@skytz-consulting.com\n\nTELEFON\n\n+1 307 429 0181\n\nWenn ich nicht rangehe, hinterlassen Sie eine Nachricht. Ich höre die Mailbox täglich ab.\n\nLINKEDIN\n\n/in/philipp-hoffschroer\n\nERREICHBARKEIT\n\nMontag bis Freitag, 8:00 bis 17:00 Uhr\n\nE-Mails beantworte ich am selben Tag.\n\nSITZ DER GESELLSCHAFT\n\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801, United States\n\nLaurasia LLC ist die Gesellschaft hinter Skytz Consulting.\n\nDamit wir eine Runde sparen\n\nWenn Sie wegen einer konkreten Position schreiben, nennen Sie:\n\nPosition und Verantwortungsbereich\nStandort oder Vertriebsgebiet\nErfahrungsstufe\nZeitrahmen und Dringlichkeit\nGehaltsrahmen, falls bekannt\nHäufige Fragen\nWie rechnen Sie ab?\nEin Prozentsatz der Jahreszielvergütung, schriftlich vereinbart, bevor ich beginne. Die Zahl nenne ich Ihnen im ersten Gespräch. Das Gespräch ist kostenfrei und verpflichtet zu nichts.\nWas passiert, wenn die Besetzung nicht funktioniert?\nDas regeln wir individuell und schriftlich, bevor die Suche beginnt. Die Bedingungen unterscheiden sich zwischen dem deutschen und dem US-Markt, deshalb nenne ich hier keine pauschale Frist. Fragen Sie im ersten Gespräch, dann sage ich Ihnen genau, was für Ihre Suche gilt.\nArbeiten Sie exklusiv?\nIn der Regel ja, und die Suche wird dadurch besser. Ich analysiere keinen Markt acht Wochen lang, um anschließend mit drei weiteren Beratungen um dieselben fünf Kandidaten zu konkurrieren. Wenn Exklusivität für Sie nicht infrage kommt, sprechen wir darüber.\nWie lange dauert eine Suche?\nDie Shortlist steht meist nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommt die Kündigungsfrist dazu, in der Regel drei Monate zum Quartalsende. Wenn Ihre Position davon abweicht, sage ich Ihnen das vorher.\nWo finden Sie Kandidaten, wenn nicht über Jobbörsen?\nIch sehe mir an, in welchen Unternehmen der passende Hintergrund sitzt — Ihre Wettbewerber, angrenzende Produktfelder, der Handel — und spreche diese Menschen direkt an, über LinkedIn Recruiter und am Telefon.\nSind Sie eine Zeitarbeitsfirma?\nNein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen und werde einmal bezahlt, wenn die Besetzung zustande kommt.\nWie prüfen Sie, ob ein technischer Kandidat wirklich etwas kann?\nIch lasse ihn im Gespräch arbeiten. Ein Getriebe aus dem Anwendungsdatenblatt auslegen. Erklären, warum die Sensorik auf dieser Linie ausfällt. Wer die Aufgabe gemacht hat, antwortet sofort. Wer nur daneben gestanden hat, nicht.\nVerstehen Sie unsere Produkte?\nIch arbeite seit 2015 für Hersteller von Mess-, Prüf- und Prozesstechnik. Ich werde nicht behaupten, Ihr Produktprogramm besser zu kennen als Sie. Nach dem Erstgespräch weiß ich genug, um mit einem Ingenieur ein Gespräch zu führen, das er ernst nimmt.\nWer macht die Arbeit tatsächlich?\nIch. Es gibt kein Research-Team, keinen Account Manager und niemanden, der Sie nach Vertragsabschluss weiterreicht. Das ist der Handel: eine erfahrene Person statt einer Mannschaft.\nWie fangen wir an?\nEin Gespräch, 45 Minuten, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben.",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "https://calendly.com/philipp-ho/meet",
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9474,
+        "title": "Philipp treffen, Gespräch buchen | Skytz Consulting",
+        "description": "Buchen Sie ein direktes Gespräch über Ihre Sales Engineer oder technische Führungskräfte-Anforderungen. Direkter Kontakt, vertraulich behandelt. Kostenlose Erstberatung.",
+        "canonical": "https://skytz-consulting.com/de/meet-philipp",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/meet-philipp",
+          "de=https://skytz-consulting.com/de/meet-philipp",
+          "x-default=https://skytz-consulting.com/en/meet-philipp"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 16,
+          "domContentLoaded": 369,
+          "load": 480,
+          "fcp": 400,
+          "lcp": 1552,
+          "cls": 0,
+          "wallMs": 1012,
+          "requests": 18,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 20,
+          "domContentLoaded": 86,
+          "load": 250,
+          "fcp": 136,
+          "lcp": 1284,
+          "cls": 0,
+          "wallMs": 784,
+          "requests": 18,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_meet-philipp-desktop.jpg",
+        "mobile": "de_meet-philipp-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/privacy",
+      "finalUrl": "https://skytz-consulting.com/en/privacy",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Privacy | Skytz Consulting",
+        "lang": "en",
+        "description": "Privacy Policy for Skytz Consulting. GDPR and CCPA compliant data handling. Learn how we protect your personal information.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/privacy",
+        "ogTitle": "Privacy Policy | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/privacy",
+          "de=https://skytz-consulting.com/de/privacy",
+          "x-default=https://skytz-consulting.com/en/privacy"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Privacy Policy",
+          "H2: 1. Who is responsible",
+          "H2: 2. What we collect",
+          "H2: 3. Why we collect it",
+          "H2: 4. Your rights in the United States",
+          "H2: 5. If you are in Europe (GDPR)",
+          "H2: 6. Who we share it with",
+          "H2: 7. How long we keep it",
+          "H2: 8. Security",
+          "H2: 9. Cookies and analytics",
+          "H2: 10. Changes",
+          "H2: 11. Contact",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 696,
+        "text": "Privacy Policy\n\nLast updated: August 2026\n\nSkytz Consulting is a trade name of Laurasia LLC (\"we\", \"us\", \"our\"). This policy explains what personal information we collect, why, and what you can ask us to do about it. It covers U.S. state privacy laws including the California Consumer Privacy Act (CCPA/CPRA), and the EU General Data Protection Regulation (GDPR) for visitors in Europe.\n\n1. Who is responsible\n\nThe company responsible for your personal information is:\n\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nUnited States\n2. What we collect\n\nWe collect and process the following categories of personal information:\n\n• Contact information: name, email address, telephone number, company name, job title\n• Communication data: the content of emails, messages, and any attachments you send us\n• Technical data: IP address, browser type and version, time zone, operating system, access times\n• Professional data (for candidates): resume, work history, qualifications, compensation expectations\n• Usage data: pages visited, time spent on pages, referral source\n3. Why we collect it\n\nWe process personal information for the following purposes:\n\n• Responding to inquiries and providing information about our services\n• Performing recruiting work including candidate sourcing, evaluation, and placement\n• Operating, maintaining, and improving this website\n• Complying with legal obligations and protecting our legal rights\n• Contacting you about relevant opportunities or services\n4. Your rights in the United States\n\nWe do not sell or share personal information, and we do not process it for cross-context behavioral advertising. California residents have the right to know what personal information we collect, to request a copy, to request correction or deletion, and to be free from retaliation for exercising those rights. Residents of other U.S. states with comparable privacy laws have equivalent rights. To exercise any of them, email us using the address in section 11 — we will verify your identity and respond within the period your state's law requires.\n\n5. If you are in Europe (GDPR)\n\nFor individuals in the European Economic Area, the United Kingdom, and Switzerland, we process personal data on the following legal bases:\n\n• Consent (Art. 6(1)(a) GDPR): where you have given explicit consent for specific processing\n• Contractual necessity (Art. 6(1)(b) GDPR): where processing is necessary to perform a contract or take pre-contractual steps\n• Legitimate interest (Art. 6(1)(f) GDPR): where processing is necessary for our legitimate business interests, such as direct outreach, fraud prevention, and service improvement\n• Legal obligation (Art. 6(1)(c) GDPR): where processing is required by applicable law\n\nYou also have the right of access, rectification, erasure, restriction, data portability, objection, withdrawal of consent, and the right to complain to a supervisory authority.\n\n6. Who we share it with\n\nWe do not sell personal information. We may share it with: (a) clients, solely for recruiting purposes and only with your consent; (b) service providers who support our operations under confidentiality agreements; (c) authorities where required by law. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe are made under Standard Contractual Clauses where applicable.\n\n7. How long we keep it\n\nWe keep personal information only as long as necessary: (a) client and candidate data for the duration of the business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You can ask us to delete it earlier, subject to legal retention requirements.\n\n8. Security\n\nWe use appropriate technical and organizational measures to protect personal information against unauthorized access, alteration, disclosure, or destruction, including encryption and access controls.\n\n9. Cookies and analytics\n\nThis site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site.\n\n10. Changes\n\nWe may update this policy. Material changes will be posted on this page with a new date at the top.\n\n11. Contact\n\nFor privacy questions, data requests, or complaints, contact us at: legal@skytz-consulting.com",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:legal@skytz-consulting.com",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9234,
+        "title": "Privacy Policy | Skytz Consulting",
+        "description": "Privacy Policy for Skytz Consulting. GDPR and CCPA compliant data handling. Learn how we protect your personal information.",
+        "canonical": "https://skytz-consulting.com/en/privacy",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/privacy",
+          "de=https://skytz-consulting.com/de/privacy",
+          "x-default=https://skytz-consulting.com/en/privacy"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 17,
+          "domContentLoaded": 86,
+          "load": 192,
+          "fcp": 116,
+          "lcp": 1080,
+          "cls": 0,
+          "wallMs": 924,
+          "requests": 15,
+          "transferKB": 4
+        },
+        "mobile": {
+          "ttfb": 33,
+          "domContentLoaded": 80,
+          "load": 213,
+          "fcp": 112,
+          "lcp": 1040,
+          "cls": 0,
+          "wallMs": 741,
+          "requests": 15,
+          "transferKB": 4
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_privacy-desktop.jpg",
+        "mobile": "en_privacy-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/privacy",
+      "finalUrl": "https://skytz-consulting.com/de/privacy",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Datenschutz | Skytz Consulting",
+        "lang": "de",
+        "description": "Datenschutzerklärung von Skytz Consulting. DSGVO und CCPA-konforme Datenverarbeitung. Erfahren Sie, wie wir Ihre Daten schützen.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/privacy",
+        "ogTitle": "Datenschutzerklärung | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/privacy",
+          "de=https://skytz-consulting.com/de/privacy",
+          "x-default=https://skytz-consulting.com/en/privacy"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Datenschutzerklärung",
+          "H2: 1. Verantwortlicher",
+          "H2: 2. Welche Daten wir erheben",
+          "H2: 3. Zweck der Verarbeitung",
+          "H2: 4. Rechte in den Vereinigten Staaten",
+          "H2: 5. Rechtsgrundlage der Verarbeitung (DSGVO)",
+          "H2: 6. Datenweitergabe und internationale Übermittlung",
+          "H2: 7. Speicherdauer",
+          "H2: 8. Datensicherheit",
+          "H2: 9. Cookies und Analyse",
+          "H2: 10. Änderungen dieser Erklärung",
+          "H2: 11. Kontakt und Datenschutzanfragen",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 587,
+        "text": "Datenschutzerklärung\n\nZuletzt aktualisiert: August 2026\n\nSkytz Consulting ist eine Marke der Laurasia LLC (\"wir\", \"uns\", \"unser\"). Diese Erklärung beschreibt, welche personenbezogenen Daten wir erheben, warum, und welche Rechte Sie haben. Sie berücksichtigt die EU-Datenschutz-Grundverordnung (DSGVO) sowie US-Datenschutzgesetze einschließlich des California Consumer Privacy Act (CCPA/CPRA).\n\n1. Verantwortlicher\n\nVerantwortlich für Ihre personenbezogenen Daten ist:\n\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nUnited States\n2. Welche Daten wir erheben\n\nWir erheben und verarbeiten folgende Kategorien personenbezogener Daten:\n\n• Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Berufsbezeichnung\n• Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und Anhängen, die Sie uns senden\n• Technische Daten: IP-Adresse, Browsertyp und -version, Zeitzone, Betriebssystem, Zugriffszeiten\n• Berufsbezogene Daten (für Kandidaten): Lebenslauf, Berufserfahrung, Qualifikationen, Gehaltsvorstellungen\n• Nutzungsdaten: besuchte Seiten, Verweildauer, Referrer-Quelle\n3. Zweck der Verarbeitung\n\nWir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:\n\n• Beantwortung von Anfragen und Information über unsere Leistungen\n• Erbringung von Recruiting-Leistungen einschließlich Suche, Bewertung und Vermittlung\n• Betrieb, Wartung und Verbesserung dieser Website\n• Erfüllung gesetzlicher Pflichten und Schutz unserer rechtlichen Interessen\n• Kommunikation mit Ihnen über relevante Positionen oder Leistungen\n4. Rechte in den Vereinigten Staaten\n\nWir verkaufen personenbezogene Daten nicht und geben sie nicht für werbliche Zwecke weiter. Einwohner Kaliforniens haben das Recht zu erfahren, welche Daten wir erheben, eine Kopie zu verlangen, Berichtigung oder Löschung zu beantragen und deswegen nicht benachteiligt zu werden. Einwohner anderer US-Bundesstaaten mit vergleichbaren Gesetzen haben entsprechende Rechte.\n\n5. Rechtsgrundlage der Verarbeitung (DSGVO)\n\nFür Personen im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz verarbeiten wir personenbezogene Daten auf folgenden Rechtsgrundlagen:\n\n• Einwilligung (Art. 6 Abs. 1 lit. a DSGVO): wenn Sie ausdrücklich in bestimmte Verarbeitungen eingewilligt haben\n• Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO): wenn die Verarbeitung zur Erfüllung eines Vertrags oder für vorvertragliche Maßnahmen erforderlich ist\n• Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO): wenn die Verarbeitung für unsere berechtigten Geschäftsinteressen erforderlich ist, etwa Direktansprache, Betrugsprävention und Serviceverbesserung\n• Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO): wenn die Verarbeitung gesetzlich vorgeschrieben ist\n\nSie haben zudem das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch, Widerruf der Einwilligung sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde.\n\n6. Datenweitergabe und internationale Übermittlung\n\nWir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unter Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln.\n\n7. Speicherdauer\n\nWir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten.\n\n8. Datensicherheit\n\nWir setzen angemessene technische und organisatorische Maßnahmen ein, um Ihre Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen, unter anderem Verschlüsselung und Zugriffskontrollen.\n\n9. Cookies und Analyse\n\nDiese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen.\n\n10. Änderungen dieser Erklärung\n\nWir können diese Datenschutzerklärung aktualisieren. Wesentliche Änderungen werden auf dieser Seite mit neuem Datum veröffentlicht.\n\n11. Kontakt und Datenschutzanfragen\n\nFür datenschutzbezogene Anfragen, Betroffenenrechte oder Beschwerden kontaktieren Sie uns bitte unter: legal@skytz-consulting.com",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:legal@skytz-consulting.com",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9273,
+        "title": "Datenschutzerklärung | Skytz Consulting",
+        "description": "Datenschutzerklärung von Skytz Consulting. DSGVO und CCPA-konforme Datenverarbeitung. Erfahren Sie, wie wir Ihre Daten schützen.",
+        "canonical": "https://skytz-consulting.com/de/privacy",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/privacy",
+          "de=https://skytz-consulting.com/de/privacy",
+          "x-default=https://skytz-consulting.com/en/privacy"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 29,
+          "domContentLoaded": 436,
+          "load": 569,
+          "fcp": 468,
+          "lcp": 1424,
+          "cls": 0,
+          "wallMs": 1093,
+          "requests": 15,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 42,
+          "domContentLoaded": 105,
+          "load": 209,
+          "fcp": 132,
+          "lcp": 1064,
+          "cls": 0,
+          "wallMs": 742,
+          "requests": 15,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_privacy-desktop.jpg",
+        "mobile": "de_privacy-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/terms",
+      "finalUrl": "https://skytz-consulting.com/en/terms",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "Terms | Skytz Consulting",
+        "lang": "en",
+        "description": "Terms and Conditions for Skytz Consulting recruitment services. Legal framework for executive search engagements.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/terms",
+        "ogTitle": "Terms & Conditions | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/terms",
+          "de=https://skytz-consulting.com/de/terms",
+          "x-default=https://skytz-consulting.com/en/terms"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Terms & Conditions",
+          "H2: 1. Scope of Services",
+          "H2: 2. No Guarantee of Results",
+          "H2: 3. Intellectual Property",
+          "H2: 4. Confidentiality",
+          "H2: 5. Limitation of Liability",
+          "H2: 6. Indemnification",
+          "H2: 7. External Links",
+          "H2: 8. Legal Compliance",
+          "H2: 9. Governing Law",
+          "H2: 10. Severability",
+          "H2: 11. Amendments",
+          "H2: 12. Contact",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 514,
+        "text": "Terms & Conditions\n\nLast updated: August 2026\n\nThese Terms govern your use of the Skytz Consulting website and any services provided by Laurasia LLC, doing business as Skytz Consulting. By using this website or engaging our services, you agree to these Terms.\n\n1. Scope of Services\n\nSkytz Consulting provides recruiting and talent advisory services. This website offers general information and is not a binding offer or contract. All recruiting engagements are subject to a separate written agreement.\n\n2. No Guarantee of Results\n\nRecruiting outcomes depend on market conditions, candidate availability, client decisions, and factors outside our control. We commit to professional diligence, but no specific placement, timeline, or outcome is guaranteed unless stated in a written agreement. Past results do not guarantee future performance.\n\n3. Intellectual Property\n\nContent on this website, including text, graphics, logos, and design, is the property of Laurasia LLC or its licensors and is protected by copyright and trademark law. Client logos and reference letters are reproduced with permission and remain the property of their owners. You may not reproduce, distribute, or modify this material without written consent.\n\n4. Confidentiality\n\nInformation shared with us about positions, candidates, or business operations is treated as confidential. We do not disclose client or candidate information to third parties without consent, except where required by law. Candidates are presented to clients only after they have consented.\n\n5. Limitation of Liability\n\nTo the maximum extent permitted by law, Laurasia LLC is not liable for indirect, incidental, special, consequential, or punitive damages arising from: (a) use of this website; (b) reliance on information provided here; (c) recruiting services rendered. Our total liability will not exceed the fees paid for the service giving rise to the claim. Nothing here excludes liability for death or personal injury caused by negligence, for fraud, or for any liability that cannot be excluded by law.\n\n6. Indemnification\n\nYou agree to indemnify and hold harmless Laurasia LLC, its officers, employees, and agents from claims, damages, losses, or expenses arising from: (a) your violation of these Terms; (b) your violation of third-party rights; (c) any misrepresentation you make.\n\n7. External Links\n\nThis website may link to third-party websites. We are not responsible for their content, accuracy, or privacy practices. A link does not imply endorsement.\n\n8. Legal Compliance\n\nLaurasia LLC operates in compliance with applicable U.S. federal and state law, and with European regulations including GDPR when serving clients and candidates in the EEA, UK, and Switzerland. We are committed to non-discrimination and equal opportunity in all recruiting activity.\n\n9. Governing Law\n\nThese Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles. Disputes will be resolved in the courts of Wyoming. For individuals in the EU, mandatory consumer protection law in your country of residence may also apply.\n\n10. Severability\n\nIf any provision of these Terms is unenforceable, the remaining provisions stay in full force.\n\n11. Amendments\n\nWe may modify these Terms. Changes take effect when posted to this website.\n\n12. Contact\n\nFor legal questions or questions about these Terms, contact us at: legal@skytz-consulting.com",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:legal@skytz-consulting.com",
+          "mailto:info@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9224,
+        "title": "Terms &amp; Conditions | Skytz Consulting",
+        "description": "Terms and Conditions for Skytz Consulting recruitment services. Legal framework for executive search engagements.",
+        "canonical": "https://skytz-consulting.com/en/terms",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/terms",
+          "de=https://skytz-consulting.com/de/terms",
+          "x-default=https://skytz-consulting.com/en/terms"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 16,
+          "domContentLoaded": 346,
+          "load": 446,
+          "fcp": 372,
+          "lcp": 1324,
+          "cls": 0,
+          "wallMs": 1167,
+          "requests": 15,
+          "transferKB": 4
+        },
+        "mobile": {
+          "ttfb": 17,
+          "domContentLoaded": 83,
+          "load": 192,
+          "fcp": 116,
+          "lcp": 1052,
+          "cls": 0,
+          "wallMs": 724,
+          "requests": 15,
+          "transferKB": 4
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_terms-desktop.jpg",
+        "mobile": "en_terms-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/terms",
+      "finalUrl": "https://skytz-consulting.com/de/terms",
+      "status": 200,
+      "inSitemap": true,
+      "rendered": {
+        "title": "AGB | Skytz Consulting",
+        "lang": "de",
+        "description": "AGB für Skytz Consulting Personalberatung. Rechtlicher Rahmen für Executive Search Mandate.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/terms",
+        "ogTitle": "Allgemeine Geschäftsbedingungen | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/terms",
+          "de=https://skytz-consulting.com/de/terms",
+          "x-default=https://skytz-consulting.com/en/terms"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Allgemeine Geschäftsbedingungen",
+          "H2: 1. Leistungsumfang",
+          "H2: 2. Keine Ergebnisgarantie",
+          "H2: 3. Geistiges Eigentum",
+          "H2: 4. Vertraulichkeit",
+          "H2: 5. Haftungsbeschränkung",
+          "H2: 6. Freistellung",
+          "H2: 7. Externe Links",
+          "H2: 8. Rechtliche Compliance",
+          "H2: 9. Anwendbares Recht",
+          "H2: 10. Salvatorische Klausel",
+          "H2: 11. Änderungen",
+          "H2: 12. Kontakt",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 447,
+        "text": "Allgemeine Geschäftsbedingungen\n\nZuletzt aktualisiert: August 2026\n\nDiese Allgemeinen Geschäftsbedingungen regeln Ihre Nutzung der Skytz Consulting Website und aller von der Laurasia LLC, handelnd als Skytz Consulting, erbrachten Leistungen. Durch die Nutzung dieser Website oder die Beauftragung erklären Sie sich mit diesen Bedingungen einverstanden.\n\n1. Leistungsumfang\n\nSkytz Consulting erbringt Recruiting- und Beratungsleistungen. Diese Website enthält allgemeine Informationen und stellt kein verbindliches Angebot dar. Alle Mandate unterliegen einer separaten schriftlichen Vereinbarung.\n\n2. Keine Ergebnisgarantie\n\nRecruiting-Ergebnisse hängen von Marktbedingungen, Kandidatenverfügbarkeit, Kundenentscheidungen und Faktoren außerhalb unserer Kontrolle ab. Wir verpflichten uns zu professioneller Sorgfalt, garantieren aber keine bestimmte Besetzung, keinen Zeitrahmen und kein Ergebnis, sofern nicht schriftlich vereinbart. Vergangene Ergebnisse garantieren keine zukünftige Leistung.\n\n3. Geistiges Eigentum\n\nAlle Inhalte dieser Website, einschließlich Text, Grafiken, Logos und Design, sind Eigentum der Laurasia LLC oder ihrer Lizenzgeber und urheber- und markenrechtlich geschützt. Kundenlogos und Referenzschreiben werden mit Zustimmung verwendet und bleiben Eigentum der jeweiligen Inhaber. Vervielfältigung, Verbreitung oder Bearbeitung bedarf der schriftlichen Zustimmung.\n\n4. Vertraulichkeit\n\nInformationen zu Positionen, Kandidaten oder Geschäftsabläufen behandeln wir vertraulich. Wir geben Kunden- oder Kandidateninformationen nicht ohne Einwilligung an Dritte weiter, außer wenn gesetzlich vorgeschrieben. Kandidaten werden Kunden erst nach deren Einwilligung vorgestellt.\n\n5. Haftungsbeschränkung\n\nSoweit gesetzlich zulässig, haftet die Laurasia LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden aus: (a) der Nutzung dieser Website; (b) dem Vertrauen auf hier bereitgestellte Informationen; (c) erbrachten Recruiting-Leistungen. Unsere Gesamthaftung ist auf die für die betreffende Leistung gezahlten Gebühren beschränkt. Die Haftung für Tod oder Körperverletzung durch Fahrlässigkeit, für Vorsatz sowie für gesetzlich nicht ausschließbare Fälle bleibt unberührt.\n\n6. Freistellung\n\nSie stellen die Laurasia LLC, ihre Geschäftsführer, Mitarbeiter und Vertreter von Ansprüchen, Schäden, Verlusten oder Kosten frei, die entstehen aus: (a) Ihrer Verletzung dieser Bedingungen; (b) Ihrer Verletzung von Rechten Dritter; (c) falschen Angaben Ihrerseits.\n\n7. Externe Links\n\nDiese Website kann auf Websites Dritter verlinken. Für deren Inhalte, Richtigkeit oder Datenschutzpraktiken sind wir nicht verantwortlich. Ein Link stellt keine Empfehlung dar.\n\n8. Rechtliche Compliance\n\nDie Laurasia LLC arbeitet im Einklang mit anwendbarem US-Bundes- und Landesrecht sowie mit europäischen Vorschriften einschließlich der DSGVO bei der Betreuung von Kunden und Kandidaten im EWR, im Vereinigten Königreich und in der Schweiz. Wir verpflichten uns zu Antidiskriminierung und Chancengleichheit in allen Recruiting-Aktivitäten.\n\n9. Anwendbares Recht\n\nDiese Bedingungen unterliegen dem Recht des Staates Wyoming, USA, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden vor den Gerichten von Wyoming beigelegt. Für Personen in der EU können zwingende Verbraucherschutzgesetze Ihres Wohnsitzlandes zusätzlich gelten.\n\n10. Salvatorische Klausel\n\nSollte eine Bestimmung unwirksam sein, bleiben die übrigen Bestimmungen in vollem Umfang wirksam.\n\n11. Änderungen\n\nWir können diese Bedingungen ändern. Änderungen werden mit Veröffentlichung auf dieser Website wirksam.\n\n12. Kontakt\n\nFür rechtliche Anfragen oder Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter: legal@skytz-consulting.com",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:legal@skytz-consulting.com",
+          "mailto:info@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9194,
+        "title": "Allgemeine Geschäftsbedingungen | Skytz Consulting",
+        "description": "AGB für Skytz Consulting Personalberatung. Rechtlicher Rahmen für Executive Search Mandate.",
+        "canonical": "https://skytz-consulting.com/de/terms",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/terms",
+          "de=https://skytz-consulting.com/de/terms",
+          "x-default=https://skytz-consulting.com/en/terms"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 16,
+          "domContentLoaded": 338,
+          "load": 458,
+          "fcp": 372,
+          "lcp": 1320,
+          "cls": 0,
+          "wallMs": 986,
+          "requests": 15,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 33,
+          "domContentLoaded": 86,
+          "load": 205,
+          "fcp": 120,
+          "lcp": 1056,
+          "cls": 0,
+          "wallMs": 736,
+          "requests": 15,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_terms-desktop.jpg",
+        "mobile": "de_terms-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/en/imprint",
+      "finalUrl": "https://skytz-consulting.com/en/imprint",
+      "status": 200,
+      "inSitemap": false,
+      "rendered": {
+        "title": "Legal Notice | Skytz Consulting",
+        "lang": "en",
+        "description": "Legal notice for Skytz Consulting, a brand of Laurasia LLC. Provider identification, contact details and responsibility for content.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/en/imprint",
+        "ogTitle": "Imprint | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/imprint",
+          "de=https://skytz-consulting.com/de/imprint",
+          "x-default=https://skytz-consulting.com/en/imprint"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Legal Notice",
+          "H2: Company",
+          "H2: Represented by",
+          "H2: Contact",
+          "H2: Copyright",
+          "H4: Contact",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 65,
+        "text": "Legal Notice\nCompany\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nUnited States\n\nSkytz Consulting is a trade name of Laurasia LLC.\n\nRepresented by\n\nPhilipp Hoffschröer, Founder\n\nContact\n\nEmail: info@skytz-consulting.com\n\nLegal inquiries: legal@skytz-consulting.com\n\nPhone: +1 307 429 0181\n\nCopyright\n\nContent on this site is owned by Laurasia LLC or its licensors. Third-party material is marked as such. Reproduction or redistribution requires written permission.",
+        "internalLinks": [
+          "/en",
+          "/en/industries",
+          "/en/testimonials",
+          "/en/about",
+          "/en/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "mailto:legal@skytz-consulting.com",
+          "/en/privacy",
+          "/en/terms",
+          "/en/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9233,
+        "title": "Imprint | Skytz Consulting",
+        "description": "Legal notice for Skytz Consulting, a brand of Laurasia LLC. Provider identification, contact details and responsibility for content.",
+        "canonical": "https://skytz-consulting.com/en/imprint",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/imprint",
+          "de=https://skytz-consulting.com/de/imprint",
+          "x-default=https://skytz-consulting.com/en/imprint"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 17,
+          "domContentLoaded": 329,
+          "load": 438,
+          "fcp": 360,
+          "lcp": 1344,
+          "cls": 0,
+          "wallMs": 1196,
+          "requests": 15,
+          "transferKB": 4
+        },
+        "mobile": {
+          "ttfb": 19,
+          "domContentLoaded": 86,
+          "load": 236,
+          "fcp": 144,
+          "lcp": 1076,
+          "cls": 0,
+          "wallMs": 774,
+          "requests": 15,
+          "transferKB": 4
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "en_imprint-desktop.jpg",
+        "mobile": "en_imprint-mobile.jpg"
+      }
+    },
+    {
+      "url": "https://skytz-consulting.com/de/imprint",
+      "finalUrl": "https://skytz-consulting.com/de/imprint",
+      "status": 200,
+      "inSitemap": false,
+      "rendered": {
+        "title": "Impressum | Skytz Consulting",
+        "lang": "de",
+        "description": "Impressum von Skytz Consulting, einer Marke der Laurasia LLC. Anbieterkennzeichnung, Kontaktdaten und Verantwortlichkeit für den Inhalt.",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "canonical": "https://skytz-consulting.com/de/imprint",
+        "ogTitle": "Impressum | Skytz Consulting",
+        "ogImage": "https://skytz-consulting.com/brand/og-image.jpg",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/imprint",
+          "de=https://skytz-consulting.com/de/imprint",
+          "x-default=https://skytz-consulting.com/en/imprint"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "headings": [
+          "H1: Impressum",
+          "H2: Angaben gemäß § 5 DDG",
+          "H2: Vertreten durch",
+          "H2: Kontakt",
+          "H2: Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+          "H2: Haftung für Inhalte",
+          "H2: Haftung für Links",
+          "H2: Urheberrecht",
+          "H2: Verbraucherstreitbeilegung",
+          "H4: Kontakt",
+          "H4: Legal"
+        ],
+        "imgs": [
+          {
+            "src": "https://skytz-consulting.com/brand/Logo-Skytz-Consulting.png",
+            "alt": "Skytz Consulting",
+            "w": 480,
+            "h": 320,
+            "loading": "eager"
+          }
+        ],
+        "wordCount": 232,
+        "text": "Impressum\nAngaben gemäß § 5 DDG\nLaurasia LLC\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nUnited States\n\nSkytz Consulting ist eine Marke der Laurasia LLC.\n\nVertreten durch\n\nPhilipp Hoffschröer, Gründer\n\nKontakt\n\nE-Mail: info@skytz-consulting.com\n\nRechtliche Anfragen: legal@skytz-consulting.com\n\nTelefon: +1 307 429 0181\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV\nPhilipp Hoffschröer\n1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nUnited States\nHaftung für Inhalte\n\nDie Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich, jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.\n\nHaftung für Links\n\nUnser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.\n\nUrheberrecht\n\nDie durch die Betreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Logos und Referenzschreiben von Kunden werden mit deren Zustimmung verwendet und bleiben Eigentum der jeweiligen Inhaber. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung.\n\nVerbraucherstreitbeilegung\n\nWir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+        "internalLinks": [
+          "/de",
+          "/de/industries",
+          "/de/testimonials",
+          "/de/about",
+          "/de/meet-philipp",
+          "mailto:info@skytz-consulting.com",
+          "mailto:legal@skytz-consulting.com",
+          "/de/privacy",
+          "/de/terms",
+          "/de/imprint"
+        ],
+        "externalLinks": [
+          "tel:+13074290181",
+          "https://www.linkedin.com/in/philipp-hoffschroer/"
+        ],
+        "imgsMissingAlt": []
+      },
+      "raw": {
+        "status": 200,
+        "xRobots": null,
+        "bytes": 9253,
+        "title": "Impressum | Skytz Consulting",
+        "description": "Impressum von Skytz Consulting, einer Marke der Laurasia LLC. Anbieterkennzeichnung, Kontaktdaten und Verantwortlichkeit für den Inhalt.",
+        "canonical": "https://skytz-consulting.com/de/imprint",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "hreflang": [
+          "en=https://skytz-consulting.com/en/imprint",
+          "de=https://skytz-consulting.com/de/imprint",
+          "x-default=https://skytz-consulting.com/en/imprint"
+        ],
+        "ldTypes": [
+          "Organization",
+          "EmploymentAgency",
+          "Service"
+        ],
+        "h1InRaw": false,
+        "bodyTextWords": 0
+      },
+      "perf": {
+        "desktop": {
+          "ttfb": 21,
+          "domContentLoaded": 405,
+          "load": 520,
+          "fcp": 436,
+          "lcp": 1384,
+          "cls": 0,
+          "wallMs": 1051,
+          "requests": 15,
+          "transferKB": 3
+        },
+        "mobile": {
+          "ttfb": 17,
+          "domContentLoaded": 82,
+          "load": 210,
+          "fcp": 116,
+          "lcp": 1064,
+          "cls": 0,
+          "wallMs": 746,
+          "requests": 15,
+          "transferKB": 3
+        }
+      },
+      "mobileHorizontalOverflow": false,
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "de_imprint-desktop.jpg",
+        "mobile": "de_imprint-mobile.jpg"
+      }
+    }
+  ]
+}
