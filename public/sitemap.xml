@@ -162,4 +162,24 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://skytz-consulting.com/en/imprint</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/imprint"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/imprint"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/imprint"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://skytz-consulting.com/de/imprint</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/imprint"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/imprint"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skytz-consulting.com/en/imprint"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

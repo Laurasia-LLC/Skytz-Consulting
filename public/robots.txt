@@ -10,5 +10,3 @@ Sitemap: https://skytz-consulting.com/sitemap.xml
 # Disallow admin or private paths (none currently)
 # Disallow: /admin/
 
-# Crawl-delay for polite crawling
-Crawl-delay: 1
