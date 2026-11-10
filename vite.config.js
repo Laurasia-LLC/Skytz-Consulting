@@ -1,12 +1,15 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Cookiebot group ids are UUIDs. Anything else (unset, blank, placeholder)
-// is treated as "no consent banner" and both tags are removed from the HTML.
+// Public Cookiebot domain-group id for skytz-consulting.com. Not a secret.
+// VITE_COOKIEBOT_CBID overrides it. A non-empty invalid value still strips
+// Cookiebot and GTM. Blank or unset keeps this default, so Vercel needs no env.
+const DEFAULT_COOKIEBOT_CBID = '1fc5469b-67b4-4029-9179-643181c01a87';
 const COOKIEBOT_CBID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 function cookiebotCbid(env) {
-  const value = (env.VITE_COOKIEBOT_CBID || '').trim();
+  const value = String(env.VITE_COOKIEBOT_CBID ?? '').trim();
+  if (!value) return DEFAULT_COOKIEBOT_CBID;
   return COOKIEBOT_CBID_RE.test(value) ? value : '';
 }
 
@@ -16,8 +19,8 @@ function stripMarked(html, start, end) {
 }
 
 // %VITE_COOKIEBOT_CBID% in index.html is the Vite HTML env slot. This gate
-// fills it only for a real UUID. Otherwise Cookiebot, the consent default
-// and GTM are dropped, so a build without the variable cannot phone home.
+// fills it with the resolved UUID. An invalid override drops Cookiebot,
+// the consent default and GTM.
 function cookiebotGtmGate(cbid) {
   return {
     name: 'cookiebot-gtm-gate',
