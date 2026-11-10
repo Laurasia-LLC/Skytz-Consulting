@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download, MapPin, Building2 } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
@@ -48,10 +47,6 @@ export default function Vacancies() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.vacancies?.[lang] || pageSEOConfig.vacancies?.en;
-
-  useEffect(() => {
-    document.title = `${t('nav.vacancies')} | Skytz Consulting`;
-  }, [t]);
 
   return (
     <>

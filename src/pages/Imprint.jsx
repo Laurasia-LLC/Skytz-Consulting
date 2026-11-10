@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
@@ -17,10 +16,6 @@ export default function Imprint() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.imprint[lang] || pageSEOConfig.imprint.en;
-
-  useEffect(() => {
-    document.title = `${t('footer.links.imprint')} | Skytz Consulting`;
-  }, [t]);
 
   // Fields the business still has to supply render only once filled in.
   const phone = t('imprint.contact.phone');

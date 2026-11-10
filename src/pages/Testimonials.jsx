@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Quote, ArrowRight, Building2, CheckCircle, FileText } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
@@ -28,10 +27,6 @@ export default function Testimonials() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.testimonials[lang] || pageSEOConfig.testimonials.en;
-
-  useEffect(() => {
-    document.title = `${t('nav.testimonials')} | Skytz Consulting`;
-  }, [t]);
 
   // Client keys to iterate over
   // On-niche proof first (Megger + SebaKMT, same group, deepest relationship), then breadth.

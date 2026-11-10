@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Search, Users, Shield, TrendingUp, Lock, Building2, Briefcase, ArrowRight, Columns2, Globe2, Ruler } from 'lucide-react';
@@ -28,10 +27,6 @@ export default function About() {
   const { getLocalizedPath } = useLanguage();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.about[lang] || pageSEOConfig.about.en;
-
-  useEffect(() => {
-    document.title = `${t('nav.about')} | Skytz Consulting`;
-  }, [t]);
 
   const operations = [
     { icon: Users, key: 'direct' },

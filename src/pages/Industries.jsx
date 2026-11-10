@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Factory, Wrench, Network, Gauge, ArrowRight } from 'lucide-react';
@@ -30,10 +29,6 @@ export default function Industries() {
   const { getLocalizedPath } = useLanguage();
   const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.industries?.[lang] || pageSEOConfig.industries?.en;
-
-  useEffect(() => {
-    document.title = `${t('nav.industries')} | Skytz Consulting`;
-  }, [t]);
 
   const sectors = t('industries.sectors', { returnObjects: true }) || [];
   const labels = t('industries.labels', { returnObjects: true }) || {};
