@@ -3,12 +3,12 @@ export const pageSEOConfig = {
     en: {
       title: "Sales Engineer Recruiter, Direct Search",
       description:
-        'Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.',
+        'Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany and Switzerland. Since 2015.',
     },
     de: {
       title: "Personalberatung Vertriebsingenieure",
       description:
-        'Spezialisierter Personalberater für Sales Engineers und technische Führungskräfte. Direktsuche – die meisten Besetzungen aus passiven Kandidaten. Deutschland, Schweiz, USA. Seit 2015.',
+        'Spezialisierter Personalberater für Sales Engineers und technische Führungskräfte. Direktsuche – die meisten Besetzungen aus passiven Kandidaten. Deutschland und Schweiz. Seit 2015.',
     },
   },
   testimonials: {
@@ -27,7 +27,7 @@ export const pageSEOConfig = {
     en: {
       title: "Sales Engineer Recruiting Since 2015",
       description:
-        'Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.',
+        'Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. Germany and Switzerland.',
     },
     de: {
       title: "Über uns: Personalberatung seit 2015",

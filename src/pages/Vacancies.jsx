@@ -35,10 +35,6 @@ const VACANCIES = [
     pdfPath: '/Technischer-Zeichner.pdf',
   },
   {
-    key: 'bimManagerCoordinator',
-    pdfPath: '/BIM-Manager-Coordinator.pdf',
-  },
-  {
     key: 'expertSifa',
     pdfPath: '/Experte-Sifa.pdf',
   },

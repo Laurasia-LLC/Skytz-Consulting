@@ -32,8 +32,8 @@ export default function SEO({
     : 'Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers';
 
   const defaultDescription = lang === 'de'
-    ? 'Recruiting im technischen Vertrieb für Hersteller von Mess- und Prüftechnik seit 2015. Industrieautomation, Sensorik, Antriebstechnik, Prozessmesstechnik. Deutschland und USA.'
-    : 'Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States.';
+    ? 'Persönliche Personalberatung für Hersteller, Ingenieurbüros und Bauunternehmen in Deutschland und der Schweiz. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015.'
+    : 'Personal executive search for technical sales and engineering roles in Germany and Switzerland. Direct approach since 2015.';
 
   const pageTitle = title ? `${title} | ${SITE_NAME}` : defaultTitle;
   const pageDescription = description || defaultDescription;

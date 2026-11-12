@@ -40,12 +40,6 @@
         "location": "Deutschland",
         "summary": "Rollenprofil als PDF zum Download."
       },
-      "bimManagerCoordinator": {
-        "title": "BIM-Manager / Koordinator",
-        "company": "Baubranche",
-        "location": "USA",
-        "summary": "Rollenprofil als PDF zum Download."
-      },
       "expertSifa": {
         "title": "Experte für Arbeitssicherheit (Sifa) (m/w/d)",
         "company": "Baubranche",
@@ -94,8 +88,7 @@
       "Projektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg",
       "Bauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main",
       "Technischer Zeichner (CAD) — Baubranche — Deutschland",
-      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Parallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik"
+      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main"
     ],
     "note": "Das sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe."
   },
@@ -183,38 +176,38 @@
     "benchmarkNote": "Zur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu."
   },
   "markets": {
-    "title": "Eine Suche in Deutschland und eine in den USA laufen unterschiedlich",
-    "intro": "Wenn Sie in beiden Märkten besetzen oder Ihrer US-Tochter erklären müssen, warum es hier länger dauert: Das sind die Unterschiede, die den Zeitplan bestimmen.",
-    "usLabel": "USA",
-    "deLabel": "Deutschland und Schweiz",
+    "title": "Eine Suche in Deutschland und eine in der Schweiz laufen unterschiedlich",
+    "intro": "Wenn Sie in beiden Ländern besetzen, bestimmen diese Unterschiede den Zeitplan.",
+    "usLabel": "Deutschland",
+    "deLabel": "Schweiz",
     "rows": [
       {
         "topic": "Kündigungsfrist",
-        "us": "Zwei Wochen sind üblich, bei erfahrenen Kandidaten manchmal vier.",
-        "de": "Drei Monate zum Quartalsende sind in Fach- und Führungsverträgen die Regel. Sechs Monate kommen vor."
+        "us": "Drei Monate zum Quartalsende sind in Fach- und Führungsverträgen die Regel. Sechs Monate kommen vor.",
+        "de": "Oft ein bis drei Monate, je nach Seniorität und Kanton. Die Vertragslage ist heterogener als in Deutschland."
       },
       {
         "topic": "Von der Zusage bis zum ersten Tag",
-        "us": "Zwei bis vier Wochen.",
-        "de": "Drei bis sechs Monate. Das bestimmt der Vertrag, nicht der gute Wille."
+        "us": "Drei bis sechs Monate, festgelegt im Vertrag.",
+        "de": "Ähnlich lang; kantonale Praxis und Bewilligungen können bei Zuzug aus dem Ausland zusätzliche Schritte bedeuten."
       },
       {
         "topic": "Gegenangebote",
-        "us": "Häufig, meist über Geld, meist innerhalb weniger Tage.",
-        "de": "Seltener und langsamer, und häufiger über Verantwortung oder Titel als über das Grundgehalt."
+        "us": "Seltener und langsamer, häufiger über Titel, Verantwortung oder Dienstwagen als über das Grundgehalt.",
+        "de": "Weiterhin üblich; Vergütungsstruktur und Bonustiming können so wichtig sein wie das Fixgehalt."
       },
       {
         "topic": "Woran es spät scheitert",
-        "us": "Ein konkurrierendes Angebot, das schneller war als Ihres.",
-        "de": "Ein Umzug und das Familiengespräch, das dazugehört."
+        "us": "Umzug innerhalb Deutschlands und das Familiengespräch, das dazugehört.",
+        "de": "Grenzüberschreitende Steuer- und Bewilligungsfragen beim Kantonswechsel oder Pendeln."
       },
       {
         "topic": "Was das für Sie heißt",
-        "us": "Schnell entscheiden. Lange interne Freigaben sind der häufigste Grund, warum US-Suchen scheitern.",
-        "de": "Den Eintrittstermin vom Quartal her rückwärts planen. Druck auf den Kandidaten ändert die Frist nicht."
+        "us": "Den Eintrittstermin vom Quartal her rückwärts planen. Druck auf den Kandidaten ändert die Frist selten.",
+        "de": "Zeit für Bewilligung und Payroll einplanen, wenn die Person noch nicht in der Schweiz arbeitet."
       }
     ],
-    "note": "Beides mache ich, aber nicht mit derselben Erwartung an das Tempo."
+    "note": "Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften aus. Die Kündigungsfrist kommt danach noch dazu."
   },
   "industries": {
     "title": "Branchen, in denen ich arbeite",
@@ -246,7 +239,7 @@
         "name": "Mess- und Prüftechnik",
         "roles": "Vertrieb und kaufmännische Führung, Geschäftsbereichsleitung",
         "tech": "Elektrische Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen, Schüttgut- und Prozessmessung",
-        "channel": "Direktvertrieb und Tochtergesellschaften in Europa und den USA",
+        "channel": "Direktvertrieb und Tochtergesellschaften in Europa",
         "screen": "Hier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich."
       }
     ],
@@ -267,7 +260,7 @@
       },
       {
         "q": "Was passiert, wenn die Besetzung nicht funktioniert?",
-        "a": "Das regeln wir individuell und schriftlich, bevor die Suche beginnt. Die Bedingungen unterscheiden sich zwischen dem deutschen und dem US-Markt, deshalb nenne ich hier keine pauschale Frist. Fragen Sie im ersten Gespräch, dann sage ich Ihnen genau, was für Ihre Suche gilt."
+        "a": "Das regeln wir individuell und schriftlich, bevor die Suche beginnt. Fragen Sie im ersten Gespräch — dann sage ich Ihnen genau, was für Ihre Suche gilt."
       },
       {
         "q": "Arbeiten Sie exklusiv?",
@@ -485,7 +478,7 @@
       "market": "Was diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.",
       "placed": "Besetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.",
       "numbers": "Von den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.",
-      "reach": "Ich sitze in Deutschland und arbeite bis in den US-Vormittag hinein. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
+      "reach": "Ich sitze in Deutschland. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
     },
     "operationsTitle": "Wie ich arbeite",
     "operations": {
