@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Skytz Consulting | Personalberatung für technischen Vertrieb und Engineering",
-    "description": "Persönliche Personalberatung für Hersteller, Ingenieurbüros und Bauunternehmen in Deutschland und der Schweiz. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015."
+    "description": "Persönliche Personalberatung für Hersteller und Ingenieurbüros in der Schweiz, in Österreich und in den Benelux-Staaten. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015."
   },
   "nav": {
     "testimonials": "Referenzen",
@@ -25,19 +25,19 @@
       "gfAssistenz": {
         "title": "Assistenz der Geschäftsführung",
         "company": "Baubranche",
-        "location": "Deutschland",
+        "location": "Mitteleuropa",
         "summary": "Rollenprofil als PDF zum Download."
       },
       "bauueberwachung": {
         "title": "Bauüberwachung",
         "company": "Baubranche",
-        "location": "Deutschland",
+        "location": "Mitteleuropa",
         "summary": "Rollenprofil als PDF zum Download."
       },
       "technischerZeichner": {
         "title": "Technischer Zeichner (CAD)",
         "company": "Baubranche",
-        "location": "Deutschland",
+        "location": "Mitteleuropa",
         "summary": "Rollenprofil als PDF zum Download."
       },
       "expertSifa": {
@@ -49,7 +49,7 @@
     }
   },
   "hero": {
-    "tagline": "Personalberatung · Deutschland · Schweiz",
+    "tagline": "Personalberatung · Schweiz · Österreich · Benelux",
     "headline": "Positionen im technischen Vertrieb und im Engineering.",
     "subhead": "Mein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Ich arbeite allein: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir persönlich. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.",
     "cta": {
@@ -83,14 +83,9 @@
     "germanNote": ""
   },
   "searches": {
-    "title": "Aktuelle Mandate",
-    "items": [
-      "Projektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg",
-      "Bauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main",
-      "Technischer Zeichner (CAD) — Baubranche — Deutschland",
-      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main"
-    ],
-    "note": "Das sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe."
+    "title": "Vertrauliche Suchen",
+    "items": [],
+    "note": "Ich bearbeite einzelne Festanstellungen im technischen Vertrieb und im Engineering. Rollenprofile bleiben vertraulich, bis ein Kandidat der Nennung zugestimmt hat. Schreiben Sie mir, wenn Sie eine Vakanz besprechen möchten."
   },
   "process": {
     "title": "So läuft eine Suche ab",
@@ -158,7 +153,7 @@
     "items": [
       {
         "metric": "Wochen bis zur Shortlist",
-        "definition": "Wochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In Deutschland und der Schweiz sind das in der Regel drei bis vier Wochen.",
+        "definition": "Wochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In der Schweiz, in Österreich und in den Benelux-Staaten sind das in der Regel drei bis vier Wochen.",
         "excludes": "Wartezeiten auf Kundenseite von mehr als einer Woche und Mandate, die nach dem Start neu zugeschnitten werden."
       },
       {
@@ -168,46 +163,46 @@
       },
       {
         "metric": "Verbleib nach zwölf Monaten",
-        "definition": "Vermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten. Aktuell 92 Prozent.",
+        "definition": "Vermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten.",
         "excludes": "Betriebsbedingte Kündigungen, Restrukturierungen, Stellenstreichungen und Standortschließungen."
       }
     ],
     "window": "Die Zahlen umfassen Vermittlungen seit 2015 und werden quartalsweise überprüft. Wenn Sie die Fallzahlen dahinter sehen möchten, fragen Sie im ersten Gespräch.",
-    "benchmarkNote": "Zur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu."
+    "benchmarkNote": "In der Schweiz, in Österreich und in den Benelux-Staaten liegen Kündigungsfristen und Bewilligungsschritte oft zwischen Zusage und erstem Arbeitstag. Planen Sie den Start mit ein."
   },
   "markets": {
-    "title": "Eine Suche in Deutschland und eine in der Schweiz laufen unterschiedlich",
+    "title": "Eine Suche in der Schweiz und eine in Österreich laufen unterschiedlich",
     "intro": "Wenn Sie in beiden Ländern besetzen, bestimmen diese Unterschiede den Zeitplan.",
-    "usLabel": "Deutschland",
-    "deLabel": "Schweiz",
+    "usLabel": "Schweiz",
+    "deLabel": "Österreich",
     "rows": [
       {
         "topic": "Kündigungsfrist",
-        "us": "Drei Monate zum Quartalsende sind in Fach- und Führungsverträgen die Regel. Sechs Monate kommen vor.",
-        "de": "Oft ein bis drei Monate, je nach Seniorität und Kanton. Die Vertragslage ist heterogener als in Deutschland."
+        "us": "Oft ein bis drei Monate, je nach Seniorität und Kanton. Die Vertragslage variiert nach Branche und Arbeitgeber.",
+        "de": "Gesetzliche Mindestfristen gelten, in Fach- und Führungsverträgen ist die Frist oft länger. Drei Monate sind üblich."
       },
       {
         "topic": "Von der Zusage bis zum ersten Tag",
-        "us": "Drei bis sechs Monate, festgelegt im Vertrag.",
-        "de": "Ähnlich lang; kantonale Praxis und Bewilligungen können bei Zuzug aus dem Ausland zusätzliche Schritte bedeuten."
+        "us": "Der Vertrag setzt die Frist; kantonale Praxis und Bewilligungen können bei Zuzug aus dem Ausland zusätzliche Schritte bedeuten.",
+        "de": "Die Kündigungsfrist bestimmt die Lücke. Kollektivvertrag und Level der Position setzen die Länge."
       },
       {
         "topic": "Gegenangebote",
-        "us": "Seltener und langsamer, häufiger über Titel, Verantwortung oder Dienstwagen als über das Grundgehalt.",
-        "de": "Weiterhin üblich; Vergütungsstruktur und Bonustiming können so wichtig sein wie das Fixgehalt."
+        "us": "Weiterhin üblich; Vergütungsstruktur, Bonus und Flexibilität können so wichtig sein wie das Fixgehalt.",
+        "de": "Oft langsamer als in angelsächsischen Märkten, häufiger über Verantwortung, Titel oder Benefits als über das Grundgehalt."
       },
       {
         "topic": "Woran es spät scheitert",
-        "us": "Umzug innerhalb Deutschlands und das Familiengespräch, das dazugehört.",
-        "de": "Grenzüberschreitende Steuer- und Bewilligungsfragen beim Kantonswechsel oder Pendeln."
+        "us": "Grenzüberschreitende Steuer- und Bewilligungsfragen beim Kantonswechsel oder Pendeln.",
+        "de": "Umzug innerhalb Österreichs und das Familiengespräch, das dazugehört, besonders wenn Schulen im Spiel sind."
       },
       {
         "topic": "Was das für Sie heißt",
-        "us": "Den Eintrittstermin vom Quartal her rückwärts planen. Druck auf den Kandidaten ändert die Frist selten.",
-        "de": "Zeit für Bewilligung und Payroll einplanen, wenn die Person noch nicht in der Schweiz arbeitet."
+        "us": "Zeit für Bewilligung und Payroll einplanen, wenn die Person noch nicht in der Schweiz arbeitet.",
+        "de": "Den Eintrittstermin vom Vertragsende her planen, nicht vom Wunschdatum am Schreibtisch."
       }
     ],
-    "note": "Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften aus. Die Kündigungsfrist kommt danach noch dazu."
+    "note": "In den Benelux-Staaten — Luxemburg, Niederlande, Belgien — gelten wieder andere Fristen und Bewilligungen. Wenn Ihre Rolle dort liegt, sagen Sie es im ersten Gespräch; ich mappe den Zeitplan für das jeweilige Land."
   },
   "industries": {
     "title": "Branchen, in denen ich arbeite",
@@ -265,6 +260,10 @@
       {
         "q": "Arbeiten Sie exklusiv?",
         "a": "In der Regel ja, und die Suche wird dadurch besser. Ich analysiere keinen Markt acht Wochen lang, um anschließend mit drei weiteren Beratungen um dieselben fünf Kandidaten zu konkurrieren. Wenn Exklusivität für Sie nicht infrage kommt, sprechen wir darüber."
+      },
+      {
+        "q": "In welchen Ländern arbeiten Sie?",
+        "a": "In der Schweiz, in Österreich und in den Benelux-Staaten — Luxemburg, Niederlande und Belgien. Technischer Vertrieb, Engineering und angrenzende Rollen für Industriehersteller und Ingenieurbüros. Ich führe Suchen per Telefon, Video und vor Ort, wenn die Rolle das erfordert."
       },
       {
         "q": "Wie lange dauert eine Suche?",
@@ -473,12 +472,12 @@
   "about": {
     "title": "Über mich",
     "subtitle": "Philipp Hoffschröer, Gründer",
-    "description": "Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — anfangs neben Geschäftsführungsaufgaben in zwei Softwareunternehmen, heute in Vollzeit. Meine Auftraggeber sind Hersteller von Mess- und Prüftechnik, Ingenieurbüros und Unternehmen im Tief- und Rohrleitungsbau.",
+    "description": "Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — anfangs neben Geschäftsführungsaufgaben in zwei Softwareunternehmen, heute in Vollzeit. Meine Auftraggeber sind Hersteller von Mess- und Prüftechnik und Ingenieurbüros in der Schweiz, in Österreich und in den Benelux-Staaten.",
     "body": {
       "market": "Was diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.",
       "placed": "Besetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.",
-      "numbers": "Von den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.",
-      "reach": "Ich sitze in Deutschland. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
+      "numbers": "Wie ich den Verbleib nach zwölf Monaten und die anderen Kennzahlen auf dieser Seite rechne, steht im Abschnitt weiter unten.",
+      "reach": "Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
     },
     "operationsTitle": "Wie ich arbeite",
     "operations": {

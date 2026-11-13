@@ -32,8 +32,8 @@ export default function SEO({
     : 'Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers';
 
   const defaultDescription = lang === 'de'
-    ? 'Persönliche Personalberatung für Hersteller, Ingenieurbüros und Bauunternehmen in Deutschland und der Schweiz. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015.'
-    : 'Personal executive search for technical sales and engineering roles in Germany and Switzerland. Direct approach since 2015.';
+    ? 'Persönliche Personalberatung für Hersteller und Ingenieurbüros in der Schweiz, in Österreich und in den Benelux-Staaten. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015.'
+    : 'Personal executive search for technical sales and engineering roles in Switzerland, Austria, and the Benelux countries. Direct approach since 2015.';
 
   const pageTitle = title ? `${title} | ${SITE_NAME}` : defaultTitle;
   const pageDescription = description || defaultDescription;
