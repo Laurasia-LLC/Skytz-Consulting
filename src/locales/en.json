@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers",
-    "description": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States."
+    "description": "Personal executive search for technical sales and engineering roles in Switzerland, Austria, and the Benelux countries. Direct approach since 2015 — industrial automation, sensors, drives, process instrumentation, and construction engineering."
   },
   "nav": {
     "home": "Home",
@@ -25,39 +25,33 @@
       "gfAssistenz": {
         "title": "Executive Assistant (Managing Director)",
         "company": "Construction industry",
-        "location": "Germany",
+        "location": "Central Europe",
         "summary": "Role brief available as PDF."
       },
       "bauueberwachung": {
         "title": "Construction Supervision",
         "company": "Construction industry",
-        "location": "Germany",
+        "location": "Central Europe",
         "summary": "Role brief available as PDF."
       },
       "technischerZeichner": {
         "title": "Technical Draftsman (CAD)",
         "company": "Construction industry",
-        "location": "Germany",
-        "summary": "Role brief available as PDF."
-      },
-      "bimManagerCoordinator": {
-        "title": "BIM Manager / Coordinator",
-        "company": "Construction industry",
-        "location": "United States",
+        "location": "Central Europe",
         "summary": "Role brief available as PDF."
       },
       "expertSifa": {
         "title": "Occupational Safety Expert (Sifa) (m/f/d)",
         "company": "Construction industry",
-        "location": "Northeast Bavaria, Germany",
+        "location": "Central Europe",
         "summary": "Role brief available as PDF."
       }
     }
   },
   "hero": {
-    "tagline": "Industrial automation · Instrumentation · Test and measurement",
-    "headline": "I recruit sales engineers for German manufacturers' U.S. operations.",
-    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Three searches running right now in industrial automation and sensors, motion control and drives, and process instrumentation. Most of the people I place were not looking for a job when I called them.",
+    "tagline": "Executive search · Switzerland · Austria · Benelux",
+    "headline": "Technical sales and engineering roles in Europe.",
+    "subhead": "I'm Philipp Hoffschröer. Since 2015 I have placed people in technical sales and engineering — for measurement and test equipment manufacturers, engineering consultancies, and pipeline and district heating contractors. I work alone: you speak with me, not a researcher, and every profile comes from me personally. Most of the people I place were not looking for a job when I called them.",
     "cta": {
       "primary": "Contact Philipp"
     },
@@ -83,23 +77,8 @@
     "repeat": "Every client I have worked with has hired through me more than once."
   },
   "metrics": {
-    "title": "US searches, measured",
+    "title": "Figures",
     "items": [
-      {
-        "value": "5",
-        "label": "business days to shortlist",
-        "detail": "From signed engagement to three or more qualified candidates in your inbox."
-      },
-      {
-        "value": "~20",
-        "label": "days to a signed offer",
-        "detail": "Calendar days from engagement to written acceptance. The start date follows two to four weeks later."
-      },
-      {
-        "value": "92%",
-        "label": "still there at 12 months",
-        "detail": "Placed candidates still employed by the client, or promoted inside it, a year after starting."
-      },
       {
         "value": "90",
         "label": "day replacement guarantee",
@@ -107,20 +86,16 @@
       }
     ],
     "methodLabel": "How I measure this",
-    "germanNote": "These are US figures. German and Swiss searches run on a different clock — see how the two markets differ."
+    "germanNote": ""
   },
   "searches": {
-    "title": "Searches running now",
-    "items": [
-      "Sales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast",
-      "Sales Engineer — motion control and drives — Midwest and Southeast districts",
-      "Sales Engineer — process instrumentation and valve automation — Texas Gulf Coast"
-    ],
-    "note": "These are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it."
+    "title": "Confidential searches",
+    "items": [],
+    "note": "I run individual permanent searches in technical sales and engineering. Role briefs stay confidential until a candidate has agreed to be named. Email me to discuss your vacancy."
   },
   "process": {
     "title": "How a search runs",
-    "note": "US searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.",
+    "note": "The shortlist usually lands in three to four weeks, a signed offer in eight to sixteen. Notice periods come after that — typically three months to the end of a quarter.",
     "steps": [
       {
         "title": "Intake call, 45 minutes",
@@ -182,14 +157,14 @@
     "intro": "A number without a definition is marketing. Here is exactly what each figure counts, and what it leaves out.",
     "items": [
       {
-        "metric": "Days to shortlist",
-        "definition": "Business days from signed engagement to delivery of the first shortlist of three or more qualified candidates.",
-        "excludes": "Client-side delays longer than three business days, and searches rescoped after kickoff."
+        "metric": "Weeks to shortlist",
+        "definition": "Weeks from signed engagement to delivery of the first shortlist of three or more qualified candidates. In Switzerland, Austria, and the Benelux countries that is typically three to four weeks.",
+        "excludes": "Client-side delays longer than one week, and searches rescoped after kickoff."
       },
       {
-        "metric": "Days to a signed offer",
-        "definition": "Calendar days from signed engagement to written offer acceptance. This is not the start date — in the US that normally follows two to four weeks later, after notice.",
-        "excludes": "Searches cancelled, frozen, or materially rescoped mid-process, and offers withdrawn by the client."
+        "metric": "Weeks to a signed offer",
+        "definition": "Weeks from signed engagement to written offer acceptance, typically eight to sixteen. That is not the start date — notice periods come in between.",
+        "excludes": "Searches cancelled, frozen, or materially rescoped mid-process."
       },
       {
         "metric": "12-month retention",
@@ -203,42 +178,42 @@
       }
     ],
     "window": "Figures cover placements since 2015 and are reviewed each quarter. If you want the underlying counts before you sign anything, ask me on the first call and I will send them.",
-    "benchmarkNote": "For context: SHRM's 2026 benchmark puts median US time-to-fill at 39 days across non-executive roles, and published benchmarks for industrial and manufacturing sales run 45 to 75 days. A specialist working one market with a live network should beat that, and this is by how much.",
+    "benchmarkNote": "In Switzerland, Austria, and the Benelux countries, notice periods and permit steps often sit between signed offer and first day. Plan the start date with that in mind.",
     "excludesLabel": "Not counted"
   },
   "markets": {
-    "title": "A US search and a German search do not run the same way",
-    "intro": "If you report into a German parent, this is the difference you will spend the most time explaining to them. It is worth knowing before you set a start date.",
-    "usLabel": "United States",
-    "deLabel": "Germany and Switzerland",
+    "title": "A search in Switzerland and one in Austria do not run the same way",
+    "intro": "If you hire across these markets, these are the differences that set the timeline.",
+    "usLabel": "Switzerland",
+    "deLabel": "Austria",
     "rows": [
       {
         "topic": "Notice period",
-        "us": "Two weeks is customary. Some senior people give four.",
-        "de": "Three months to the end of a quarter is normal in specialist and management contracts. Six months happens."
+        "us": "Often one to three months, depending on seniority and canton. Contract terms vary by industry and employer.",
+        "de": "Statutory minimums apply, but specialist and management contracts often run longer. Three months is common."
       },
       {
         "topic": "From signed offer to first day",
-        "us": "Two to four weeks.",
-        "de": "Three to six months, and it is set by the contract, not by willingness."
+        "us": "Contract notice sets the floor; cantonal practice and permit timing can add steps for hires from outside Switzerland.",
+        "de": "Notice periods typically dominate the gap. Collective agreements and role level set the length."
       },
       {
         "topic": "Counter-offers",
-        "us": "Common, usually money, usually fast.",
-        "de": "Slower, and more often about title, scope, or a company car than base salary."
+        "us": "Still common; compensation structure, bonus timing, and flexibility can matter as much as base pay.",
+        "de": "Often slower than in Anglophone markets, and more often about scope, title, or benefits than salary alone."
       },
       {
         "topic": "What kills a deal late",
-        "us": "A competing offer that moves faster than yours.",
-        "de": "Relocation inside Germany, and the family conversation that goes with it."
+        "us": "Cross-border tax and permit questions when someone moves canton or commutes across a border.",
+        "de": "Relocation within Austria and the family conversation that goes with it, especially when schools are involved."
       },
       {
         "topic": "What this means for you",
-        "us": "Move quickly or lose people. A slow internal approval loop is the main reason US searches fail.",
-        "de": "Plan the start date backwards from the quarter. Pushing a German candidate to start sooner does not work."
+        "us": "Build in time for permit and payroll setup when the hire is not already in Switzerland.",
+        "de": "Plan the start date from the contract end date, not from when you want the person at their desk."
       }
     ],
-    "note": "German federal statistics put the average time a reported vacancy stays open at around 95 days for roles requiring a degree and about 140 days for skilled trades. Neither number includes the notice period that follows."
+    "note": "Benelux markets differ again on notice, permits, and payroll setup. If your role sits in Luxembourg, the Netherlands, or Belgium, say so on the first call and I will map the timeline for that country."
   },
   "industries": {
     "title": "The industries I work in",
@@ -270,7 +245,7 @@
         "name": "Test and measurement",
         "roles": "Sales and commercial leadership, business unit management",
         "tech": "Electrical test equipment, cable fault location, pipeline leak detection, bulk and process measurement",
-        "channel": "Direct and subsidiary sales organizations across Europe and the US",
+        "channel": "Direct sales and subsidiaries in Europe",
         "screen": "This is where my longest client relationships sit, including Megger since 2016. The reference letters on the references page come from this sector."
       }
     ],
@@ -298,8 +273,8 @@
         "a": "Usually, and the search is better for it. I will not spend eight weeks mapping a market in order to race three other agencies to the same five people. If exclusivity is a problem, say so and we will talk it through."
       },
       {
-        "q": "Can you really recruit in the US from Germany?",
-        "a": "Yes. US searches run by phone and video, and I work your morning. If someone needs to be met in person, I say so and we plan for it."
+        "q": "Which countries do you cover?",
+        "a": "Switzerland, Austria, and the Benelux countries — Luxembourg, the Netherlands, and Belgium. Technical sales, engineering, and related roles for industrial manufacturers and engineering firms. I am based in Europe and run searches by phone, video, and in person when the role calls for it."
       },
       {
         "q": "Will you understand our products?",
@@ -311,7 +286,7 @@
       },
       {
         "q": "How fast will I see candidates?",
-        "a": "For a US search, a shortlist of three or more inside five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks and a start date three to six months out, because notice periods there run to the end of a quarter."
+        "a": "Expect a shortlist in three to four weeks and a signed offer in eight to sixteen weeks. The start date is usually three to six months out, because notice periods run to the end of a quarter. If your role is different, I will say so before you sign."
       },
       {
         "q": "Where do you find people, if not job boards?",
@@ -433,7 +408,7 @@
       },
       "swr": {
         "company": "SWR · Südwestdeutsche Rohrleitungsbau GmbH",
-        "industry": "Pipeline and district heating construction, Frankfurt",
+        "industry": "Pipeline and district heating construction",
         "badge": "Multiple placements",
         "contact": "Dirk Heesen",
         "role": "Managing Director",
@@ -508,12 +483,12 @@
   "about": {
     "title": "About",
     "subtitle": "Philipp Hoffschröer, Founder",
-    "description": "I'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. I work mainly with manufacturers of measuring and test equipment.",
+    "description": "I'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. My clients are manufacturers of measuring and test equipment and engineering consultancies in Switzerland, Austria, and the Benelux countries.",
     "body": {
-      "market": "Most of my clients are German manufacturers with U.S. operations, or U.S. subsidiaries reporting into a German parent. That is a specific hiring problem. The role needs someone who can hold a technical conversation with a plant engineer in Ohio and a product conversation with a development team in Baden-Württemberg, who understands how a German parent makes decisions, and who will still be in the seat in three years. The people who can do that are employed, and they are not on job boards.",
-      "placed": "What I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.",
-      "reach": "I am based in Germany and work U.S. hours through midday Eastern. Email is the fastest way to reach me, and it reaches me, not an assistant.",
-      "numbers": "Of the candidates I have placed, 92% are still with the client twelve months later, or have been promoted inside it. How I count that is set out below."
+      "market": "What these companies have in common: the role to fill drives revenue or a project, and the pool of people who can do it is small. Those people do not apply. They are employed, they are paid well, and they move only when someone approaches them and the role is convincing.",
+      "placed": "What I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, project engineers, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.",
+      "reach": "Email is the fastest way to reach me, and it reaches me, not an assistant.",
+      "numbers": "How I count twelve-month retention and the other figures on this site is set out in the section below."
     },
     "operationsTitle": "How I work",
     "operations": {
@@ -579,7 +554,7 @@
     "hours": {
       "title": "When I'm reachable",
       "weekdays": "Monday–Friday, 8:00 a.m. – 5:00 p.m. Central European Time",
-      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern. Email gets a same-day reply."
+      "timezone": "Email gets a same-day reply."
     }
   },
   "privacy": {
