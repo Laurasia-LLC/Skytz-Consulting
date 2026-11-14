@@ -353,7 +353,8 @@
     "links": {
       "privacy": "Datenschutz",
       "terms": "AGB",
-      "imprint": "Impressum"
+      "imprint": "Impressum",
+      "cookies": "Cookie-Einstellungen"
     },
     "copyright": "© {{year}} Skytz Consulting. Alle Rechte vorbehalten."
   },

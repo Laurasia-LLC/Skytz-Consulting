@@ -364,7 +364,8 @@
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms & Conditions",
-      "imprint": "Legal Notice"
+      "imprint": "Legal Notice",
+      "cookies": "Cookie settings"
     },
     "copyright": "© {{year}} Skytz Consulting. All rights reserved."
   },

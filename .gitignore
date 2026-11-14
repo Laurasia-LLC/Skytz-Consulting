@@ -15,9 +15,10 @@ dist-ssr
 # Vercel
 .vercel
 
-# Environment files
+# Environment files. .env.production only holds the public Cookiebot id.
 .env
 .env.*
+!.env.production
 
 # OS / misc
 Thumbs.db

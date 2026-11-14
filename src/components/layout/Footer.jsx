@@ -82,6 +82,15 @@ export default function Footer() {
               >
                 {t('footer.links.imprint')}
               </Link>
+              {import.meta.env.VITE_COOKIEBOT_CBID ? (
+                <button
+                  type="button"
+                  onClick={() => window.Cookiebot?.renew()}
+                  className="block text-slate-600 hover:text-blueprint-600 transition-colors text-left"
+                >
+                  {t('footer.links.cookies')}
+                </button>
+              ) : null}
             </div>
           </div>
         </div>
