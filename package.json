@@ -12,12 +12,15 @@
     "postbuild": "node scripts/prerender-seo.mjs",
     "build:gh": "vite build --mode gh",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:consent": "node scripts/consent-probe.mjs"
   },
   "dependencies": {
+    "@fontsource/inter": "5.2.5",
     "framer-motion": "^12.26.2",
     "i18next": "^25.7.4",
     "i18next-browser-languagedetector": "^8.2.0",
+    "klaro": "0.7.22",
     "lucide-react": "^0.562.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -36,6 +39,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "playwright": "1.51.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
     "vite": "^7.2.4"

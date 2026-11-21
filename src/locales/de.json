@@ -353,7 +353,8 @@
     "links": {
       "privacy": "Datenschutz",
       "terms": "AGB",
-      "imprint": "Impressum"
+      "imprint": "Impressum",
+      "cookieSettings": "Cookie-Einstellungen"
     },
     "copyright": "© {{year}} Skytz Consulting. Alle Rechte vorbehalten."
   },
@@ -605,7 +606,7 @@
     },
     "cookies": {
       "title": "9. Cookies und Analyse",
-      "description": "Diese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen."
+      "description": "Wir setzen den Open-Source Consent-Manager Klaro (selbst gehostet, kein CMP-CDN eines Drittanbieters) ein, um Ihre Cookie-Entscheidungen zu speichern. Klaro legt Ihre Einstellungen in einem First-Party-Cookie namens „klaro“ ab (in der Regel 180 Tage). Analyse erfolgt nur nach Ihrer Einwilligung: Google Tag Manager (GTM-PL3F42RM) lädt Google Analytics 4 (G-1XDT92HXNG), wodurch Cookies wie _ga gesetzt und Nutzungsdaten einschließlich gekürzter IP-Adressen verarbeitet werden können. Vor der Einwilligung laufen Google-Tags im Consent Mode mit verweigerter Analyse- und Werbespeicherung, sodass keine Analytics-Cookies gesetzt werden. Wir verkaufen keine personenbezogenen Daten und nutzen keine Werbe-Cookies für personalisierte Anzeigen. Über „Cookie-Einstellungen“ in der Fußzeile können Sie Ihre Einwilligung jederzeit ändern oder widerrufen."
     },
     "changes": {
       "title": "10. Änderungen dieser Erklärung",

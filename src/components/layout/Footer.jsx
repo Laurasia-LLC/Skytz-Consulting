@@ -82,6 +82,13 @@ export default function Footer() {
               >
                 {t('footer.links.imprint')}
               </Link>
+              <button
+                type="button"
+                onClick={() => window.klaroShow?.()}
+                className="block text-left text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                {t('footer.links.cookieSettings')}
+              </button>
             </div>
           </div>
         </div>

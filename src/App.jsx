@@ -1,7 +1,8 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n';
+import { syncKlaroLanguage } from './consent/syncKlaroLanguage';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -23,6 +24,12 @@ function LoadingFallback() {
       <div className="text-blueprint-600 text-lg font-medium">Loading...</div>
     </div>
   );
+}
+
+function KlaroLanguageSync() {
+  const { i18n } = useTranslation();
+  useEffect(() => syncKlaroLanguage(i18n), [i18n]);
+  return null;
 }
 
 // Layout wrapper for language-prefixed routes
@@ -91,6 +98,7 @@ export default function App() {
   return (
     <Suspense fallback={<LoadingFallback />}>
       <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <KlaroLanguageSync />
         <Routes>
           {/* Language-prefixed routes. LangGate rejects any :lang value
               outside SUPPORTED_LANGS (e.g. "/xx") with a noindexed 404
