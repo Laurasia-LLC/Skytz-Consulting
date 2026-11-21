@@ -364,7 +364,8 @@
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms & Conditions",
-      "imprint": "Legal Notice"
+      "imprint": "Legal Notice",
+      "cookieSettings": "Cookie settings"
     },
     "copyright": "© {{year}} Skytz Consulting. All rights reserved."
   },
@@ -616,7 +617,7 @@
     },
     "cookies": {
       "title": "9. Cookies and analytics",
-      "description": "This site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site."
+      "description": "We use the open-source consent manager Klaro (self-hosted, no third-party CMP CDN) to record your cookie choices. Klaro stores your preferences in a first-party cookie named \"klaro\" (typically 180 days). Analytics runs only if you accept: Google Tag Manager (GTM-PL3F42RM) loads Google Analytics 4 (G-1XDT92HXNG), which may set cookies such as _ga and process usage data including truncated IP addresses. Before you consent, Google tags run in Consent Mode with analytics and advertising storage denied, so no analytics cookies are set. We do not sell personal data or use advertising cookies for personalized ads. You can reopen \"Cookie settings\" in the site footer at any time to change or withdraw consent."
     },
     "changes": {
       "title": "10. Changes",
