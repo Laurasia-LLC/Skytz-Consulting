@@ -76,7 +76,6 @@ async function waitForServer(url, timeoutMs = 30_000) {
 
 async function main() {
   let preview = null;
-  const logs = [];
 
   const killPreview = () => {
     if (preview && !preview.killed) preview.kill('SIGTERM');
@@ -84,11 +83,12 @@ async function main() {
 
   if (!REMOTE_BASE) {
     preview = spawn('npx', ['vite', 'preview', '--host', '127.0.0.1', '--port', String(PORT)], {
-      stdio: ['ignore', 'pipe', 'pipe'],
+      // Pipes can fill on CI and deadlock the preview process; ignore stdio.
+      stdio: 'ignore',
+      detached: true,
       env: { ...process.env, NODE_ENV: 'production' },
     });
-    preview.stdout.on('data', (d) => logs.push(String(d)));
-    preview.stderr.on('data', (d) => logs.push(String(d)));
+    preview.unref();
   }
 
   const results = [];
@@ -186,10 +186,10 @@ async function main() {
   console.log(JSON.stringify({ probe: probeLabel, base: BASE, results }, null, 2));
   if (failed.length > 0) {
     console.error('Consent probe FAILED', failed);
-    if (logs.length) console.error(logs.join(''));
     process.exit(1);
   }
   console.log('Consent probe passed.');
+  process.exit(0);
 }
 
 main().catch((err) => {
