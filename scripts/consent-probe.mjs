@@ -91,8 +91,8 @@ async function main() {
       const context = await browser.newContext();
       await context.clearCookies();
       const page = await context.newPage();
-      await page.goto(`${BASE}/en`, { waitUntil: 'networkidle' });
-      await sleep(1500);
+      await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded' });
+      await sleep(2500);
       const cookies = await context.cookies();
       const signals = await readConsentSignals(page);
       const denied =
