@@ -28,3 +28,11 @@ jobs:
 
       - name: Consent probe
         run: npm run test:consent
+
+      - name: Upload consent probe artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: consent-probe-report
+          path: consent-probe-artifacts/
+          retention-days: 14
