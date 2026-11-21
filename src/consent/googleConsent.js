@@ -1,3 +1,5 @@
+import { loadGoogleTagManager } from './loadGtm';
+
 export function ensureGtag() {
   window.dataLayer = window.dataLayer || [];
   if (typeof window.gtag !== 'function') {
@@ -14,12 +16,15 @@ const CONSENT_KEYS = [
   'ad_personalization',
 ];
 
-/** Apply Google Consent Mode v2 update from Klaro analytics choice. */
+/** Apply Google Consent Mode v2 and load GTM only when analytics consent is granted. */
 export function updateGoogleConsent(analyticsGranted) {
   ensureGtag();
   const state = analyticsGranted ? 'granted' : 'denied';
   const payload = Object.fromEntries(CONSENT_KEYS.map((key) => [key, state]));
   window.gtag('consent', 'update', payload);
+  if (analyticsGranted) {
+    loadGoogleTagManager();
+  }
 }
 
 export function readConsentDefaultFromDataLayer() {

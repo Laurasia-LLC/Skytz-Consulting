@@ -13,6 +13,10 @@ function privacyPath(lang) {
   return `/${lang}/privacy`;
 }
 
+function imprintPath(lang) {
+  return `/${lang}/imprint`;
+}
+
 export function buildKlaroConfig(lang = resolveLang()) {
   return {
     version: 1,
@@ -31,7 +35,7 @@ export function buildKlaroConfig(lang = resolveLang()) {
     noticeAsModal: false,
     disablePoweredBy: true,
     groupByPurpose: true,
-    htmlTexts: false,
+    htmlTexts: true,
     lang,
     translations: {
       en: {
@@ -41,12 +45,16 @@ export function buildKlaroConfig(lang = resolveLang()) {
         consentNotice: {
           title: 'Cookie settings',
           description:
-            'We use Google Tag Manager and Google Analytics to understand how visitors use this site. You can accept or decline analytics cookies; you can change your choice anytime.',
+            'We use Google Tag Manager and Google Analytics only if you agree. No analytics requests are sent before your choice. See our <a href="' +
+            privacyPath('en') +
+            '">privacy policy</a> and <a href="' +
+            imprintPath('en') +
+            '">legal notice</a>.',
         },
         consentModal: {
           title: 'Privacy settings',
           description:
-            'Choose whether we may use analytics cookies. Essential cookies store your consent choice via Klaro.',
+            'Choose whether we may use analytics cookies. Essential cookies store your consent choice via Klaro in your browser.',
         },
         purposes: {
           analytics: {
@@ -62,6 +70,7 @@ export function buildKlaroConfig(lang = resolveLang()) {
         },
         privacyPolicy: {
           name: 'privacy policy',
+          text: 'privacy policy',
         },
       },
       de: {
@@ -71,12 +80,16 @@ export function buildKlaroConfig(lang = resolveLang()) {
         consentNotice: {
           title: 'Cookie-Einstellungen',
           description:
-            'Wir nutzen Google Tag Manager und Google Analytics, um zu verstehen, wie Besucher die Website nutzen. Sie können Analytics-Cookies akzeptieren oder ablehnen und Ihre Wahl jederzeit ändern.',
+            'Google Tag Manager und Google Analytics werden nur mit Ihrer Einwilligung geladen. Vor Ihrer Entscheidung werden keine Analyse-Anfragen gesendet. Details in der <a href="' +
+            privacyPath('de') +
+            '">Datenschutzerklärung</a> und im <a href="' +
+            imprintPath('de') +
+            '">Impressum</a>.',
         },
         consentModal: {
           title: 'Datenschutz-Einstellungen',
           description:
-            'Legen Sie fest, ob wir Analytics-Cookies verwenden dürfen. Essenzielle Cookies speichern Ihre Einwilligung über Klaro.',
+            'Legen Sie fest, ob wir Analytics-Cookies verwenden dürfen. Essenzielle Cookies speichern Ihre Einwilligung über Klaro im Browser.',
         },
         purposes: {
           analytics: {
@@ -92,6 +105,7 @@ export function buildKlaroConfig(lang = resolveLang()) {
         },
         privacyPolicy: {
           name: 'Datenschutzerklärung',
+          text: 'Datenschutzerklärung',
         },
       },
     },
