@@ -9,7 +9,18 @@ import { chromium } from 'playwright';
 const PORT = Number(process.env.CONSENT_PROBE_PORT || 4173);
 const REMOTE_BASE = process.env.CONSENT_PROBE_BASE_URL?.replace(/\/$/, '');
 const BASE = REMOTE_BASE || `http://127.0.0.1:${PORT}`;
+const VERCEL_SHARE = process.env.CONSENT_PROBE_VERCEL_SHARE;
 const probeLabel = REMOTE_BASE ? 'remote' : 'local';
+
+async function gotoEn(page) {
+  if (VERCEL_SHARE && REMOTE_BASE) {
+    await page.goto(`${REMOTE_BASE}/?_vercel_share=${VERCEL_SHARE}`, {
+      waitUntil: 'domcontentloaded',
+      timeout: 60_000,
+    });
+  }
+  await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded', timeout: 60_000 });
+}
 
 function hasGaCookie(cookies) {
   return cookies.some((c) => c.name.startsWith('_ga'));
@@ -91,7 +102,7 @@ async function main() {
       const context = await browser.newContext();
       await context.clearCookies();
       const page = await context.newPage();
-      await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded' });
+      await gotoEn(page);
       await sleep(2500);
       const cookies = await context.cookies();
       const signals = await readConsentSignals(page);
@@ -114,7 +125,7 @@ async function main() {
       const context = await browser.newContext();
       await context.clearCookies();
       const page = await context.newPage();
-      await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded' });
+      await gotoEn(page);
       await clickKlaroNoticeAccept(page);
       await sleep(3000);
       const cookies = await context.cookies();
@@ -139,7 +150,7 @@ async function main() {
       const context = await browser.newContext();
       await context.clearCookies();
       const page = await context.newPage();
-      await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded' });
+      await gotoEn(page);
       await clickKlaroNoticeDecline(page);
       await sleep(2000);
       const cookies = await context.cookies();
@@ -159,7 +170,7 @@ async function main() {
     {
       const context = await browser.newContext();
       const page = await context.newPage();
-      await page.goto(`${BASE}/en`, { waitUntil: 'domcontentloaded' });
+      await gotoEn(page);
       await page.getByRole('button', { name: /Cookie settings/i }).click();
       await page.locator('#klaro .cm-modal, #klaro .cn-body').first().waitFor({ state: 'visible', timeout: 10_000 });
       results.push({ step: 'reopen_settings', pass: true, detail: {} });
