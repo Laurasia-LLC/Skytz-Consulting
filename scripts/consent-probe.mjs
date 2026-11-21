@@ -7,7 +7,9 @@ import { setTimeout as sleep } from 'node:timers/promises';
 import { chromium } from 'playwright';
 
 const PORT = Number(process.env.CONSENT_PROBE_PORT || 4173);
-const BASE = `http://127.0.0.1:${PORT}`;
+const REMOTE_BASE = process.env.CONSENT_PROBE_BASE_URL?.replace(/\/$/, '');
+const BASE = REMOTE_BASE || `http://127.0.0.1:${PORT}`;
+const probeLabel = REMOTE_BASE ? 'remote' : 'local';
 
 function hasGaCookie(cookies) {
   return cookies.some((c) => c.name.startsWith('_ga'));
@@ -62,18 +64,21 @@ async function waitForServer(url, timeoutMs = 30_000) {
 }
 
 async function main() {
-  const preview = spawn('npx', ['vite', 'preview', '--host', '127.0.0.1', '--port', String(PORT)], {
-    stdio: ['ignore', 'pipe', 'pipe'],
-    env: { ...process.env, NODE_ENV: 'production' },
-  });
-
+  let preview = null;
   const logs = [];
-  preview.stdout.on('data', (d) => logs.push(String(d)));
-  preview.stderr.on('data', (d) => logs.push(String(d)));
 
   const killPreview = () => {
-    if (!preview.killed) preview.kill('SIGTERM');
+    if (preview && !preview.killed) preview.kill('SIGTERM');
   };
+
+  if (!REMOTE_BASE) {
+    preview = spawn('npx', ['vite', 'preview', '--host', '127.0.0.1', '--port', String(PORT)], {
+      stdio: ['ignore', 'pipe', 'pipe'],
+      env: { ...process.env, NODE_ENV: 'production' },
+    });
+    preview.stdout.on('data', (d) => logs.push(String(d)));
+    preview.stderr.on('data', (d) => logs.push(String(d)));
+  }
 
   const results = [];
 
@@ -119,7 +124,7 @@ async function main() {
         signals.consentUpdate.analytics_storage === 'granted';
       results.push({
         step: 'after_accept',
-        pass: granted && (hasGaCookie(cookies) || cookies.some((c) => c.name === 'klaro')),
+        pass: granted && hasGaCookie(cookies),
         detail: {
           consentUpdate: signals.consentUpdate,
           gaCookies: cookies.filter((c) => c.name.startsWith('_ga')),
@@ -167,7 +172,7 @@ async function main() {
   }
 
   const failed = results.filter((r) => !r.pass);
-  console.log(JSON.stringify({ results }, null, 2));
+  console.log(JSON.stringify({ probe: probeLabel, base: BASE, results }, null, 2));
   if (failed.length > 0) {
     console.error('Consent probe FAILED', failed);
     if (logs.length) console.error(logs.join(''));
